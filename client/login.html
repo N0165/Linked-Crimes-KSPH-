@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vigil — Authorized Access</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Catalyst Web SDK -->
+<script src="https://static.zohocdn.com/catalyst/sdk/js/4.0.0/catalystWebSDK.js"></script>
+<script src="/__catalyst/sdk/init.js"></script>
+</head>
+<body class="auth-body">
+
+<div class="auth-wrap">
+  <div class="auth-card">
+    <div class="auth-brand">
+      <span class="brand-mark">VIGIL</span>
+      <span class="brand-sub">Crime Intelligence Platform — Karnataka State Police</span>
+    </div>
+    <p class="auth-note">Access is limited to accounts provisioned by your department administrator.</p>
+
+    <!-- Catalyst renders its sign-in iFrame inside this element -->
+    <div id="login"></div>
+
+    <a href="index.html" class="auth-back">&larr; Back to home</a>
+  </div>
+</div>
+
+<script>
+  const config = {
+    css_url: "css/embeddediframe.css"
+  };
+  catalyst.auth.signIn("login", config);
+</script>
+</body>
+</html>

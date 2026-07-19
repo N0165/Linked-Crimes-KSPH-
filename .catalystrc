@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "54133000000013049",
+      "name": "LINKED-CRIMES",
+      "domain": {
+        "id": "50044124027",
+        "name": "linked-crimes-60078889859.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60078889859",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

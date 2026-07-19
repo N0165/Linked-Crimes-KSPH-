@@ -1,0 +1,92 @@
+/*
+  Custom styling for Catalyst's Embedded Authentication login iframe.
+  These selector IDs/classes (#headtitle, #login_id, .fielderror, .errorlabel,
+  .errorborder, #nextbtn, #forgotpassword) are documented, stable Catalyst selectors —
+  do not rename them, Catalyst's own script targets these exact names.
+
+  IMPORTANT: Catalyst's instructions say to download their base CSS template first
+  (Console → Authentication → Native Catalyst Authentication → Embedded Authentication →
+  CSS Customization) and add your own rules AFTER its existing content, without editing
+  what's already there. Paste everything below beneath that downloaded file's content.
+*/
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: #FFFFFF;
+  margin: 0;
+  padding: 24px;
+}
+
+/* Title at the top of the login form */
+#headtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #1B2430;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* The email/password input field */
+#login_id {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border: 1px solid #D3DAE3;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #1B2430;
+  margin-bottom: 16px;
+  resize: none;
+}
+#login_id:focus {
+  outline: none;
+  border-color: #8A6314;
+}
+
+/* Error states */
+.fielderror {
+  font-size: 12.5px;
+}
+.errorlabel {
+  color: #B23A2E;
+}
+.errorborder {
+  border-color: #B23A2E !important;
+}
+
+/* The continue/next button */
+#nextbtn {
+  width: 100%;
+  box-sizing: border-box;
+  background: #C9A227;
+  color: #14181F;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  padding: 13px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+#nextbtn:hover {
+  background: #8A6314;
+  color: #FFFFFF;
+}
+
+/* Forgot password link */
+#forgotpassword {
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  font-size: 12.5px;
+  color: #626C7A;
+  text-decoration: none;
+}
+#forgotpassword:hover {
+  color: #8A6314;
+}

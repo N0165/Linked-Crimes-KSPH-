@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vigil — KSP Crime Intelligence Prototype</title>
+
+<link rel="stylesheet" href="libs/leaflet/leaflet.css" />
+<link rel="stylesheet" href="libs/leaflet/MarkerCluster.css" />
+<link rel="stylesheet" href="libs/leaflet/MarkerCluster.Default.css" />
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Catalyst Web SDK — required on every page, initializes project-specific auth context -->
+<script src="https://static.zohocdn.com/catalyst/sdk/js/4.0.0/catalystWebSDK.js"></script>
+<script src="/__catalyst/sdk/init.js"></script>
+<script>
+  // Auth guard: bounce unauthenticated visitors straight to the login page,
+  // before any dashboard content or data loads.
+  catalyst.auth.isUserAuthenticated()
+    .then(function (response) {
+      var user = response && response.content ? response.content : null;
+      var el = document.getElementById("currentUserEmail");
+      if (el && user) el.textContent = user.email_id;
+    })
+    .catch(function () {
+      window.location.href = "login.html";
+    });
+
+  function logout() {
+    var redirectURL = location.protocol + "//" + location.host + "/login.html";
+    catalyst.auth.signOut(redirectURL);
+  }
+</script>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">VIGIL</span>
+      <span class="brand-sub">Crime Intelligence Prototype — Karnataka State Police</span>
+    </div>
+    <div class="ticker" id="ticker">
+      <div class="ticker-item"><span class="ticker-num" id="statTotal">—</span><span class="ticker-label">records loaded</span></div>
+      <div class="ticker-item"><span class="ticker-num" id="statOpen">—</span><span class="ticker-label">under investigation</span></div>
+      <div class="ticker-item"><span class="ticker-num" id="statDistricts">—</span><span class="ticker-label">districts</span></div>
+      <div class="ticker-item"><span class="ticker-num" id="statLinked">—</span><span class="ticker-label">linked identities found</span></div>
+    </div>
+    <div class="synthetic-badge" title="All data on this page is synthetically generated for demonstration.">SYNTHETIC DEMO DATA</div>
+    <div class="user-chip">
+      <span id="currentUserEmail"></span>
+      <button class="logout-btn" onclick="logout()">Log out</button>
+    </div>
+  </header>
+
+  <div class="body-row">
+
+    <!-- Sidebar filters -->
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <label class="field-label">District</label>
+        <select id="filterDistrict"><option value="all">All districts</option></select>
+      </div>
+      <div class="sidebar-section">
+        <label class="field-label">Crime head</label>
+        <select id="filterCrimeHead"><option value="all">All crime heads</option></select>
+      </div>
+      <div class="sidebar-section">
+        <label class="field-label">Case status</label>
+        <select id="filterStatus">
+          <option value="all">All statuses</option>
+          <option value="Under Investigation">Under Investigation</option>
+          <option value="Charge Sheeted">Charge Sheeted</option>
+          <option value="Closed">Closed</option>
+          <option value="Undetected">Undetected</option>
+        </select>
+      </div>
+      <div class="sidebar-section">
+        <label class="field-label">Registered from <span id="dateFromLbl"></span></label>
+        <input type="range" id="dateFrom" min="0" max="349" value="0">
+        <label class="field-label">to <span id="dateToLbl"></span></label>
+        <input type="range" id="dateTo" min="0" max="349" value="349">
+      </div>
+      <div class="sidebar-section sidebar-note">
+        <p>Filters apply across all three views. Use the date range to watch hotspots and networks evolve over time.</p>
+      </div>
+      <div class="sidebar-section anatomy">
+        <label class="field-label">Anatomy of a crime number</label>
+        <div class="anatomy-box" id="anatomyBox">
+          <span class="anatomy-hint">Click any case marker or graph node to decode its Crime Number here.</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main">
+      <nav class="tabs">
+        <button class="tab active" data-tab="map">Map &amp; Hotspots</button>
+        <button class="tab" data-tab="network">Link Analysis</button>
+        <button class="tab" data-tab="predict">Predictive Risk</button>
+        <button class="tab" data-tab="method">Methodology &amp; Bias Audit</button>
+      </nav>
+
+      <section class="tab-panel active" id="panel-map">
+        <div class="panel-header">
+          <h2>Where crime is happening</h2>
+          <div class="toggle-group">
+            <button class="toggle active" id="btnMarkers">Markers</button>
+            <button class="toggle" id="btnHeat">Density heatmap</button>
+          </div>
+        </div>
+        <div id="map"></div>
+      </section>
+
+      <section class="tab-panel" id="panel-network">
+        <div class="panel-header">
+          <h2>Who is connected to whom</h2>
+          <div class="legend-inline">
+            <span><i class="dot dot-case"></i> Case (FIR)</span>
+            <span><i class="dot dot-single"></i> Accused — single appearance</span>
+            <span><i class="dot dot-repeat"></i> Accused — appears in multiple FIRs</span>
+          </div>
+        </div>
+        <div class="network-layout">
+          <div id="network"></div>
+          <div class="network-detail" id="networkDetail">
+            <p class="hint">Click a highlighted (multi-case) accused node to see every station and FIR they appear under.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-panel" id="panel-predict">
+        <div class="panel-header">
+          <h2>Where crime is likely to happen next</h2>
+          <p class="panel-sub">Near-repeat risk score per station catchment, next 7 days, based on recency-weighted local case density.</p>
+        </div>
+        <div id="predictList"></div>
+      </section>
+
+      <section class="tab-panel" id="panel-method">
+        <div class="panel-header">
+          <h2>Methodology &amp; bias audit</h2>
+        </div>
+        <div class="method-grid" id="methodGrid"></div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<script src="libs/leaflet/leaflet.js"></script>
+<script src="libs/leaflet/leaflet.markercluster.js"></script>
+<script src="libs/leaflet/leaflet-heat.js"></script>
+<script src="libs/vis-network/vis-network.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
