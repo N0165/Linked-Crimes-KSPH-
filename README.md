@@ -40,16 +40,3 @@ It does **not** exist when you run this locally with `python3 -m http.server`, s
 7. `catalyst deploy` (Development)
 8. Promote to Production in the console before final submission
 
-## Design decisions worth knowing about for your pitch
-
-- **Landing page is deliberately generic** — no screenshots of real (even synthetic) case data,
-  accused names, or predictions. Investigative tools like this aren't meant to be public, unlike
-  citizen-transparency dashboards (aggregate stats only). Only the marketing description is public;
-  everything with actual case data lives behind login.
-- **No public signup** — accounts are provisioned by an administrator, not self-registered,
-  since only authorized KSP personnel should ever reach the dashboard.
-- **CasteID / ReligionID** exist in the real KSP schema but are deliberately never generated,
-  stored, displayed, or used in any model — see the Methodology tab in the dashboard.
-- The prediction score is a **transparent formula** (near-repeat victimization), not a black box.
-- Deployment is via **Catalyst Web Client Hosting only** — no third-party host (Netlify/Vercel/
-  GitHub Pages), and no separate backend/database service, per the hackathon's mandatory rules.
