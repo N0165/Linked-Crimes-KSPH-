@@ -29,9 +29,9 @@
 
 <script>
   const config = {
-    css_url: "css/embeddediframe.css"
+    css_url: new URL("css/embeddediframe.css", window.location.href).href
   };
-  catalyst.auth.signIn("login", config);
+  catalyst.auth.signIn("login");
 </script>
 </body>
 </html>

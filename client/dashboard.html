@@ -84,15 +84,39 @@
         <label class="field-label">to <span id="dateToLbl"></span></label>
         <input type="range" id="dateTo" min="0" max="349" value="349">
       </div>
-      <div class="sidebar-section sidebar-note">
-        <p>Filters apply across all three views. Use the date range to watch hotspots and networks evolve over time.</p>
-      </div>
-      <div class="sidebar-section anatomy">
-        <label class="field-label">Anatomy of a crime number</label>
-        <div class="anatomy-box" id="anatomyBox">
-          <span class="anatomy-hint">Click any case marker or graph node to decode its Crime Number here.</span>
+
+      <details class="sidebar-section collapsible" id="importDetails">
+        <summary>Import station records</summary>
+        <div class="collapsible-body">
+          <ol class="import-steps">
+            <li>Download one or more sample files below (or use your own)</li>
+            <li>Click <b>Upload</b> and select the downloaded file(s) — you can select more than
+            one at once in the file picker, or upload them one at a time</li>
+          </ol>
+          <input type="file" id="csvUpload" accept=".csv,.xlsx,.xls" multiple style="display:none">
+          <button class="btn-primary" id="importBtn">Upload CSV or Excel</button>
+          <div class="sample-links">
+            <p class="sample-links-note">These 5 files are NOT already loaded — download one, then Upload
+            it yourself to see it added. The dashboard's existing 1,500+ records come from a separate base dataset.</p>
+            <a href="sample-uploads/station_a_export.csv" download>Sample: Station A export (CSV)</a>
+            <a href="sample-uploads/station_b_export.csv" download>Sample: Station B export (CSV)</a>
+            <a href="sample-uploads/station_c_export.xlsx" download>Sample: Station C export (Excel)</a>
+            <a href="sample-uploads/station_d_export.csv" download>Sample: Station D export (CSV)</a>
+            <a href="sample-uploads/station_e_export.xlsx" download>Sample: Station E export (Excel)</a>
+          </div>
+          <div id="importStatus" class="import-status"></div>
+          <div id="importedFilesList" class="imported-files-list"></div>
         </div>
-      </div>
+      </details>
+
+      <details class="sidebar-section collapsible" id="anatomyDetails">
+        <summary>Anatomy of a crime number</summary>
+        <div class="collapsible-body">
+          <div class="anatomy-box" id="anatomyBox">
+            <span class="anatomy-hint">Click any case marker or graph node to decode its Crime Number here.</span>
+          </div>
+        </div>
+      </details>
     </aside>
 
     <!-- Main content -->
@@ -101,6 +125,7 @@
         <button class="tab active" data-tab="map">Map &amp; Hotspots</button>
         <button class="tab" data-tab="network">Link Analysis</button>
         <button class="tab" data-tab="predict">Predictive Risk</button>
+        <button class="tab" data-tab="search">Search Records</button>
         <button class="tab" data-tab="method">Methodology &amp; Bias Audit</button>
       </nav>
 
@@ -124,6 +149,9 @@
             <span><i class="dot dot-repeat"></i> Accused — appears in multiple FIRs</span>
           </div>
         </div>
+        <p class="panel-sub network-hint">Thick red lines connect a repeat-offender identity to each of
+        their FIRs — click a node <i>or</i> one of those thick lines to see the full list. Thin grey
+        lines (single-appearance accused) aren't clickable — there's nothing further to reveal there.</p>
         <div class="network-layout">
           <div id="network"></div>
           <div class="network-detail" id="networkDetail">
@@ -140,11 +168,45 @@
         <div id="predictList"></div>
       </section>
 
+      <section class="tab-panel" id="panel-search">
+        <div class="panel-header">
+          <h2>Search records</h2>
+          <p class="panel-sub">Find every FIR against a specific person, look up one crime number, or list everything filed on a given date.</p>
+        </div>
+
+        <div class="search-modes">
+          <button class="search-mode-btn active" data-mode="name">By accused name</button>
+          <button class="search-mode-btn" data-mode="crimeno">By FIR / crime number</button>
+          <button class="search-mode-btn" data-mode="datedistrict">By date &amp; district</button>
+        </div>
+
+        <div class="search-form" id="searchFormname">
+          <input type="text" id="searchNameInput" placeholder="e.g. Ravi Naik">
+          <button class="btn-primary" id="searchNameBtn">Search</button>
+        </div>
+        <div class="search-form" id="searchFormcrimeno" style="display:none">
+          <input type="text" id="searchCrimeNoInput" placeholder="e.g. 600005 or the full crime number">
+          <button class="btn-primary" id="searchCrimeNoBtn">Search</button>
+        </div>
+        <div class="search-form" id="searchFormdatedistrict" style="display:none">
+          <input type="date" id="searchDateInput">
+          <select id="searchDistrictInput"><option value="all">All districts</option></select>
+          <button class="btn-primary" id="searchDateDistrictBtn">Search</button>
+        </div>
+
+        <div id="searchResults" class="search-results"></div>
+      </section>
+
       <section class="tab-panel" id="panel-method">
         <div class="panel-header">
           <h2>Methodology &amp; bias audit</h2>
         </div>
         <div class="method-grid" id="methodGrid"></div>
+      </section>
+
+      <section class="tab-panel" id="panel-firdetail">
+        <button class="back-link" onclick="backFromFIRDetail()">&larr; Back</button>
+        <div id="firDetailContent"></div>
       </section>
 
     </main>
@@ -154,6 +216,9 @@
 <script src="libs/leaflet/leaflet.js"></script>
 <script src="libs/leaflet/leaflet.markercluster.js"></script>
 <script src="libs/leaflet/leaflet-heat.js"></script>
+<script src="libs/papaparse/papaparse.min.js"></script>
+<script src="libs/xlsx/xlsx.full.min.js"></script>
+<script src="libs/md5/md5.min.js"></script>
 <script src="libs/vis-network/vis-network.min.js"></script>
 <script src="app.js"></script>
 </body>

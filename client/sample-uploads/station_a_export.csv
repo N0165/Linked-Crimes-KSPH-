@@ -1,0 +1,6 @@
+registeredDate,districtName,unitName,crimeSubHead,lat,lng,accusedName,accusedAge,accusedGender,victimName,victimAge,victimGender,status,briefFacts
+2026-07-10,Bengaluru City,Bengaluru Town PS 1,Theft,12.9718,77.5950,Suresh Poojary,29,M,Kavya Rao,34,F,Under Investigation,Theft reported near market area.
+2026-07-11,Bengaluru City,Bengaluru Town PS 1,Chain Snatching,12.9702,77.5931,Manjunath Gowda,35,M,Sushma Reddy,41,F,Under Investigation,Chain snatching near bus stop.
+2026-07-12,Bengaluru City,Bengaluru City Market PS 2,Burglary / House-breaking,12.9745,77.5902,Ravi Naik,31,M,Anitha Shetty,52,F,Under Investigation,House break-in reported by neighbour.
+2026-07-13,Bengaluru City,Bengaluru City Market PS 2,Theft,12.9689,77.5967,Praveen Kumar,24,M,Deepa Hegde,29,F,Charge Sheeted,Mobile phone theft near signal.
+2026-07-14,Bengaluru City,Bengaluru Rural PS 4,Vehicle Theft,12.9810,77.6021,Nagaraj Achar,38,M,Ganesh Rao,45,M,Under Investigation,Two-wheeler reported stolen overnight.
