@@ -1,6 +1,6 @@
 /* ============================================================
    Vigil — KSP Crime Intelligence Prototype
-   Pure client-side app. Loads data/data.json, no backend needed.
+   Loads live data from the Catalyst backend (getdata function).
    ============================================================ */
 
 const START_DATE = new Date("2025-08-01T00:00:00");
@@ -34,17 +34,16 @@ const CRIME_HEAD_COLORS = {
   6: "#6C7A8F", // Public order - slate
 };
 
-fetch("data/data.json")
+fetch("/server/getdata/execute")
   .then(r => r.json())
+  .then(wrapper => JSON.parse(wrapper.output))
   .then(json => {
     DATA = json;
     init();
   })
   .catch(err => {
     document.body.innerHTML = `<div style="padding:40px;color:#E7EAF1;font-family:sans-serif">
-      Could not load data/data.json. If you're opening this file directly (file://), serve it over
-      a local web server instead — e.g. run <code>python3 -m http.server</code> in this folder and
-      open http://localhost:8000. Error: ${err}</div>`;
+      Could not load data from the backend. Error: ${err}</div>`;
   });
 
 function init() {
@@ -332,6 +331,7 @@ function importRows(rows, sourceLabel) {
              gender: (row.victimGender || "F").trim().toUpperCase() }]
         : [],
       complainants: [],
+      timeline: [],
       sections: [],
       arrests: [],
     });
@@ -481,6 +481,18 @@ function showFIRDetailPage(crimeNo) {
   const sectionRows = (c.sections || []).map(s => `<li>${s.act} ${s.section}</li>`).join("")
     || "<li>Not recorded</li>";
 
+  // Case Timeline — populated from Data Store via CaseEvents, empty array if not present
+  const timelineHtml = (c.timeline && c.timeline.length)
+    ? `<div class="case-timeline">${c.timeline.map(e => `
+        <div class="timeline-step">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">${e.date}</div>
+            <div class="timeline-type">${e.type}</div>
+          </div>
+        </div>`).join("")}</div>`
+    : `<p class="hint">No timeline recorded for this case yet.</p>`;
+
   // Any other FIRs against the same accused — shown as a clearly separate, secondary section,
   // not conflated with this FIR's own details.
   const entityKeys = new Set((c.accused || []).map(a => a.entityKey));
@@ -505,6 +517,7 @@ function showFIRDetailPage(crimeNo) {
       <div><span class="fir-label">Station</span><div>${unit?.name || ""}</div></div>
       <div><span class="fir-label">Registered</span><div>${c.registeredDate}</div></div>
     </div>
+    <div class="fir-section"><h4>Case Timeline</h4>${timelineHtml}</div>
     <div class="fir-section"><h4>Accused</h4><ul>${accusedRows}</ul></div>
     <div class="fir-section"><h4>Victims</h4><ul>${victimRows}</ul></div>
     <div class="fir-section"><h4>Complainants</h4><ul>${complainantRows}</ul></div>
@@ -692,8 +705,6 @@ function showCaseDetail(c) {
 function renderPredictions(filtered) {
   const list = document.getElementById("predictList");
   list.innerHTML = `<p class="hint" style="color:var(--muted)">Recalculating risk scores from the current filters…</p>`;
-  // The short delay isn't fake work — it just makes the recomputation visible. The scoring itself
-  // is genuinely re-run against whatever "filtered" is right now, every single time this is called.
   clearTimeout(window.__predictTimer);
   window.__predictTimer = setTimeout(() => computeAndRenderPredictions(filtered), 220);
 }
@@ -701,12 +712,12 @@ function renderPredictions(filtered) {
 function computeAndRenderPredictions(filtered) {
   const to = +document.getElementById("dateTo").value;
   const nowDay = to;
-  const TAU = 10; // decay time constant, days — near-repeat effect fades over ~1-2 weeks
+  const TAU = 10;
 
   const byUnit = {};
   filtered.forEach(c => {
     const age = nowDay - dayOffset(c.registeredDate);
-    if (age < 0 || age > 45) return; // only look at recent history when scoring risk
+    if (age < 0 || age > 45) return;
     const key = c.unitId;
     byUnit[key] = byUnit[key] || { score: 0, recent14: 0, subheadCounts: {}, contributors: [] };
     const w = Math.exp(-age / TAU);
@@ -796,7 +807,6 @@ function setupSearch() {
     });
   });
 
-  // populate the district dropdown for the date+district search
   const distSel = document.getElementById("searchDistrictInput");
   DATA.districts.forEach(d => {
     const opt = document.createElement("option");
@@ -815,7 +825,6 @@ function setupSearch() {
     const q = document.getElementById("searchCrimeNoInput").value.trim().toLowerCase();
     if (!q) return;
     const direct = DATA.cases.filter(c => c.crimeNo.toLowerCase().includes(q));
-    // also pull in any other FIRs against the same accused identity, same as clicking a network node
     const entityKeys = new Set();
     direct.forEach(c => c.accused.forEach(a => entityKeys.add(a.entityKey)));
     const linked = DATA.cases.filter(c => !direct.includes(c) && c.accused.some(a => entityKeys.has(a.entityKey)));
@@ -847,7 +856,7 @@ function renderSearchResults(cases, summaryText) {
     const subhead = DATA.crimeSubHeads.find(s => s.id === c.crimeSubHeadId);
     const accusedNames = c.accused.map(a => a.name).join(", ") || "—";
     return `
-      <div class="search-result-row" onclick="decodeAnatomy('${c.crimeNo}')">
+      <div class="search-result-row" onclick="showFIRDetailPage('${c.crimeNo}')">
         <div class="cno">${c.crimeNo}</div>
         <div class="meta">${subhead?.name || ""} · ${unit?.name || ""} · ${c.registeredDate} · ${c.status}</div>
         <div class="accused-list">Accused: ${accusedNames}</div>
@@ -858,10 +867,6 @@ function renderSearchResults(cases, summaryText) {
 
 /* ---------------- Methodology / bias audit ---------------- */
 
-// Measures whether the near-repeat pattern actually shows up in this dataset — same crime
-// sub-head, same station catchment, within 14 days of another case — rather than just
-// asserting the theory applies. This is computed live from whatever's currently loaded,
-// so it updates if you import new records.
 function computeNearRepeatRate() {
   const byUnit = {};
   DATA.cases.forEach(c => { (byUnit[c.unitId] = byUnit[c.unitId] || []).push(c); });
@@ -896,8 +901,9 @@ function renderMethodology() {
     <div class="method-card">
       <h3>Data</h3>
       <p>All records on this page are synthetically generated to match the structure of the official
-      FIR schema (CaseMaster, Accused, Victim, ComplainantDetails, ArrestSurrender, ActSectionAssociation).
-      No real citizen or case data is used anywhere in this prototype.</p>
+      FIR schema (CaseMaster, Accused, Victim, ComplainantDetails, ArrestSurrender, ActSectionAssociation),
+      and are now served live from Catalyst Data Store rather than a bundled file. No real citizen or
+      case data is used anywhere in this prototype.</p>
     </div>
     <div class="method-card">
       <h3>Link analysis</h3>

@@ -1,0 +1,2197 @@
+case_id,name,age,gender,person_id,entity_key
+1,Raju Naik,54,M,A1,7ab2c66ebd
+2,Sowmya Gowda,37,F,A1,d6ea4dc66c
+2,Savitri Poojary,55,F,A2,9345083dc4
+2,Raju Rao,47,M,A3,6efd27a908
+3,Anil Hegde,37,M,A1,6998d520cc
+4,Basavaraj Shetty,43,M,A1,d838e3c45c
+4,Raju Patil,18,M,A2,4f4eab9c0c
+4,Santosh Gowda,53,M,A3,626bf497e8
+5,Praveen Gowda,22,M,A1,7644859309
+6,Radha,30,F,A1,0ba63fb36d
+7,Nandini Kumar,52,F,A1,816bba3097
+8,Suresh Reddy,30,M,A1,9ede3074b8
+9,Kiran Reddy,47,M,A1,93d5ee987a
+10,Nandini Naik,20,F,A1,9bbf0c2e70
+11,Savitri Poojary,20,F,A1,97e7f32841
+12,Ganesh Poojary,48,M,A1,b6fdd5f43d
+13,Sushma Gowda,44,F,A1,52470c2c2c
+13,Srinivas Shetty,32,M,A2,c011bc9ee8
+13,Santosh,41,M,A3,54b8e42b4c
+14,Ganesh Gowda,45,M,A1,fea0cceded
+15,Basavaraj,37,M,A1,4ad67c26d6
+15,Mahesh,43,M,A2,b43f25f982
+16,Santosh Shetty,23,M,A1,e930194533
+16,Ganesh Shetty,49,M,A2,3e9fd964b7
+17,Kiran Reddy,48,M,A1,73b083d9ed
+18,Shivakumar Shetty,24,M,A1,b90eb69091
+19,Santosh,22,M,A1,bdb661b3da
+19,Prasad Patil,42,M,A2,8dec58ab07
+20,Anil,38,M,A1,cc4714a52b
+21,Nagaraj Reddy,47,M,A1,80a70e4237
+21,Basavaraj Achar,21,M,A2,eb969405b8
+21,Naveen Achar,49,M,A3,e4368802f6
+22,Anil Kumar,25,M,A1,5e8b91dede
+23,Naveen Reddy,44,M,A1,40fc0c9baf
+24,Naveen Poojary,51,M,A1,740cf855db
+24,Manjunath Kumar,33,M,A2,04624c5c84
+25,Bhavani,20,F,A1,bcde1ab1a6
+26,Suresh Poojary,34,M,A1,596bf87df1
+27,Vinay Hegde,27,M,A1,878365c78b
+28,Praveen,51,M,A1,c6cfbbaa28
+28,Raju Shetty,35,M,A2,08023fcaa3
+28,Prasad Shetty,47,M,A3,ddb1ecf944
+29,Kavya Hegde,19,F,A1,883f6a9c69
+29,Naveen Hegde,27,M,A2,5306abaafc
+30,Pooja Achar,46,F,A1,347a10a85d
+30,Raju Rao,48,M,A2,29970a2acb
+30,Sowmya Rao,26,F,A3,982dabafae
+31,Chaitra Kumar,27,F,A1,130245968a
+31,Naveen Shetty,30,M,A2,540d85380b
+32,Santosh Naik,22,M,A1,60d20b4d21
+33,Ravi Achar,25,M,A1,838a4b2150
+33,Savitri Patil,29,F,A2,27e707fe0f
+34,Sowmya Patil,53,F,A1,5670eddfd1
+34,Srinivas Patil,42,M,A2,9611d5148e
+35,Suresh Hegde,19,M,A1,46d36fbe50
+36,Ramesh Patil,37,M,A1,130fa9c4ba
+37,Kavya Reddy,22,F,A1,f72bd3ada8
+38,Srinivas Kumar,30,M,A1,723c231043
+39,Anil Kumar,25,M,A1,5e8b91dede
+39,Naveen Achar,32,M,A2,622abec8a6
+40,Praveen,23,M,A1,19417bcfd3
+40,Vinay Naik,30,M,A2,31db2e12e5
+40,Shivakumar Poojary,43,M,A3,1ade5a502c
+41,Ravi Naik,52,M,A1,9ee68273f7
+42,Praveen Reddy,35,M,A1,492784724b
+42,Manjunath Patil,32,M,A2,a353749a89
+43,Mahesh Achar,54,M,A1,8e10cdae1e
+44,Ramesh Hegde,20,M,A1,35e5e72a6f
+45,Basavaraj Shetty,38,M,A1,ecf56043f5
+45,Ganesh Patil,44,M,A2,7534f97d99
+45,Naveen Achar,50,M,A3,e4368802f6
+46,Geetha Hegde,53,F,A1,23d7a398d3
+47,Ravi Kumar,29,M,A1,f0376f5344
+48,Pooja Naik,51,F,A1,fd9b830457
+49,Basavaraj Rao,54,M,A1,608d25e936
+50,Ravi Achar,35,M,A1,2e3c876f77
+51,Mahesh Rao,44,M,A1,6290c22053
+52,Ravi Reddy,47,M,A1,67765188cb
+53,Srinivas Rao,51,M,A1,aae3c4e1fd
+54,Mahesh Gowda,21,M,A1,095dd66df2
+54,Suresh,49,M,A2,4821186d2c
+55,Nagaraj Rao,26,M,A1,87acb28cd0
+56,Ganesh Achar,36,M,A1,0896a01559
+57,Manjunath Naik,45,M,A1,52cb565411
+58,Ravi Reddy,54,M,A1,16a45c6ae3
+59,Anitha,46,F,A1,6ec4b7cd1e
+60,Manjula Shetty,45,F,A1,6526129e55
+61,Ravi Hegde,26,M,A1,fb92e1d504
+61,Ramesh Kumar,39,M,A2,62f28d3343
+61,Nandini,18,F,A3,1c22845d25
+62,Nandini Gowda,36,F,A1,26479eee0c
+63,Vinay Rao,24,M,A1,218e5e085b
+64,Suresh Patil,28,M,A1,7dddb3ea5f
+65,Nandini Reddy,54,F,A1,9f62facc1a
+66,Srinivas Shetty,44,M,A1,b0d53df744
+67,Nagaraj Gowda,44,M,A1,4b9ebe409a
+68,Srinivas Hegde,55,M,A1,cd52e08885
+68,Anitha Shetty,36,F,A2,8998e8c266
+68,Radha Rao,45,F,A3,3368233e61
+69,Naveen,30,M,A1,5a34ffc4f6
+70,Shivakumar Reddy,22,M,A1,f6a8f2ad23
+71,Prasad,21,M,A1,00a7d74183
+72,Anil Naik,54,M,A1,6b1a6f7903
+73,Basavaraj Naik,38,M,A1,21287c3bfc
+74,Kiran Poojary,30,M,A1,7939d5b05c
+75,Kiran Achar,54,M,A1,157ffd4f0d
+75,Deepa Reddy,52,F,A2,89ad837eb2
+76,Basavaraj Hegde,50,M,A1,6adc2ed133
+77,Prasad Naik,41,M,A1,8590bfe8cc
+78,Mahesh Kumar,21,M,A1,a39937f601
+79,Sowmya Reddy,36,F,A1,c4b0e2fb59
+80,Bhavani Achar,51,F,A1,d2552d2451
+81,Raju Hegde,55,M,A1,75c4afcc63
+82,Praveen Achar,34,M,A1,d9ea8b501c
+82,Vinay Rao,40,M,A2,c717bc9d1c
+82,Pooja Poojary,18,F,A3,2eb9a35491
+83,Basavaraj Naik,27,M,A1,c40d7df2d8
+84,Basavaraj Achar,20,M,A1,af92fcb5c6
+85,Ravi Naik,31,M,A1,6a1bb398ac
+86,Raju Patil,40,M,A1,ce99cac6bc
+87,Vinay Achar,28,M,A1,6d3c412b61
+88,Sushma Rao,55,F,A1,32e28fae87
+88,Nagaraj Naik,36,M,A2,b577f5a048
+88,Suresh Hegde,34,M,A3,7d3919b9fc
+89,Bhavani Reddy,18,F,A1,8aff74b819
+89,Anil Rao,52,M,A2,88c5421c8b
+89,Nagaraj Hegde,53,M,A3,e48b10aaa5
+90,Basavaraj,44,M,A1,74a27e0e52
+90,Santosh Reddy,30,M,A2,cdf23f5d7f
+91,Ravi Achar,42,M,A1,d2a4ae4ad0
+92,Suresh Shetty,26,M,A1,01aa15afac
+93,Shivakumar Kumar,34,M,A1,06847dfdc3
+94,Ramesh,22,M,A1,da4ead9435
+94,Radha Patil,51,F,A2,4c1eb0903a
+95,Shobha Hegde,24,F,A1,aae8fc2a0a
+96,Ramesh Gowda,26,M,A1,c4a39f10e2
+97,Suresh Reddy,33,M,A1,9a09a4c20b
+98,Ganesh Gowda,35,M,A1,03e64379ad
+98,Nagaraj Poojary,49,M,A2,c6e9d34e30
+99,Santosh,21,M,A1,bdb661b3da
+100,Vinay,35,M,A1,06dfbbe711
+101,Prasad Hegde,33,M,A1,83699cca3e
+102,Sushma Poojary,40,F,A1,ea5e0ceb56
+103,Suresh Shetty,35,M,A1,568709a663
+104,Geetha Naik,41,F,A1,0f90f21411
+105,Suresh Gowda,50,M,A1,221091bb8d
+105,Praveen Rao,43,M,A2,4b90810a31
+105,Ganesh Hegde,52,M,A3,68697c73a4
+106,Anitha Hegde,44,F,A1,74ba7ebf20
+107,Ganesh Reddy,50,M,A1,52f907fbd7
+108,Praveen,48,M,A1,b1ff699e27
+109,Radha Poojary,46,F,A1,223edb8903
+109,Shobha Shetty,50,F,A2,1c21412557
+109,Santosh Kumar,25,M,A3,8fb0057a20
+110,Lakshmi Kumar,19,F,A1,7cbbd55b5b
+110,Manjula Rao,32,F,A2,131559759a
+110,Basavaraj Poojary,40,M,A3,38d8e06ddd
+111,Savitri Patil,28,F,A1,27e707fe0f
+112,Suresh Gowda,35,M,A1,6d183a9a3e
+112,Anil Poojary,24,M,A2,0158ca5a04
+112,Ramesh Patil,21,M,A3,466f74d6b2
+113,Ganesh Kumar,40,M,A1,17f02778f8
+114,Sowmya Rao,51,F,A1,6407bfcbe6
+115,Praveen Kumar,39,M,A1,150c376eda
+116,Ganesh Shetty,47,M,A1,6dd8bd3b55
+117,Shivakumar Hegde,20,M,A1,882904d27c
+117,Lakshmi Poojary,28,F,A2,4ed3df71d4
+118,Anil Hegde,55,M,A1,a83637f70a
+119,Raju Naik,40,M,A1,c488b70d20
+120,Santosh Poojary,39,M,A1,0e47a4b087
+120,Shivakumar Reddy,25,M,A2,bf1b635fa5
+120,Savitri,31,F,A3,32e6e25115
+121,Ganesh Achar,51,M,A1,fb25960d7c
+122,Kiran Poojary,41,M,A1,c8a8c41290
+123,Santosh Hegde,50,M,A1,fe2823862e
+124,Raju,27,M,A1,60c97c270a
+124,Mahesh,27,M,A2,79eb77f9d9
+125,Santosh Reddy,43,M,A1,22bf045ebd
+126,Santosh Naik,22,M,A1,60d20b4d21
+126,Sushma Kumar,21,F,A2,52a8e12bd5
+126,Srinivas Achar,43,M,A3,6fda2ef8d0
+127,Raju,27,M,A1,60c97c270a
+128,Shivakumar Kumar,55,M,A1,40e21645b6
+129,Suresh Hegde,41,M,A1,749132647f
+130,Manjunath Reddy,30,M,A1,35a7a6f051
+131,Basavaraj Hegde,25,M,A1,55826716bb
+132,Manjunath Hegde,28,M,A1,bb9bf8f94a
+133,Shobha,49,F,A1,4ef0c826b8
+133,Srinivas Patil,54,M,A2,c24b90d43b
+134,Manjunath Hegde,21,M,A1,78d8e4784c
+134,Shivakumar Kumar,49,M,A2,5e8ba799ff
+134,Basavaraj,45,M,A3,979bb0e0df
+135,Nagaraj Rao,30,M,A1,f188c31e7b
+136,Sushma Poojary,44,F,A1,45822e47bb
+137,Suresh,47,M,A1,eefb04e129
+138,Srinivas Gowda,29,M,A1,739c7e72f7
+139,Raju,22,M,A1,be2ea9eb77
+140,Ganesh Kumar,18,M,A1,0e3e8c1d75
+140,Prasad Poojary,18,M,A2,5412355a15
+141,Manjunath Hegde,31,M,A1,998d7c9e96
+142,Deepa Hegde,31,F,A1,52064ebb72
+143,Ravi Shetty,51,M,A1,c1c4264938
+144,Sowmya Reddy,50,F,A1,d73ec304ea
+145,Anitha Patil,38,F,A1,5031f24e17
+146,Lakshmi Reddy,51,F,A1,801ac6a4ca
+146,Shivakumar Naik,45,M,A2,8c9310595e
+147,Shivakumar Patil,47,M,A1,7ca9d078bc
+148,Sushma Achar,26,F,A1,ff371b23b3
+149,Deepa,31,F,A1,46616e288e
+150,Lakshmi Hegde,31,F,A1,d7144f1bb9
+150,Vinay Kumar,48,M,A2,a2688da5f7
+150,Basavaraj Reddy,25,M,A3,ee0489343f
+151,Geetha Hegde,33,F,A1,c977baed6e
+152,Ramesh Achar,25,M,A1,183e24c946
+153,Anil Shetty,25,M,A1,f04cc921b7
+154,Ganesh Reddy,22,M,A1,1c255a237f
+155,Naveen Hegde,20,M,A1,b67a6680ee
+156,Deepa Patil,24,F,A1,d130d7d5ea
+157,Prasad Kumar,42,M,A1,b5b9f52516
+158,Vinay Reddy,51,M,A1,78e60d94a2
+158,Geetha Gowda,41,F,A2,a5b31cae79
+158,Anil Shetty,49,M,A3,c0788d40a9
+159,Srinivas Poojary,52,M,A1,232c2a0b71
+160,Lakshmi Shetty,42,F,A1,a27d209fb4
+161,Suresh Shetty,43,M,A1,3f480ff7cd
+162,Ravi Naik,26,M,A1,cefb39cd63
+162,Santosh Naik,24,M,A2,d0080a87f1
+162,Anil Patil,25,M,A3,d7f142f3aa
+163,Anil Gowda,27,M,A1,b89b7471eb
+164,Srinivas Rao,23,M,A1,0468e40926
+165,Savitri Naik,51,F,A1,a921fc5387
+166,Srinivas Gowda,31,M,A1,cbcb3f07fb
+167,Kiran Reddy,53,M,A1,016ca5b913
+168,Anil Poojary,43,M,A1,62d755f2ee
+169,Manjula Reddy,48,F,A1,643269deb5
+170,Prasad Hegde,39,M,A1,985f0f9c27
+171,Prasad Kumar,44,M,A1,b5b9f52516
+172,Suresh,20,M,A1,0cfd5bc925
+173,Raju Hegde,31,M,A1,65a7acf708
+174,Santosh Gowda,18,M,A1,27fd16b6a4
+175,Nandini Rao,43,F,A1,99ab5c0c34
+176,Shivakumar Hegde,18,M,A1,882904d27c
+177,Srinivas Kumar,55,M,A1,695354d184
+178,Praveen Achar,38,M,A1,defac2be6b
+178,Manjula,22,F,A2,464f8b2344
+179,Anil Naik,52,M,A1,294e15e23b
+180,Manjula,29,F,A1,a7f3fa83d9
+181,Raju Achar,27,M,A1,a3135097fe
+182,Shobha Poojary,55,F,A1,ff3e8cd34d
+182,Anil Poojary,52,M,A2,9f3f78aa8e
+183,Praveen Gowda,31,M,A1,b80046df4b
+184,Shivakumar Shetty,54,M,A1,613b0f15ee
+185,Naveen Reddy,34,M,A1,80ab294170
+186,Santosh Kumar,54,M,A1,8fd16e1362
+186,Anil Reddy,51,M,A2,d0090f1408
+187,Anil Kumar,35,M,A1,be5e727677
+188,Suresh Shetty,40,M,A1,eb7b79c65c
+188,Santosh Shetty,37,M,A2,c38e319955
+188,Suresh Poojary,48,M,A3,70239d483d
+189,Vinay Hegde,45,M,A1,04191e665e
+189,Praveen Patil,24,M,A2,919e669f5d
+190,Manjunath Achar,19,M,A1,0579df248e
+191,Lakshmi Naik,53,F,A1,ada28d7a2e
+191,Naveen Shetty,37,M,A2,97c9abb661
+191,Prasad Achar,41,M,A3,86d991afef
+192,Deepa Shetty,23,F,A1,c18acf4567
+193,Srinivas Naik,53,M,A1,9f46bbd1bf
+194,Kiran Hegde,24,M,A1,8bab0fdee9
+195,Naveen,22,M,A1,f89b6efa92
+195,Raju,26,M,A2,af27d9d0a3
+195,Basavaraj Gowda,49,M,A3,c8c850de4f
+196,Santosh Patil,47,M,A1,8f18cada4c
+197,Kiran Poojary,51,M,A1,1299f8364c
+198,Manjunath Hegde,35,M,A1,34028ce9a6
+199,Basavaraj Hegde,27,M,A1,5eb16f020c
+199,Naveen Gowda,34,M,A2,2edad570eb
+199,Prasad Kumar,25,M,A3,5fa98baf88
+200,Kiran Naik,32,M,A1,f8842970d1
+201,Kiran Hegde,21,M,A1,ac7a44a5e6
+202,Bhavani Patil,33,F,A1,7b30e1e395
+203,Santosh Hegde,37,M,A1,31f4027c2a
+204,Suresh Rao,44,M,A1,49f5b7102e
+205,Shobha Rao,38,F,A1,ef61c365c5
+205,Manjunath Shetty,20,M,A2,c2d4b724e8
+205,Ramesh,42,M,A3,ed76964763
+206,Ramesh Shetty,46,M,A1,ee0f686147
+206,Santosh,51,M,A2,6e4b4a39e1
+206,Manjula Achar,51,F,A3,fc6024fb16
+207,Chaitra Gowda,43,F,A1,fa5dbc7cdf
+208,Srinivas,53,M,A1,3ecdb48df2
+209,Basavaraj Achar,32,M,A1,0b93d5607e
+210,Prasad Gowda,21,M,A1,9706fc7663
+211,Ravi Kumar,18,M,A1,43132d318b
+212,Kavya Gowda,29,F,A1,16e7969f20
+213,Ravi Kumar,33,M,A1,20dd67e47d
+214,Raju Shetty,19,M,A1,2f270dbec9
+215,Praveen Gowda,24,M,A1,e27ad90531
+216,Anitha Rao,53,F,A1,431d08ccaf
+217,Nandini Achar,44,F,A1,062a86cafb
+217,Raju Reddy,38,M,A2,757562ec1c
+217,Anil Shetty,50,M,A3,c0788d40a9
+218,Bhavani Reddy,38,F,A1,3a9dac5614
+219,Kavya Hegde,40,F,A1,f3d3d18520
+220,Manjunath Gowda,33,M,A1,3ac489b711
+221,Nagaraj Naik,44,M,A1,42e4903761
+222,Anil Hegde,27,M,A1,9fdd3a80fc
+222,Nagaraj Poojary,26,M,A2,3fc3a08a41
+222,Shivakumar Rao,25,M,A3,6a62dff7d5
+223,Suresh Patil,31,M,A1,aee082efe6
+224,Radha Naik,34,F,A1,7a9f8647b0
+225,Suresh Achar,28,M,A1,e3fc3ddef6
+226,Ravi Achar,34,M,A1,2e3c876f77
+226,Praveen Reddy,34,M,A2,492784724b
+227,Kiran,43,M,A1,2e3f82fe85
+227,Pooja Kumar,32,F,A2,48269d5180
+227,Bhavani Poojary,37,F,A3,39644b4e15
+228,Suresh Reddy,47,M,A1,9b1120b359
+228,Prasad Rao,39,M,A2,a8d96fbae2
+228,Suresh Poojary,49,M,A3,70239d483d
+229,Ganesh Poojary,21,M,A1,7a05448e14
+230,Manjula Shetty,32,F,A1,284bdf4eb4
+230,Suresh,38,M,A2,1a5970826f
+230,Mahesh Gowda,38,M,A3,48783bdb5e
+231,Naveen Reddy,32,M,A1,dd27c6e764
+232,Lakshmi Achar,33,F,A1,770d6cb978
+233,Mahesh Shetty,39,M,A1,e6acb9ba83
+234,Deepa,43,F,A1,9eb3359dd6
+234,Naveen,54,M,A2,8fa45f86d4
+235,Raju Rao,39,M,A1,3037bead63
+236,Kiran Naik,29,M,A1,1b49b25bfb
+237,Ravi Gowda,28,M,A1,644531d954
+238,Praveen Poojary,37,M,A1,78edddbeb6
+239,Prasad Shetty,43,M,A1,7a0ecc7a7c
+239,Pooja Naik,32,F,A2,70ce486cb2
+240,Lakshmi Naik,54,F,A1,4a81c4d751
+240,Ganesh Rao,34,M,A2,47622a640f
+240,Srinivas Poojary,54,M,A3,19a564957f
+241,Mahesh Shetty,40,M,A1,e6acb9ba83
+241,Nandini Hegde,37,F,A2,635fddff84
+241,Anil Hegde,32,M,A3,6c903663cb
+242,Suresh Shetty,28,M,A1,bd3f195614
+242,Naveen Hegde,55,M,A2,36873aae39
+243,Anil Naik,37,M,A1,1b4fadc0b4
+243,Radha Gowda,39,F,A2,dc9ede7c2d
+243,Srinivas Shetty,31,M,A3,c011bc9ee8
+244,Mahesh Achar,23,M,A1,4c1639fe6f
+245,Praveen Patil,49,M,A1,628c13d400
+245,Ganesh Poojary,45,M,A2,68ed9fb54a
+245,Kiran Naik,30,M,A3,f8842970d1
+246,Prasad Gowda,54,M,A1,adea756708
+247,Kiran Reddy,51,M,A1,016ca5b913
+248,Basavaraj Poojary,29,M,A1,8acf9b0e41
+249,Naveen Naik,39,M,A1,937ed7e4f4
+249,Mahesh Hegde,32,M,A2,793ef140c6
+250,Prasad Rao,55,M,A1,8b75c0585f
+251,Kiran Rao,51,M,A1,0dcd79cfc7
+252,Ramesh Hegde,33,M,A1,738df9ba80
+253,Manjula Naik,25,F,A1,c82629be82
+254,Nandini Shetty,39,F,A1,c810ea66eb
+255,Mahesh Gowda,50,M,A1,4009b01735
+256,Praveen Kumar,50,M,A1,3d0fa7de50
+257,Ganesh Naik,20,M,A1,f9b033fdf4
+258,Ganesh Shetty,23,M,A1,10cc2f9aaa
+258,Ganesh Kumar,52,M,A2,3129bf998a
+258,Raju Shetty,21,M,A3,357a85b7e4
+259,Manjunath Naik,40,M,A1,e51003e780
+260,Manjula Poojary,44,F,A1,62a84cfa79
+261,Praveen Reddy,32,M,A1,d562276beb
+262,Anitha Shetty,23,F,A1,eb63c80eb1
+263,Srinivas Kumar,36,M,A1,e6f657e9ff
+264,Srinivas Rao,38,M,A1,a8ec08a628
+265,Basavaraj Patil,48,M,A1,d4d023dd57
+266,Ramesh Patil,36,M,A1,130fa9c4ba
+267,Bhavani Poojary,35,F,A1,3ca016c86b
+268,Mahesh Patil,43,M,A1,7285db1281
+268,Praveen Gowda,25,M,A2,e27ad90531
+269,Santosh Rao,21,M,A1,fbd9b1cfbb
+270,Ravi Achar,27,M,A1,d36dbccf64
+270,Raju Achar,35,M,A2,e4783472fc
+271,Radha,40,F,A1,8cdf0a5972
+272,Kiran Reddy,18,M,A1,6294fff0d3
+273,Ganesh Rao,23,M,A1,cbfdae6baa
+274,Kiran Poojary,18,M,A1,9e15c7e3a0
+275,Ganesh Naik,35,M,A1,cf04bfe342
+276,Mahesh Rao,19,M,A1,0beb027829
+276,Mahesh,53,M,A2,2df7cb50f7
+276,Naveen Poojary,20,M,A3,c085eb4586
+277,Nagaraj Shetty,35,M,A1,abb3c69333
+277,Anitha Shetty,37,F,A2,8998e8c266
+277,Ganesh Rao,31,M,A3,caa9c30641
+278,Anil Reddy,42,M,A1,551c910258
+278,Naveen Poojary,49,M,A2,4a2f15178c
+278,Anil Poojary,37,M,A3,07f91cec2a
+279,Raju Shetty,31,M,A1,59a1f56dfa
+280,Savitri Gowda,25,F,A1,fde3377fdd
+280,Vinay Reddy,28,M,A2,f735591e3c
+281,Ramesh Hegde,39,M,A1,5a1d4ac32f
+281,Praveen Poojary,54,M,A2,eea2513660
+282,Sowmya Achar,20,F,A1,cd574cbc97
+283,Suresh Shetty,46,M,A1,0df7374363
+284,Suresh Kumar,20,M,A1,03468925f4
+285,Praveen,51,M,A1,c6cfbbaa28
+286,Manjunath Reddy,38,M,A1,f2154bf88b
+287,Basavaraj Shetty,22,M,A1,7cdcf07dbe
+288,Anil Patil,53,M,A1,733979ba36
+289,Radha Kumar,48,F,A1,2ced297693
+289,Sowmya Patil,22,F,A2,91cca5f173
+289,Nagaraj Hegde,47,M,A3,4e987d61e1
+290,Nandini Poojary,46,F,A1,3ede561e27
+290,Basavaraj Patil,19,M,A2,f483edf31f
+290,Ramesh Hegde,25,M,A3,2f58011b2e
+291,Praveen Reddy,50,M,A1,6d9ca7d544
+292,Lakshmi Poojary,53,F,A1,d85e281077
+293,Naveen Patil,33,M,A1,52bf905cb8
+294,Suresh Gowda,42,M,A1,29df63dda1
+294,Suresh Achar,33,M,A2,5b5c4a578e
+295,Santosh Kumar,30,M,A1,9f9ca8edb3
+296,Basavaraj Gowda,20,M,A1,4729ea6b74
+297,Santosh,55,M,A1,ea7fef695c
+297,Manjula Reddy,20,F,A2,d62daab2ad
+298,Bhavani Rao,53,F,A1,18cfd088f6
+298,Pooja Hegde,44,F,A2,f079efe603
+298,Anil Kumar,34,M,A3,be5e727677
+299,Manjunath Reddy,49,M,A1,aac49240ec
+300,Suresh Naik,26,M,A1,383dcadb25
+300,Chaitra,37,F,A2,5745393c3f
+301,Anil Naik,53,M,A1,294e15e23b
+301,Ravi Patil,27,M,A2,6f807fbd71
+302,Suresh Patil,53,M,A1,03a1cb9daf
+302,Mahesh Hegde,45,M,A2,022c6d21cc
+302,Sowmya Shetty,34,F,A3,70670817ed
+303,Nagaraj Rao,49,M,A1,1e0ea02db7
+304,Anitha Kumar,48,F,A1,17ba6ecc15
+305,Praveen Gowda,41,M,A1,445b62a0ec
+306,Nandini Achar,26,F,A1,368d46883f
+307,Srinivas Poojary,35,M,A1,0a67f8fd18
+308,Manjula Shetty,48,F,A1,3293352ac0
+309,Kiran Achar,37,M,A1,9a28aec69b
+310,Basavaraj,25,M,A1,6124012732
+310,Kavya Naik,32,F,A2,8cd2c51cbf
+310,Vinay Patil,22,M,A3,4bbc134826
+311,Praveen Poojary,36,M,A1,78edddbeb6
+312,Praveen Kumar,22,M,A1,627a7efcca
+313,Basavaraj Reddy,41,M,A1,c532ce8bdb
+314,Shivakumar Reddy,24,M,A1,bf1b635fa5
+315,Sowmya Achar,28,F,A1,d750a2c5a3
+315,Lakshmi,35,F,A2,38b41cfd9b
+315,Kavya Shetty,33,F,A3,d8606680d2
+316,Ravi Rao,45,M,A1,d96bec6540
+317,Savitri Naik,54,F,A1,945c110406
+318,Savitri,24,F,A1,9b8ace230a
+319,Shobha Hegde,41,F,A1,aed10e88bc
+320,Raju Shetty,32,M,A1,59a1f56dfa
+321,Raju Hegde,38,M,A1,5ab60f1115
+322,Anitha,46,F,A1,6ec4b7cd1e
+323,Vinay Rao,28,M,A1,13c822d7e2
+324,Basavaraj Shetty,54,M,A1,da13cd5762
+324,Bhavani Patil,42,F,A2,f63f90179d
+325,Santosh Poojary,35,M,A1,e08c26ca0d
+325,Nandini Kumar,25,F,A2,a60f46a041
+325,Naveen Achar,54,M,A3,1af3ee3de2
+326,Srinivas Kumar,32,M,A1,723c231043
+327,Geetha Patil,26,F,A1,6901796b6e
+328,Nagaraj Gowda,41,M,A1,0151180aff
+328,Savitri Patil,44,F,A2,6e9babb245
+328,Radha Gowda,42,F,A3,9e4e35d0c9
+329,Mahesh Patil,33,M,A1,530e6cc1ab
+330,Kiran,49,M,A1,05b8579d84
+330,Suresh,21,M,A2,047698420c
+330,Mahesh Gowda,30,M,A3,9eed4e8ae6
+331,Suresh Rao,18,M,A1,17fad7e73e
+332,Anitha Naik,19,F,A1,28b1796a2f
+333,Nandini Hegde,30,F,A1,1e67c61e70
+334,Ravi Gowda,21,M,A1,5efb3ad112
+335,Sowmya Kumar,52,F,A1,5e034fd0ed
+336,Raju Rao,33,M,A1,4215bc3961
+337,Praveen Patil,39,M,A1,76d0632677
+338,Nagaraj Reddy,43,M,A1,3ac637d9ed
+339,Basavaraj Poojary,31,M,A1,61ec2ab0ef
+339,Anil Hegde,29,M,A2,9fdd3a80fc
+339,Chaitra Poojary,24,F,A3,964987564f
+340,Bhavani Poojary,37,F,A1,39644b4e15
+341,Naveen Poojary,25,M,A1,b2d1224785
+342,Srinivas Achar,32,M,A1,d1a74c06d2
+342,Ravi Hegde,22,M,A2,e40a059def
+343,Manjula,24,F,A1,f3d0a741e1
+344,Prasad Hegde,49,M,A1,e3892fe5a8
+345,Shobha,24,F,A1,887b7816ed
+346,Naveen Reddy,19,M,A1,176bdd45d4
+346,Anitha Rao,43,F,A2,70e719fe0b
+347,Nandini,26,F,A1,391a478fdd
+348,Manjunath Hegde,44,M,A1,68e147b2d7
+349,Bhavani Shetty,35,F,A1,f5452d2f11
+349,Sushma Rao,33,F,A2,6572e830cd
+349,Anil Patil,52,M,A3,733979ba36
+350,Ganesh Poojary,42,M,A1,21dd6089fb
+351,Geetha Patil,32,F,A1,9cb1b26dbc
+351,Kiran Achar,55,M,A2,157ffd4f0d
+351,Kavya,54,F,A3,d5c77256ae
+352,Radha Achar,53,F,A1,5a58fc6dc5
+353,Ravi Shetty,53,M,A1,c1c4264938
+353,Anil Patil,27,M,A2,6836c8aa68
+353,Mahesh Achar,28,M,A3,d4993c993f
+354,Bhavani,43,F,A1,a4e79af1b4
+355,Basavaraj Hegde,33,M,A1,eca86631ff
+356,Anil,20,M,A1,16b0a6a936
+357,Pooja Shetty,22,F,A1,775773feb4
+358,Ravi Hegde,39,M,A1,b8117a8a10
+359,Srinivas Shetty,50,M,A1,9915b5c733
+360,Vinay Reddy,36,M,A1,22f2ceaacb
+361,Suresh Naik,35,M,A1,57bbd1e507
+362,Ganesh,32,M,A1,dc3440ca61
+363,Manjunath Poojary,50,M,A1,3489ef8198
+364,Bhavani Kumar,30,F,A1,c6dafe77ad
+365,Ravi Achar,35,M,A1,2e3c876f77
+366,Ramesh,53,M,A1,9500f62153
+367,Naveen Poojary,24,M,A1,b2d1224785
+368,Manjunath Naik,25,M,A1,f928ca488d
+368,Mahesh Reddy,52,M,A2,be99f3f74a
+368,Basavaraj Gowda,30,M,A3,dabc39e5ac
+369,Ramesh Poojary,32,M,A1,dce7dc48d7
+370,Srinivas Shetty,36,M,A1,097e5ea514
+371,Anil Achar,37,M,A1,4943b67364
+372,Ravi Patil,44,M,A1,e39ce7ccdc
+373,Suresh Reddy,47,M,A1,9b1120b359
+374,Ramesh Reddy,32,M,A1,ade72e49df
+375,Basavaraj Rao,36,M,A1,c39c9a292d
+375,Savitri Patil,33,F,A2,4042bc0a1a
+376,Santosh Hegde,34,M,A1,df9a63884e
+376,Srinivas Kumar,25,M,A2,39a3f8e286
+377,Nagaraj Rao,28,M,A1,df0aa81504
+378,Raju,48,M,A1,b573ab31b7
+379,Pooja Gowda,36,F,A1,00e4b9c035
+380,Anil Poojary,35,M,A1,dade2d463c
+381,Vinay Reddy,34,M,A1,62da9d9589
+382,Shobha Gowda,32,F,A1,f1570c5daa
+383,Basavaraj Achar,45,M,A1,e162e09156
+383,Basavaraj Shetty,21,M,A2,7cdcf07dbe
+384,Suresh Reddy,28,M,A1,b81e53e146
+385,Ramesh Hegde,41,M,A1,5a1d4ac32f
+386,Ramesh Achar,20,M,A1,bef37b0446
+387,Ganesh Patil,32,M,A1,728a5bee0a
+387,Radha Patil,46,F,A2,5992b1414c
+387,Radha Hegde,31,F,A3,46206350b7
+388,Suresh Kumar,24,M,A1,638fd4e18f
+389,Mahesh Naik,26,M,A1,03f57ed22a
+390,Anil Poojary,30,M,A1,6420218d3b
+390,Anil Reddy,38,M,A2,4875d62799
+390,Raju Reddy,55,M,A3,597365d060
+391,Kiran Gowda,50,M,A1,5623edf531
+392,Anil Shetty,52,M,A1,3c3d077696
+393,Vinay Hegde,22,M,A1,12057191e2
+393,Manjula Achar,35,F,A2,1b7889bf6d
+394,Santosh,31,M,A1,315087e1ff
+394,Naveen,36,M,A2,bfd3af2629
+394,Suresh Gowda,31,M,A3,fb47d2ce77
+395,Mahesh Shetty,45,M,A1,d535f86f2b
+396,Deepa Rao,32,F,A1,92ca9174c2
+397,Radha Achar,52,F,A1,5a58fc6dc5
+398,Srinivas Reddy,23,M,A1,bde22e7a5f
+399,Prasad Patil,28,M,A1,28b6133437
+400,Ramesh Naik,27,M,A1,346ddd83bd
+401,Bhavani Naik,39,F,A1,43a1b99799
+401,Vinay Hegde,33,M,A2,366e3fccd1
+402,Santosh,21,M,A1,bdb661b3da
+402,Anitha,48,F,A2,f597115d1b
+402,Suresh,25,M,A3,6b95ddf72d
+403,Praveen Gowda,37,M,A1,e41cbc4845
+404,Ramesh Naik,23,M,A1,b7fc6145d4
+405,Ramesh Rao,43,M,A1,1bcf111fb9
+406,Ravi Reddy,21,M,A1,7e5d9d58ae
+407,Praveen Rao,29,M,A1,c79fc5ba73
+407,Vinay Achar,18,M,A2,2ed9d17787
+408,Suresh Achar,38,M,A1,eb19f2a285
+408,Raju Rao,26,M,A2,131fbbff58
+408,Suresh,52,M,A3,64b9022154
+409,Manjunath,52,M,A1,caa2491a18
+410,Kavya Patil,22,F,A1,4b5b375355
+410,Santosh Patil,28,M,A2,12e1ee7f32
+411,Manjula,39,F,A1,3be5807239
+412,Sushma Reddy,34,F,A1,9e52c16df3
+413,Chaitra Achar,25,F,A1,5f78ed255e
+414,Ravi Achar,49,M,A1,9f7801f731
+414,Anil,23,M,A2,690e750e63
+415,Praveen Patil,38,M,A1,5f2386dcc0
+416,Mahesh Reddy,46,M,A1,85391005a9
+417,Ganesh Shetty,37,M,A1,f4c7fbcfe4
+418,Mahesh Reddy,54,M,A1,139b859812
+418,Mahesh Kumar,33,M,A2,b7b43504be
+419,Srinivas Poojary,18,M,A1,a53d540937
+420,Santosh Kumar,41,M,A1,346adfe44c
+421,Suresh Reddy,49,M,A1,8f204a1d1f
+422,Raju Kumar,24,M,A1,5bac8aa207
+423,Nandini Poojary,47,F,A1,3ede561e27
+423,Geetha Kumar,48,F,A2,a3f05ec158
+424,Pooja Hegde,48,F,A1,31f99a9204
+425,Prasad Naik,28,M,A1,94d230fd3e
+426,Ravi Naik,32,M,A1,6a1bb398ac
+427,Anitha Rao,23,F,A1,565d60a3a2
+427,Bhavani Shetty,51,F,A2,bb3ad59ff5
+427,Vinay,52,M,A3,1e9e6ed0c7
+428,Mahesh Poojary,34,M,A1,fc2fc70718
+429,Suresh Rao,46,M,A1,327c12466f
+430,Srinivas Kumar,23,M,A1,515a7784dd
+431,Kiran Poojary,41,M,A1,c8a8c41290
+432,Manjunath Kumar,50,M,A1,e484b9ffdd
+432,Anil Patil,53,M,A2,733979ba36
+433,Praveen Hegde,50,M,A1,067c4f9c9d
+434,Sowmya,33,F,A1,082f3ceb1b
+435,Kavya Reddy,20,F,A1,2f7213baa7
+436,Geetha Shetty,27,F,A1,aa4ae9c551
+437,Savitri Poojary,42,F,A1,e5f09c6cc9
+437,Ganesh Naik,52,M,A2,12a1cf2668
+437,Praveen Shetty,32,M,A3,407ef32a64
+438,Anitha Hegde,38,F,A1,bbbef501d1
+439,Shivakumar Naik,54,M,A1,11a9c6565c
+440,Mahesh Shetty,41,M,A1,e6acb9ba83
+441,Vinay Naik,29,M,A1,913b90e0cb
+441,Mahesh Poojary,55,M,A2,6c2b94d2e9
+441,Ganesh Reddy,33,M,A3,e68318a0c1
+442,Raju Gowda,53,M,A1,efd178a682
+443,Nagaraj Achar,36,M,A1,2f9a10f196
+444,Ravi Shetty,21,M,A1,851cc2e352
+445,Raju Naik,18,M,A1,be1d43aef6
+446,Shivakumar Poojary,42,M,A1,1ade5a502c
+446,Nagaraj Gowda,35,M,A2,e6462bb4e6
+447,Kavya Naik,33,F,A1,d33e357ff6
+448,Sowmya,33,F,A1,082f3ceb1b
+448,Radha Patil,40,F,A2,59b3fec713
+448,Mahesh Shetty,38,M,A3,73a0a39088
+449,Ramesh Achar,47,M,A1,e93f5e269c
+449,Raju Gowda,27,M,A2,d47e652325
+449,Vinay,48,M,A3,3322aaa235
+450,Basavaraj Rao,39,M,A1,dacee0edef
+451,Shivakumar Naik,38,M,A1,8d84e23568
+452,Basavaraj Achar,43,M,A1,5615314f5a
+452,Prasad Achar,47,M,A2,4c8a6e7c1f
+453,Srinivas Patil,49,M,A1,0f871f4b35
+454,Basavaraj Naik,34,M,A1,139d7e8f67
+455,Ramesh Patil,44,M,A1,159f6aca34
+456,Mahesh,37,M,A1,797018c686
+457,Kiran Poojary,37,M,A1,3e9c5fcf0b
+458,Vinay Kumar,33,M,A1,a50c61c6fd
+459,Nandini Rao,51,F,A1,a62063361d
+460,Anitha Gowda,21,F,A1,9651fd0a62
+461,Manjunath Shetty,20,M,A1,c2d4b724e8
+462,Basavaraj Hegde,18,M,A1,d27aa4c899
+463,Manjula Reddy,49,F,A1,643269deb5
+464,Manjula Shetty,31,F,A1,284bdf4eb4
+464,Ganesh Poojary,21,M,A2,7a05448e14
+464,Anil Achar,38,M,A3,4943b67364
+465,Raju,30,M,A1,559001af6d
+466,Suresh Achar,31,M,A1,1c4ac5dd3f
+467,Anitha Rao,43,F,A1,70e719fe0b
+468,Deepa Kumar,52,F,A1,5805b605a3
+469,Kavya Hegde,43,F,A1,0a5265729a
+470,Ravi Hegde,43,M,A1,91b3ee50a6
+470,Shobha Hegde,52,F,A2,ccc6fee832
+471,Santosh,19,M,A1,479e4f213d
+471,Vinay Shetty,48,M,A2,5f1daca596
+472,Mahesh Gowda,22,M,A1,095dd66df2
+473,Savitri Kumar,36,F,A1,82fec82981
+474,Bhavani,41,F,A1,3bfa5d7a9d
+475,Shivakumar Naik,25,M,A1,21977d45e4
+476,Manjunath Naik,31,M,A1,54a3e97e16
+477,Mahesh Hegde,38,M,A1,c6a05d9f64
+478,Praveen Naik,35,M,A1,1b777d6a1e
+478,Sushma Rao,46,F,A2,06a4a648c5
+479,Mahesh,24,M,A1,c2bd1cb645
+480,Shobha Poojary,31,F,A1,06675d19d1
+481,Lakshmi Poojary,32,F,A1,5688f71740
+482,Anil Reddy,50,M,A1,64a3bafff2
+483,Manjunath Gowda,36,M,A1,cd6266a69e
+483,Lakshmi Naik,18,F,A2,b660a156a3
+483,Naveen Shetty,25,M,A3,3b73ce281b
+484,Geetha,33,F,A1,467594dccd
+485,Radha Naik,25,F,A1,8b27db52e1
+485,Nandini Hegde,41,F,A2,eee49dabd1
+485,Mahesh Kumar,27,M,A3,018c35c824
+486,Sushma Poojary,19,F,A1,77db634444
+486,Mahesh Reddy,28,M,A2,5fc35ef1a8
+486,Vinay Gowda,41,M,A3,92315ff32d
+487,Kavya Achar,28,F,A1,34327ed735
+488,Vinay Achar,40,M,A1,769cd5a540
+489,Ravi Patil,46,M,A1,323305942f
+490,Santosh Rao,46,M,A1,0f272c5c77
+490,Praveen Naik,22,M,A2,28ea453c1f
+491,Raju Achar,41,M,A1,a63b1380a1
+492,Anitha Patil,31,F,A1,f5b402ac8a
+493,Basavaraj Gowda,46,M,A1,ccbadb7bad
+494,Vinay Rao,43,M,A1,fd701f4fb7
+494,Kavya Hegde,45,F,A2,239eee26c2
+494,Kiran Gowda,36,M,A3,2317bda5a5
+495,Kiran Shetty,49,M,A1,cac7831e4a
+495,Sowmya Achar,46,F,A2,308aa5529b
+495,Anil Achar,18,M,A3,7cabba2333
+496,Vinay Achar,25,M,A1,b7aab20a4e
+496,Ramesh,31,M,A2,0b00eeb456
+497,Mahesh Patil,54,M,A1,3e490e9c19
+498,Nandini Achar,55,F,A1,b4f7d45d0d
+499,Nagaraj Rao,26,M,A1,87acb28cd0
+500,Basavaraj Hegde,54,M,A1,90d185bb37
+500,Deepa Kumar,37,F,A2,9f1e232485
+501,Santosh Rao,43,M,A1,b83a3a674b
+502,Ramesh Shetty,42,M,A1,db87f916d8
+503,Ramesh Poojary,51,M,A1,f58c5b3185
+503,Prasad Poojary,20,M,A2,5412355a15
+504,Raju Poojary,42,M,A1,5c3832a805
+505,Lakshmi Gowda,46,F,A1,69b059c57e
+506,Shivakumar Poojary,19,M,A1,4bd7f450d8
+507,Vinay Kumar,20,M,A1,f9191a0640
+508,Praveen Patil,32,M,A1,5f63afc3df
+509,Geetha Rao,24,F,A1,a7cd03ca85
+509,Manjula Poojary,44,F,A2,62a84cfa79
+510,Chaitra Naik,29,F,A1,743cb5035c
+511,Suresh Reddy,46,M,A1,9b1120b359
+511,Shivakumar Patil,36,M,A2,5e455a280e
+511,Praveen Reddy,18,M,A3,51b7e3d4b0
+512,Mahesh Reddy,35,M,A1,99dc23b854
+512,Raju,25,M,A2,af27d9d0a3
+513,Ramesh Kumar,21,M,A1,12bad21c83
+514,Anil Patil,18,M,A1,9c63f552d4
+515,Mahesh Shetty,26,M,A1,1d57263b0e
+516,Kiran Kumar,34,M,A1,765e662902
+517,Radha Patil,41,F,A1,59b3fec713
+518,Prasad,40,M,A1,db068e4c16
+519,Ramesh Poojary,39,M,A1,890d2e3c85
+519,Naveen Patil,52,M,A2,65196bba3d
+519,Anil Naik,22,M,A3,2e819a4d68
+520,Mahesh Kumar,48,M,A1,52fb67432a
+521,Naveen,20,M,A1,b413757e3c
+522,Lakshmi Rao,38,F,A1,036903e1ba
+523,Sushma Patil,45,F,A1,71848f9241
+524,Prasad Hegde,43,M,A1,4a6c5668eb
+525,Praveen Achar,40,M,A1,b4e3f19ef4
+526,Prasad Kumar,40,M,A1,b5a39ed6c1
+527,Suresh Naik,53,M,A1,7ae335dc24
+528,Naveen,53,M,A1,13d85d4e93
+529,Mahesh,47,M,A1,72e9e29bf5
+530,Radha Gowda,41,F,A1,dc9ede7c2d
+531,Anil Rao,53,M,A1,88c5421c8b
+532,Vinay,35,M,A1,06dfbbe711
+533,Ganesh Rao,27,M,A1,cd6c6d809d
+534,Santosh Reddy,38,M,A1,086354ed14
+534,Manjula Gowda,37,F,A2,94dd8de179
+535,Sushma Poojary,19,F,A1,77db634444
+536,Raju Naik,26,M,A1,dae2dafd5f
+537,Ramesh Kumar,34,M,A1,1ea11b6b15
+537,Ramesh Achar,55,M,A2,963f8fb037
+538,Vinay Patil,42,M,A1,0044b12196
+539,Naveen,36,M,A1,bfd3af2629
+540,Pooja Rao,55,F,A1,e799b0a808
+540,Ramesh Achar,41,M,A2,b21b0368a6
+540,Anil Achar,45,M,A3,84b69eb7db
+541,Geetha Poojary,20,F,A1,9695748eba
+542,Lakshmi Rao,39,F,A1,27f358f7b4
+543,Geetha Reddy,35,F,A1,7db111e76d
+544,Radha,32,F,A1,0ba63fb36d
+545,Savitri Hegde,25,F,A1,469e2d9b7f
+546,Nagaraj Poojary,33,M,A1,786439c919
+546,Vinay Kumar,18,M,A2,f9191a0640
+546,Ganesh Poojary,44,M,A3,21dd6089fb
+547,Vinay Reddy,42,M,A1,9e90186a52
+548,Kavya Gowda,47,F,A1,73d113b886
+549,Raju Hegde,44,M,A1,53189ee4c2
+549,Deepa Naik,37,F,A2,27f3947d36
+549,Deepa Shetty,37,F,A3,aabecab6ca
+550,Shivakumar Reddy,42,M,A1,8429d27f3b
+551,Ramesh Poojary,32,M,A1,dce7dc48d7
+551,Nandini Kumar,32,F,A2,38e102619e
+552,Srinivas Reddy,29,M,A1,f4df1949d9
+552,Shivakumar Hegde,31,M,A2,fb973ba085
+552,Ganesh,23,M,A3,e2ecd46350
+553,Sowmya Hegde,52,F,A1,a77e954210
+554,Ganesh,37,M,A1,4d0ccf937d
+554,Ramesh Poojary,26,M,A2,e8209e2b8c
+554,Basavaraj Rao,40,M,A3,dacee0edef
+555,Srinivas Reddy,23,M,A1,bde22e7a5f
+556,Naveen,44,M,A1,cc40525f49
+557,Manjula Achar,42,F,A1,9664a07143
+557,Naveen Poojary,24,M,A2,b2d1224785
+557,Naveen Shetty,41,M,A3,8530d58521
+558,Kiran Achar,52,M,A1,676f985024
+558,Bhavani Reddy,22,F,A2,736581543b
+559,Vinay Hegde,53,M,A1,333470a1e8
+559,Nandini Hegde,36,F,A2,635fddff84
+560,Suresh Achar,49,M,A1,bb3433335f
+561,Mahesh Poojary,36,M,A1,7602ec9953
+562,Raju Poojary,48,M,A1,f883e9f984
+562,Pooja Achar,53,F,A2,95d091ddcf
+562,Shivakumar Reddy,51,M,A3,7e8de7f0ac
+563,Savitri Rao,45,F,A1,d59a816c7f
+564,Suresh Naik,52,M,A1,7ae335dc24
+565,Raju Gowda,24,M,A1,f0913f3b13
+566,Naveen Rao,43,M,A1,6769a9d0ed
+567,Santosh Gowda,48,M,A1,9ef138e4a5
+567,Nagaraj Naik,38,M,A2,b577f5a048
+567,Nandini Achar,30,F,A3,00c749bb63
+568,Kiran Gowda,46,M,A1,307c9b2abd
+568,Anitha,47,F,A2,6ec4b7cd1e
+568,Naveen,19,M,A3,b413757e3c
+569,Ravi Naik,26,M,A1,cefb39cd63
+570,Mahesh Achar,54,M,A1,8e10cdae1e
+570,Praveen,33,M,A2,e695c26ee8
+570,Sushma Hegde,55,F,A3,cdce01cb9c
+571,Kiran Reddy,49,M,A1,73b083d9ed
+572,Nagaraj Achar,29,M,A1,faf582cdee
+573,Anil Shetty,20,M,A1,29e9ec83a3
+573,Manjunath Rao,36,M,A2,3cb063b81f
+574,Nagaraj Shetty,22,M,A1,fbb794784d
+575,Naveen Kumar,48,M,A1,b7ac73f05f
+576,Ganesh Shetty,25,M,A1,ae14272f46
+576,Srinivas Rao,41,M,A2,4d69f0417b
+577,Shivakumar Naik,22,M,A1,9657151f0d
+578,Lakshmi Gowda,52,F,A1,70ab900aea
+579,Basavaraj Gowda,38,M,A1,6d02bb7dbd
+580,Suresh Naik,39,M,A1,a2cbbece09
+581,Vinay Naik,53,M,A1,c099bc3477
+582,Ramesh Gowda,22,M,A1,9b062d299b
+583,Anil Gowda,36,M,A1,03b358d048
+584,Ravi Achar,42,M,A1,d2a4ae4ad0
+584,Kiran Reddy,33,M,A2,1535c0cb52
+585,Manjula Kumar,44,F,A1,2749426036
+586,Suresh Patil,49,M,A1,edf245c15f
+587,Santosh Reddy,37,M,A1,086354ed14
+588,Mahesh Reddy,32,M,A1,11d38e8b23
+589,Santosh Hegde,46,M,A1,943916ebf6
+589,Kavya Patil,30,F,A2,2cf180c672
+590,Sowmya Shetty,51,F,A1,4a835861a3
+590,Basavaraj Shetty,51,M,A2,3bec5e1d62
+590,Basavaraj Rao,33,M,A3,80fcd648df
+591,Ramesh Poojary,48,M,A1,2a9e33d669
+591,Manjunath Shetty,51,M,A2,e51eba0cdd
+592,Kavya Poojary,20,F,A1,7558c0fb79
+593,Santosh Naik,19,M,A1,2de0baf33f
+593,Shivakumar,26,M,A2,59e3933f35
+593,Raju Kumar,55,M,A3,517c9d4feb
+594,Vinay Naik,19,M,A1,ed92398e0e
+594,Ganesh Achar,48,M,A2,bd5bb1d6b3
+594,Santosh Naik,52,M,A3,8f5608a6f2
+595,Ganesh Achar,36,M,A1,0896a01559
+596,Ganesh Rao,46,M,A1,2737140e0a
+597,Bhavani Naik,39,F,A1,43a1b99799
+598,Anil Shetty,19,M,A1,29e9ec83a3
+599,Kavya Achar,19,F,A1,41ab8c5baf
+599,Praveen Reddy,45,M,A2,79c7f08cd8
+599,Santosh Poojary,37,M,A3,cf054a6ed8
+600,Basavaraj Poojary,53,M,A1,8ee39fca2f
+601,Kavya,48,F,A1,847f442831
+602,Nagaraj Achar,45,M,A1,55951036fc
+603,Naveen Gowda,51,M,A1,9f48108411
+604,Ganesh Naik,25,M,A1,c00e2c4508
+604,Prasad Reddy,41,M,A2,b366a05fdf
+604,Vinay Reddy,51,M,A3,78e60d94a2
+605,Naveen Poojary,26,M,A1,b2d1224785
+606,Srinivas Patil,53,M,A1,1d5b9ebad8
+607,Pooja Kumar,22,F,A1,1322db4214
+607,Raju Kumar,48,M,A2,bcf0ae245e
+607,Srinivas Patil,39,M,A3,0717fced15
+608,Raju Rao,35,M,A1,4215bc3961
+608,Naveen Patil,47,M,A2,7be07b335b
+608,Mahesh Naik,25,M,A3,03f57ed22a
+609,Srinivas Hegde,24,M,A1,e68b62f445
+610,Naveen Reddy,21,M,A1,03314c75d6
+610,Raju Reddy,41,M,A2,19a774c5b6
+611,Praveen,42,M,A1,26bfa0fc22
+612,Shobha Hegde,28,F,A1,3dd3ff79e9
+613,Shivakumar Hegde,48,M,A1,8c771532f1
+614,Naveen,52,M,A1,13d85d4e93
+615,Santosh,29,M,A1,ae32ead86d
+616,Praveen Achar,39,M,A1,b4e3f19ef4
+617,Manjunath Patil,51,M,A1,7f74b01861
+618,Kavya Hegde,19,F,A1,883f6a9c69
+619,Praveen Kumar,38,M,A1,e23ccc3eb4
+620,Sushma Achar,38,F,A1,e0b71e508b
+621,Naveen Shetty,35,M,A1,cc83682ef7
+622,Radha Poojary,52,F,A1,05802dc61d
+623,Prasad Kumar,20,M,A1,ec6333c0e0
+624,Ramesh Achar,52,M,A1,9f53bad4cc
+625,Anil Naik,46,M,A1,ca906d4947
+626,Deepa Kumar,37,F,A1,9f1e232485
+627,Radha Patil,26,F,A1,53f6c612e9
+628,Nagaraj Reddy,25,M,A1,63baf429b5
+629,Ramesh Reddy,33,M,A1,8841e811f3
+630,Srinivas Gowda,47,M,A1,72b9fa961a
+631,Praveen Achar,49,M,A1,258e791e00
+632,Deepa Poojary,55,F,A1,a500edd6f8
+633,Vinay Hegde,50,M,A1,49914888a0
+634,Prasad Achar,39,M,A1,86d991afef
+635,Ravi Reddy,48,M,A1,df19a46303
+635,Nagaraj Poojary,22,M,A2,8f8fc01175
+635,Lakshmi Rao,41,F,A3,27f358f7b4
+636,Manjunath,30,M,A1,f9aae103de
+637,Srinivas Rao,39,M,A1,4d69f0417b
+637,Manjunath Patil,43,M,A2,1fa3fd9597
+638,Santosh Kumar,36,M,A1,5ee25a0b6d
+638,Manjunath Achar,49,M,A2,51c8e67d03
+638,Ramesh Patil,33,M,A3,35ec9b8d9d
+639,Ramesh Shetty,39,M,A1,be49b8e8ee
+639,Shobha Hegde,41,F,A2,aed10e88bc
+640,Raju Kumar,22,M,A1,a5b2697dfe
+641,Ganesh Hegde,18,M,A1,b6fd0b30ca
+642,Shivakumar Hegde,31,M,A1,fb973ba085
+642,Suresh Rao,52,M,A2,37783250e0
+643,Lakshmi Reddy,35,F,A1,c767db030d
+643,Santosh Hegde,21,M,A2,a7e81f600c
+643,Kiran Shetty,27,M,A3,68d76dacf5
+644,Manjunath Reddy,32,M,A1,35a7a6f051
+645,Kavya Hegde,32,F,A1,80dd211d76
+646,Pooja Rao,37,F,A1,53d8058d69
+647,Chaitra Patil,45,F,A1,fd02b8a130
+647,Ramesh Patil,28,M,A2,b4d2d775b9
+648,Suresh Patil,18,M,A1,82ea685be4
+649,Kavya Shetty,36,F,A1,c0bd795391
+650,Shivakumar Shetty,28,M,A1,87afa4a75b
+651,Manjula Rao,46,F,A1,4ddb40cf4d
+651,Srinivas Kumar,36,M,A2,e6f657e9ff
+651,Anitha Naik,48,F,A3,112eb96b9f
+652,Srinivas,28,M,A1,6744cf7db9
+652,Ramesh Rao,22,M,A2,60bd257170
+653,Ravi Shetty,38,M,A1,705768bb0e
+653,Srinivas Gowda,46,M,A2,72b9fa961a
+654,Pooja Shetty,42,F,A1,b773ca2d64
+655,Ganesh Achar,36,M,A1,0896a01559
+656,Praveen Kumar,21,M,A1,627a7efcca
+657,Praveen,28,M,A1,fa86015fe1
+657,Santosh Hegde,35,M,A2,df9a63884e
+658,Ganesh Rao,25,M,A1,bbcd8f1705
+659,Naveen,27,M,A1,3cf29dbbc3
+659,Pooja,28,F,A2,16d905ec8f
+660,Pooja Naik,24,F,A1,367bfb3425
+660,Prasad Poojary,25,M,A2,78ac8827a2
+660,Santosh Kumar,39,M,A3,346adfe44c
+661,Ganesh,49,M,A1,b0ea955239
+662,Santosh,40,M,A1,54b8e42b4c
+663,Nagaraj Kumar,18,M,A1,a3072550d3
+664,Basavaraj Kumar,29,M,A1,5afff14b7b
+665,Ganesh Hegde,39,M,A1,98c80131ba
+666,Manjunath Shetty,30,M,A1,d5d9425c42
+667,Ravi Naik,52,M,A1,9ee68273f7
+667,Praveen Reddy,49,M,A2,6d9ca7d544
+667,Sowmya Rao,40,F,A3,33a2588e51
+668,Praveen Shetty,47,M,A1,aa8bdfdc10
+669,Srinivas Shetty,34,M,A1,8966036c59
+669,Mahesh Poojary,47,M,A2,53954831cd
+669,Manjunath Reddy,55,M,A3,606f45033b
+670,Mahesh Shetty,26,M,A1,1d57263b0e
+671,Shivakumar Shetty,50,M,A1,67c6fb7bde
+672,Anil Gowda,45,M,A1,95f60b3096
+673,Bhavani Reddy,34,F,A1,3245ecb6a4
+674,Geetha Achar,49,F,A1,ebf4d8ea40
+675,Santosh Shetty,50,M,A1,1066c61500
+675,Suresh Patil,49,M,A2,edf245c15f
+675,Manjunath Poojary,27,M,A3,517d939cfa
+676,Shobha,28,F,A1,0999107787
+677,Shivakumar Poojary,28,M,A1,f37307e39a
+677,Nandini,32,F,A2,04abd75fd9
+677,Nandini,35,F,A3,c8cc6cde40
+678,Kavya Poojary,22,F,A1,9d172efcfa
+679,Ramesh Reddy,52,M,A1,f37803454f
+680,Geetha Shetty,25,F,A1,6f403d2619
+681,Prasad Rao,55,M,A1,8b75c0585f
+681,Nagaraj Gowda,31,M,A2,d70c1ae103
+681,Nagaraj Kumar,28,M,A3,5431fbf338
+682,Ramesh Patil,36,M,A1,130fa9c4ba
+683,Praveen Shetty,26,M,A1,c8d252e327
+683,Shivakumar Naik,22,M,A2,9657151f0d
+684,Santosh Kumar,42,M,A1,648327fc8b
+684,Ramesh Hegde,45,M,A2,c45289374b
+684,Nandini Reddy,48,F,A3,d7cf2af201
+685,Anil Patil,41,M,A1,72d53d5bb0
+686,Ravi Reddy,55,M,A1,16a45c6ae3
+687,Nagaraj Achar,32,M,A1,c44a5c3f91
+688,Nagaraj,55,M,A1,6cf5a400be
+688,Manjula Poojary,18,F,A2,88840b44a6
+688,Anil Poojary,47,M,A3,2560b5fb8d
+689,Basavaraj Kumar,29,M,A1,5afff14b7b
+690,Ravi Shetty,34,M,A1,ba503d7bdc
+690,Naveen Reddy,54,M,A2,ba8d924b19
+691,Manjunath Shetty,46,M,A1,94afa507d7
+692,Suresh Naik,26,M,A1,383dcadb25
+693,Radha Hegde,50,F,A1,bcfc217417
+694,Prasad Hegde,26,M,A1,41220ddbc6
+694,Basavaraj Shetty,20,M,A2,fb656eef0b
+694,Srinivas Kumar,34,M,A3,ac8ee31ea9
+695,Kiran Reddy,21,M,A1,b6f91f393c
+696,Radha Patil,29,F,A1,18e9880baa
+697,Santosh Shetty,37,M,A1,c38e319955
+698,Ramesh Gowda,21,M,A1,9b062d299b
+698,Suresh Rao,18,M,A2,17fad7e73e
+699,Anitha Shetty,35,F,A1,c3347bf777
+699,Ravi Rao,34,M,A2,f9fb8fcdc7
+699,Shobha Naik,49,F,A3,202f78da12
+700,Suresh Gowda,55,M,A1,8b5c36a80d
+701,Anil Reddy,33,M,A1,99a83cc326
+702,Bhavani,32,F,A1,b64d669c02
+703,Ramesh Achar,44,M,A1,dfe34b6562
+703,Anil Hegde,46,M,A2,c527e0f411
+704,Manjunath Rao,39,M,A1,31f2e7af5f
+705,Nagaraj Reddy,42,M,A1,3ac637d9ed
+706,Geetha Shetty,21,F,A1,2df207a6c4
+707,Basavaraj Poojary,31,M,A1,61ec2ab0ef
+708,Bhavani Kumar,43,F,A1,6c60736c78
+709,Suresh,37,M,A1,1a5970826f
+709,Sowmya Reddy,53,F,A2,1f623711c8
+709,Raju Hegde,45,M,A3,6608ae5e5a
+710,Suresh Kumar,26,M,A1,638fd4e18f
+711,Shobha Rao,34,F,A1,c7d9751a9a
+711,Shivakumar Reddy,38,M,A2,906f4de834
+711,Nandini Reddy,53,F,A3,d283acfb2d
+712,Prasad Shetty,42,M,A1,7a0ecc7a7c
+712,Anil Naik,41,M,A2,7bc3390d86
+713,Santosh Rao,22,M,A1,fbd9b1cfbb
+713,Srinivas Reddy,36,M,A2,e50da3eaba
+713,Ravi Gowda,29,M,A3,644531d954
+714,Mahesh Rao,31,M,A1,531f79391c
+715,Santosh Patil,24,M,A1,06d2756014
+716,Kiran Achar,20,M,A1,8f3a45db0d
+717,Mahesh Gowda,54,M,A1,5fcf0fcf0a
+718,Srinivas Gowda,26,M,A1,7221181409
+718,Santosh Patil,55,M,A2,99169c5623
+718,Naveen Kumar,20,M,A3,bf89251e06
+719,Lakshmi,53,F,A1,95a6196d01
+720,Anitha Achar,18,F,A1,2e69df58a0
+721,Raju Rao,53,M,A1,92734f8c77
+722,Ramesh,29,M,A1,1fa2df2658
+723,Sowmya Achar,47,F,A1,308aa5529b
+723,Prasad,49,M,A2,0628fe9ed5
+724,Shivakumar Rao,50,M,A1,1b8a392dd1
+724,Srinivas Hegde,41,M,A2,771db33f87
+724,Raju Shetty,43,M,A3,acda4004f2
+725,Sowmya,33,F,A1,082f3ceb1b
+725,Chaitra Achar,39,F,A2,b578875727
+726,Vinay Naik,53,M,A1,c099bc3477
+726,Naveen Reddy,44,M,A2,40fc0c9baf
+726,Anil Reddy,21,M,A3,337c8b8017
+727,Ravi Hegde,28,M,A1,764788eb7d
+727,Nandini Achar,32,F,A2,00c749bb63
+727,Naveen Reddy,21,M,A3,03314c75d6
+728,Shivakumar Kumar,38,M,A1,1df568e3dc
+729,Savitri Hegde,38,F,A1,e9274d3c14
+729,Anil Hegde,48,M,A2,513edcf0c3
+730,Santosh Gowda,41,M,A1,9b186a6363
+731,Manjula Reddy,42,F,A1,20c0e652fa
+732,Manjunath Patil,21,M,A1,2f07198e80
+733,Vinay Gowda,53,M,A1,6514a20c5b
+734,Mahesh Poojary,42,M,A1,0c1beaf8c2
+735,Vinay Hegde,26,M,A1,57fadd7d72
+736,Chaitra Reddy,36,F,A1,ac34594c38
+737,Sowmya Poojary,36,F,A1,8df30fa71c
+738,Naveen Kumar,49,M,A1,b7ac73f05f
+739,Ganesh Patil,35,M,A1,7c17aee264
+740,Nagaraj Hegde,22,M,A1,e79545057c
+741,Ganesh Poojary,26,M,A1,daa977b074
+741,Prasad Reddy,41,M,A2,b366a05fdf
+741,Radha Hegde,29,F,A3,52d13ad448
+742,Kiran Gowda,47,M,A1,307c9b2abd
+743,Savitri Naik,40,F,A1,dce7e9185b
+744,Lakshmi,24,F,A1,c3538ff4cd
+745,Srinivas Rao,29,M,A1,3f1f054ddd
+745,Raju Reddy,18,M,A2,59429409b9
+746,Praveen Patil,45,M,A1,480abc40ec
+747,Shobha Shetty,19,F,A1,2a0d9ad45f
+748,Vinay Reddy,54,M,A1,9acbb9fff8
+748,Nagaraj Naik,36,M,A2,b577f5a048
+749,Deepa Kumar,47,F,A1,bc9b672450
+749,Santosh Gowda,48,M,A2,9ef138e4a5
+750,Lakshmi Shetty,20,F,A1,fc1610a63b
+750,Ravi Reddy,50,M,A2,df19a46303
+751,Nagaraj Kumar,49,M,A1,ce7f011699
+751,Ravi Rao,37,M,A2,3b24e3bf27
+752,Ramesh Rao,48,M,A1,9d7168a9b3
+752,Shobha Achar,36,F,A2,4e67b24687
+753,Ramesh Rao,47,M,A1,d5db12634e
+754,Nagaraj Kumar,19,M,A1,a3072550d3
+755,Raju Shetty,43,M,A1,acda4004f2
+756,Santosh Shetty,50,M,A1,1066c61500
+757,Nagaraj Poojary,19,M,A1,c904608411
+757,Praveen Rao,51,M,A2,4c5685600e
+757,Vinay Hegde,33,M,A3,366e3fccd1
+758,Nagaraj Rao,36,M,A1,2821b291a9
+759,Manjunath Kumar,37,M,A1,743b57beec
+760,Praveen Reddy,36,M,A1,02203bf989
+761,Manjunath Naik,20,M,A1,3d5e4875b9
+762,Santosh,39,M,A1,54b8e42b4c
+762,Nagaraj Poojary,49,M,A2,c6e9d34e30
+762,Srinivas Hegde,35,M,A3,1877e38620
+763,Kiran,41,M,A1,06024c4bac
+763,Savitri Kumar,41,F,A2,b9ea7b4cd4
+764,Raju Reddy,52,M,A1,c60021a6be
+764,Radha Naik,27,F,A2,51402f8989
+765,Srinivas Kumar,20,M,A1,bcea663ab8
+766,Manjunath Patil,22,M,A1,2f07198e80
+767,Sushma Reddy,46,F,A1,95d3c511db
+767,Sushma Hegde,45,F,A2,05f305b861
+768,Mahesh Patil,55,M,A1,3e490e9c19
+769,Srinivas Rao,39,M,A1,4d69f0417b
+769,Ganesh Patil,20,M,A2,c9954088ad
+769,Kavya Naik,21,F,A3,025d1715c5
+770,Basavaraj Achar,41,M,A1,91a4aa82eb
+771,Savitri Gowda,20,F,A1,0b8bf5100d
+772,Lakshmi Rao,44,F,A1,fa688b4415
+773,Bhavani Hegde,21,F,A1,7dd47edacd
+773,Mahesh Patil,25,M,A2,304d4c8505
+774,Praveen Naik,25,M,A1,57030ef5b0
+775,Anitha Achar,28,F,A1,2b34138ddd
+776,Sowmya Reddy,33,F,A1,6595208353
+777,Praveen Poojary,20,M,A1,e8934ddf80
+778,Naveen Naik,48,M,A1,dc883f2ed9
+778,Ramesh Rao,18,M,A2,2f7a86ac52
+778,Kiran Rao,40,M,A3,8d8053a9fe
+779,Vinay Kumar,23,M,A1,211ea77001
+780,Lakshmi Naik,28,F,A1,37abe83ba5
+781,Ravi Naik,49,M,A1,237e92012f
+782,Raju,55,M,A1,ef30674f85
+782,Naveen Shetty,51,M,A2,8e32d06c27
+783,Kiran Patil,49,M,A1,b1b9f58bd7
+784,Geetha Reddy,53,F,A1,4265347d37
+785,Raju Patil,42,M,A1,fc93d762f9
+786,Ganesh Patil,51,M,A1,2f7ffcb892
+787,Ganesh Gowda,47,M,A1,fea0cceded
+787,Anil Naik,21,M,A2,2e819a4d68
+787,Santosh Achar,35,M,A3,f7b5a6c8f0
+788,Praveen Hegde,34,M,A1,2f2e335d7e
+788,Ganesh Hegde,39,M,A2,98c80131ba
+789,Srinivas Shetty,54,M,A1,8fd4b83893
+790,Raju Kumar,37,M,A1,3803c2a6eb
+791,Sowmya Patil,32,F,A1,5f837af663
+791,Suresh Shetty,48,M,A2,4871cb32a7
+791,Geetha Shetty,39,F,A3,cda3aefa8e
+792,Praveen Gowda,40,M,A1,445b62a0ec
+793,Mahesh,34,M,A1,09c813696c
+793,Anitha Shetty,52,F,A2,28cfd0647c
+794,Vinay Patil,38,M,A1,be4db48ac1
+795,Sushma,27,F,A1,65b82ded52
+795,Nagaraj Patil,54,M,A2,544585a75c
+795,Naveen Rao,30,M,A3,4096650555
+796,Shivakumar Reddy,48,M,A1,e7082e492d
+797,Kiran Poojary,41,M,A1,c8a8c41290
+798,Kiran Hegde,27,M,A1,269ce8a60b
+799,Praveen Hegde,36,M,A1,30df68ebd3
+799,Manjula Gowda,25,F,A2,d6985b077a
+800,Naveen Reddy,18,M,A1,176bdd45d4
+800,Srinivas Gowda,30,M,A2,cbcb3f07fb
+800,Savitri Poojary,31,F,A3,b645cad347
+801,Manjunath,31,M,A1,f9aae103de
+802,Sushma Kumar,40,F,A1,27403c76fa
+803,Suresh Gowda,27,M,A1,fcee82d178
+804,Shobha Poojary,21,F,A1,1c5b53682b
+805,Deepa Poojary,19,F,A1,d5cffc07d3
+806,Nagaraj Naik,50,M,A1,59533df5af
+807,Ravi Patil,24,M,A1,a2b499f7ef
+808,Praveen Kumar,21,M,A1,627a7efcca
+809,Anitha Naik,20,F,A1,28b1796a2f
+809,Raju Achar,43,M,A2,612af6d329
+809,Vinay Kumar,24,M,A3,5c46208b80
+810,Ravi Hegde,45,M,A1,eeb79adb6b
+811,Santosh Achar,42,M,A1,da89b61398
+812,Praveen Patil,37,M,A1,5f2386dcc0
+813,Ganesh Rao,23,M,A1,cbfdae6baa
+814,Mahesh Rao,41,M,A1,9bf4c99cfb
+815,Ramesh Kumar,23,M,A1,12bad21c83
+816,Kiran Naik,38,M,A1,441723fb60
+816,Anil,20,M,A2,16b0a6a936
+817,Srinivas Rao,28,M,A1,3f1f054ddd
+817,Kiran Gowda,18,M,A2,e53b9cf2ae
+818,Mahesh Rao,35,M,A1,e6d0b40472
+819,Manjula Reddy,33,F,A1,c0616a6685
+820,Manjula Patil,31,F,A1,3a0cd6d208
+821,Naveen,40,M,A1,959198b4a1
+822,Manjula Naik,48,F,A1,a8f99f52b0
+823,Nandini Patil,31,F,A1,96d71e68e3
+824,Prasad Naik,27,M,A1,94d230fd3e
+825,Manjula Rao,49,F,A1,ac2438c041
+825,Manjula Patil,18,F,A2,f521935008
+826,Praveen,24,M,A1,463de2e7e2
+827,Santosh Hegde,22,M,A1,a7e81f600c
+828,Raju Naik,42,M,A1,44942a5725
+829,Ganesh Kumar,19,M,A1,0e3e8c1d75
+829,Vinay Rao,45,M,A2,7a77dbc1d8
+829,Prasad Kumar,47,M,A3,c0291d45b0
+830,Vinay Shetty,45,M,A1,8e666a58e4
+831,Ganesh Achar,20,M,A1,2f3320ee39
+832,Radha Gowda,25,F,A1,74ca512663
+833,Pooja Shetty,32,F,A1,763ffed1a1
+834,Suresh Achar,34,M,A1,5b5c4a578e
+834,Kavya Rao,27,F,A2,6a568edb04
+835,Ravi,44,M,A1,9681c020bc
+836,Shivakumar,53,M,A1,6fbc7d98d9
+836,Basavaraj Hegde,51,M,A2,26894386b9
+836,Kiran Rao,20,M,A3,b0c5a10989
+837,Anil Hegde,41,M,A1,5dbe3a119c
+838,Radha Naik,18,F,A1,c5b37a6578
+838,Raju Rao,40,M,A2,3037bead63
+839,Ramesh Gowda,22,M,A1,9b062d299b
+839,Sushma Hegde,34,F,A2,f2fe9f8fa4
+840,Basavaraj Rao,46,M,A1,4ee99d90e9
+841,Basavaraj Patil,29,M,A1,29d4ff1f82
+842,Ganesh,29,M,A1,8228bcd720
+842,Ravi,25,M,A2,3fa9139afe
+843,Radha Poojary,53,F,A1,05802dc61d
+844,Mahesh,40,M,A1,7cd520c339
+845,Praveen Naik,51,M,A1,290202412f
+846,Shivakumar Patil,30,M,A1,7eeacfcb2d
+846,Kiran Naik,39,M,A2,332e12ff15
+847,Mahesh Gowda,42,M,A1,96ac2fe154
+847,Basavaraj Reddy,40,M,A2,c532ce8bdb
+847,Vinay Gowda,29,M,A3,2489d90bfb
+848,Anil Reddy,47,M,A1,3c45cf2a17
+849,Manjula Rao,43,F,A1,03c6fa2931
+850,Manjunath Reddy,46,M,A1,92892bef38
+851,Mahesh Hegde,39,M,A1,7be1daa6f7
+851,Mahesh Hegde,49,M,A2,05559d5207
+852,Nandini Reddy,19,F,A1,4c4e6320a2
+852,Sushma Gowda,18,F,A2,bfe7325ae3
+853,Praveen Gowda,46,M,A1,5b48d9621a
+854,Anil Kumar,35,M,A1,be5e727677
+855,Sushma Poojary,54,F,A1,c051c35710
+856,Prasad Achar,54,M,A1,d977e93a48
+856,Ganesh Reddy,28,M,A2,64f4f0fa21
+857,Lakshmi Gowda,52,F,A1,70ab900aea
+858,Chaitra,48,F,A1,975e56ceaa
+858,Bhavani Rao,18,F,A2,8b6842efce
+859,Nandini,40,F,A1,9da9cf359b
+860,Manjunath Shetty,53,M,A1,e51eba0cdd
+861,Shivakumar Rao,51,M,A1,fb8aea35c3
+862,Kavya Poojary,43,F,A1,7ab6f615bb
+862,Mahesh Patil,36,M,A2,d70daa5705
+862,Ramesh,52,M,A3,9500f62153
+863,Prasad,32,M,A1,606e77ff7b
+864,Basavaraj Shetty,51,M,A1,3bec5e1d62
+865,Praveen Patil,55,M,A1,f4f53e9948
+866,Shobha Achar,50,F,A1,1d77cdfc41
+867,Anitha Hegde,25,F,A1,efab350ea9
+868,Ravi Shetty,52,M,A1,c1c4264938
+868,Praveen Gowda,26,M,A2,e27ad90531
+868,Ravi Gowda,54,M,A3,35dd732704
+869,Kiran Achar,38,M,A1,9a28aec69b
+870,Ganesh Rao,52,M,A1,563389be36
+871,Nandini Naik,18,F,A1,9bbf0c2e70
+871,Shivakumar Kumar,52,M,A2,b9994f69b2
+872,Kiran Hegde,29,M,A1,269ce8a60b
+872,Sushma Achar,44,F,A2,7719de302b
+873,Ganesh Shetty,52,M,A1,c80de2feee
+874,Kavya Reddy,54,F,A1,9249efe3ba
+875,Shobha Patil,39,F,A1,a6dafe8a00
+876,Radha Gowda,50,F,A1,2d9e905573
+876,Bhavani Gowda,37,F,A2,f8fcb09ab4
+876,Prasad Patil,35,M,A3,3854b07206
+877,Vinay Hegde,39,M,A1,aa5ea2f607
+877,Nagaraj Achar,55,M,A2,1ddb91a109
+878,Mahesh Gowda,46,M,A1,975a1d38ba
+878,Ganesh Poojary,51,M,A2,32ac4ff416
+879,Praveen Naik,47,M,A1,274aec0a65
+880,Nandini Achar,31,F,A1,00c749bb63
+880,Bhavani Poojary,20,F,A2,791d3113b7
+880,Raju Shetty,35,M,A3,08023fcaa3
+881,Deepa Rao,32,F,A1,92ca9174c2
+882,Prasad Poojary,21,M,A1,518fcf5ce4
+883,Praveen Patil,47,M,A1,480abc40ec
+883,Radha Naik,23,F,A2,07243447e1
+883,Mahesh Reddy,48,M,A3,8fca71a5c6
+884,Srinivas Naik,19,M,A1,c36e3595cb
+884,Sowmya Poojary,42,F,A2,0be6ab98f0
+885,Mahesh Poojary,54,M,A1,6c2b94d2e9
+886,Shobha Poojary,22,F,A1,1c5b53682b
+887,Ravi Poojary,40,M,A1,303a15bacd
+888,Suresh Shetty,42,M,A1,3f480ff7cd
+889,Basavaraj Patil,48,M,A1,d4d023dd57
+890,Manjula Patil,37,F,A1,75a0013d9f
+891,Manjunath Naik,46,M,A1,52cb565411
+892,Vinay Gowda,52,M,A1,6514a20c5b
+893,Kiran Poojary,32,M,A1,7939d5b05c
+893,Raju,41,M,A2,06f4ce2d27
+894,Praveen Reddy,20,M,A1,51b7e3d4b0
+895,Nagaraj Reddy,42,M,A1,3ac637d9ed
+896,Ravi Shetty,34,M,A1,ba503d7bdc
+897,Basavaraj Shetty,55,M,A1,da13cd5762
+898,Nagaraj,24,M,A1,def402d6b7
+898,Sowmya Reddy,37,F,A2,c4b0e2fb59
+898,Suresh Gowda,44,M,A3,29df63dda1
+899,Raju Rao,42,M,A1,dd3bf70d5e
+900,Kiran Patil,26,M,A1,1e8f2f52fa
+901,Raju Gowda,22,M,A1,8e2a91db43
+902,Santosh Rao,43,M,A1,b83a3a674b
+903,Ravi Shetty,47,M,A1,a9eab64d18
+904,Basavaraj Reddy,24,M,A1,ee0489343f
+905,Srinivas Reddy,23,M,A1,bde22e7a5f
+906,Savitri Patil,47,F,A1,ff7e5c52df
+907,Ramesh Rao,28,M,A1,663eb7c715
+907,Praveen Gowda,37,M,A2,e41cbc4845
+908,Anitha Patil,33,F,A1,7b991bb2f8
+908,Praveen Shetty,49,M,A2,20d44b535b
+908,Srinivas Patil,55,M,A3,c24b90d43b
+909,Kiran Reddy,35,M,A1,1535c0cb52
+910,Raju Hegde,22,M,A1,624e397456
+911,Praveen Achar,18,M,A1,3f56235675
+912,Naveen Hegde,46,M,A1,762270b934
+913,Raju Shetty,28,M,A1,c49e9f216d
+914,Anitha Hegde,27,F,A1,5e001bc67d
+914,Basavaraj Patil,30,M,A2,85213df47e
+914,Nagaraj Gowda,36,M,A3,d977886abd
+915,Srinivas Shetty,22,M,A1,8f501d545d
+916,Raju Patil,26,M,A1,d6171d5e66
+917,Ramesh Gowda,31,M,A1,02141db6b9
+918,Sushma Shetty,54,F,A1,cbca0f26e4
+919,Srinivas Achar,21,M,A1,512f4400d2
+919,Shobha Rao,26,F,A2,d968023840
+919,Manjunath Kumar,29,M,A3,33030a34ce
+920,Suresh Shetty,32,M,A1,c822dc993f
+921,Mahesh Gowda,24,M,A1,a7649dda5c
+922,Prasad Gowda,26,M,A1,7a4dbe0150
+923,Radha Naik,39,F,A1,ee7dd91c8b
+923,Manjunath Kumar,45,M,A2,4004f7d3b2
+923,Pooja Rao,23,F,A3,bb9ca7feca
+924,Srinivas Shetty,37,M,A1,097e5ea514
+925,Srinivas Kumar,41,M,A1,df037f5ead
+926,Mahesh Hegde,53,M,A1,7a6b6112e4
+927,Savitri Reddy,23,F,A1,5b5a93d582
+927,Ravi Shetty,40,M,A2,821b2f9e58
+928,Manjunath Kumar,41,M,A1,33aa596637
+928,Manjula Patil,40,F,A2,18045729e5
+928,Santosh Kumar,28,M,A3,3957dd6968
+929,Naveen Hegde,21,M,A1,3467981250
+929,Shivakumar Shetty,34,M,A2,916794633d
+930,Prasad Naik,31,M,A1,4fc16b6c9d
+930,Anil Shetty,24,M,A2,f04cc921b7
+930,Basavaraj Shetty,21,M,A3,7cdcf07dbe
+931,Raju Gowda,55,M,A1,125f044c87
+932,Deepa,43,F,A1,9eb3359dd6
+932,Basavaraj Poojary,54,M,A2,873304c211
+933,Ganesh Rao,18,M,A1,238b508c63
+934,Vinay,35,M,A1,06dfbbe711
+935,Shobha Rao,23,F,A1,629c25b328
+935,Sowmya,23,F,A2,c40943c2dd
+936,Nandini Shetty,41,F,A1,c810ea66eb
+937,Deepa Shetty,23,F,A1,c18acf4567
+938,Deepa Kumar,46,F,A1,bc9b672450
+939,Raju Shetty,36,M,A1,bac5a851d9
+940,Kiran Shetty,34,M,A1,62d22e1ff4
+941,Kiran Hegde,20,M,A1,658fb39dba
+942,Raju Naik,43,M,A1,44942a5725
+943,Anil Shetty,51,M,A1,3c3d077696
+943,Shivakumar Patil,33,M,A2,1c6fdb8989
+943,Ravi Shetty,26,M,A3,3ddadc2aa0
+944,Deepa Shetty,23,F,A1,c18acf4567
+944,Shivakumar Naik,26,M,A2,21977d45e4
+944,Pooja Poojary,50,F,A3,abd660d384
+945,Prasad Kumar,27,M,A1,8e40c14665
+946,Prasad Kumar,45,M,A1,c0291d45b0
+947,Shivakumar Naik,43,M,A1,06791129b6
+948,Shivakumar Shetty,38,M,A1,e641b86c15
+949,Ravi Poojary,48,M,A1,419e62f640
+950,Mahesh Kumar,37,M,A1,b9bb32639f
+950,Santosh Rao,39,M,A2,ea5a203914
+950,Kiran Rao,50,M,A3,067cf1b879
+951,Geetha Kumar,26,F,A1,e002539355
+952,Kiran Shetty,41,M,A1,3b54529181
+953,Shivakumar Poojary,25,M,A1,a5a537f8a4
+954,Lakshmi Patil,33,F,A1,41ade3710c
+954,Ramesh,23,M,A2,da4ead9435
+955,Suresh Rao,40,M,A1,ecc3c84659
+956,Naveen Kumar,49,M,A1,b7ac73f05f
+956,Nandini,26,F,A2,391a478fdd
+956,Basavaraj Achar,42,M,A3,5615314f5a
+957,Nagaraj Reddy,37,M,A1,d90271ccc6
+958,Ganesh Poojary,21,M,A1,7a05448e14
+958,Prasad Hegde,38,M,A2,c411d5e8b8
+959,Savitri Achar,44,F,A1,10de8f0463
+960,Naveen Gowda,25,M,A1,611a324817
+961,Naveen Reddy,45,M,A1,f88ec7f894
+962,Radha Shetty,23,F,A1,05bb530ae8
+963,Manjunath Hegde,55,M,A1,092f077b9f
+963,Bhavani Hegde,25,F,A2,b4123ee8ae
+964,Suresh Patil,45,M,A1,a7fd417323
+965,Kavya Poojary,52,F,A1,c11d8a43ff
+966,Srinivas Achar,45,M,A1,b90c1ec8ce
+966,Geetha Gowda,46,F,A2,f5cba11fe7
+967,Basavaraj Hegde,31,M,A1,603a54b5df
+968,Ganesh Achar,46,M,A1,094c166f63
+969,Shivakumar Hegde,21,M,A1,65aaf638b9
+970,Kiran Hegde,48,M,A1,f8b7d63298
+970,Suresh Reddy,35,M,A2,9a09a4c20b
+970,Naveen Kumar,35,M,A3,e699a064b1
+971,Suresh Rao,28,M,A1,560787158b
+972,Ravi Hegde,21,M,A1,e40a059def
+972,Suresh Patil,21,M,A2,c44f07f8bd
+973,Geetha Naik,38,F,A1,7be377da62
+974,Ganesh Naik,50,M,A1,cd3301fc6c
+975,Suresh Shetty,27,M,A1,bd3f195614
+976,Kavya Achar,21,F,A1,35de84c8c4
+977,Raju,51,M,A1,f510eca98a
+977,Ramesh Shetty,47,M,A2,ee0f686147
+977,Srinivas Poojary,45,M,A3,baa202310e
+978,Nagaraj Achar,30,M,A1,c44a5c3f91
+979,Mahesh Achar,23,M,A1,4c1639fe6f
+979,Nandini Gowda,37,F,A2,26479eee0c
+979,Basavaraj Rao,51,M,A3,88acb37fb5
+980,Ramesh Shetty,39,M,A1,be49b8e8ee
+980,Sushma Reddy,41,F,A2,92da314a8b
+981,Ravi Achar,35,M,A1,2e3c876f77
+982,Chaitra Reddy,36,F,A1,ac34594c38
+983,Mahesh Reddy,52,M,A1,be99f3f74a
+984,Prasad Achar,35,M,A1,66c52825c1
+984,Shivakumar Hegde,37,M,A2,f7a700a116
+985,Praveen,24,M,A1,463de2e7e2
+986,Radha Naik,20,F,A1,c5b37a6578
+987,Kavya Rao,42,F,A1,ab5c79f7cd
+988,Praveen Naik,38,M,A1,2490fdc9bd
+988,Mahesh Shetty,29,M,A2,28bd5093de
+988,Mahesh Shetty,47,M,A3,d535f86f2b
+989,Mahesh Reddy,44,M,A1,044f3ac42c
+990,Shivakumar Naik,48,M,A1,5c9c009d90
+991,Basavaraj Shetty,49,M,A1,29cdf8d059
+991,Manjula Reddy,46,F,A2,a56beebec9
+991,Suresh Gowda,46,M,A3,efb2710712
+992,Manjunath Shetty,20,M,A1,c2d4b724e8
+992,Prasad Rao,29,M,A2,ce6a6cadc6
+993,Pooja Poojary,33,F,A1,2e6c7053d2
+993,Kiran Hegde,51,M,A2,525c67fc44
+994,Srinivas,32,M,A1,1990ff65fa
+995,Kiran Hegde,31,M,A1,8c7bf6dc00
+996,Basavaraj Rao,46,M,A1,4ee99d90e9
+997,Praveen Shetty,26,M,A1,c8d252e327
+998,Kavya Hegde,32,F,A1,80dd211d76
+999,Sushma,21,F,A1,45a66936d1
+1000,Radha Gowda,37,F,A1,827337fb08
+1001,Basavaraj Patil,44,M,A1,3cdf79e856
+1001,Lakshmi Hegde,24,F,A2,9b3eb905d2
+1001,Santosh Kumar,38,M,A3,5ee25a0b6d
+1002,Sowmya Kumar,49,F,A1,349ec73ffa
+1002,Suresh Reddy,35,M,A2,9a09a4c20b
+1003,Ganesh Hegde,49,M,A1,6ed084186d
+1004,Ramesh Achar,21,M,A1,6a7163baef
+1004,Nagaraj Poojary,24,M,A2,3fc3a08a41
+1004,Shivakumar,48,M,A3,21b0192534
+1005,Bhavani Hegde,31,F,A1,8cf2bae14c
+1005,Basavaraj Hegde,25,M,A2,55826716bb
+1005,Ravi Reddy,44,M,A3,7c01675a8c
+1006,Anitha Patil,40,F,A1,7edf671e58
+1007,Savitri Patil,31,F,A1,1ba813372d
+1008,Naveen Reddy,22,M,A1,03314c75d6
+1009,Prasad Hegde,35,M,A1,83699cca3e
+1010,Kavya Kumar,42,F,A1,df7c23f03b
+1011,Prasad Patil,50,M,A1,7390e4b2c0
+1012,Shobha Shetty,23,F,A1,2c6f1f9ddc
+1012,Shivakumar Kumar,44,M,A2,3d0638aa11
+1013,Kavya Achar,37,F,A1,ada476f701
+1014,Lakshmi,42,F,A1,9ce7457281
+1015,Anil Patil,32,M,A1,577009ed89
+1016,Bhavani Poojary,20,F,A1,791d3113b7
+1016,Kiran Poojary,53,M,A2,1299f8364c
+1016,Ramesh Shetty,39,M,A3,be49b8e8ee
+1017,Srinivas Reddy,41,M,A1,4955705cb4
+1017,Kiran Hegde,25,M,A2,8bab0fdee9
+1018,Nagaraj Rao,19,M,A1,b2375de405
+1019,Basavaraj Rao,18,M,A1,e64360db75
+1020,Ganesh,25,M,A1,5b228625a7
+1021,Anitha Naik,50,F,A1,112eb96b9f
+1022,Srinivas Reddy,23,M,A1,bde22e7a5f
+1023,Anil Poojary,27,M,A1,e5128b94ea
+1024,Raju Kumar,34,M,A1,88e01381c6
+1025,Mahesh Naik,24,M,A1,03f57ed22a
+1026,Manjunath Reddy,27,M,A1,6320b58626
+1026,Santosh Gowda,27,M,A2,a17ec63071
+1026,Vinay Patil,23,M,A3,4bbc134826
+1027,Vinay Reddy,20,M,A1,0a36a4e8f2
+1028,Geetha,18,F,A1,64d41d1f3d
+1028,Basavaraj Patil,51,M,A2,c44035c8fb
+1028,Vinay Kumar,35,M,A3,a50c61c6fd
+1029,Ramesh Kumar,26,M,A1,7b9f763049
+1029,Chaitra Shetty,31,F,A2,be522c1ae9
+1029,Kiran Kumar,29,M,A3,c312b6e9ab
+1030,Pooja Reddy,25,F,A1,877b718321
+1031,Basavaraj Poojary,36,M,A1,87589da342
+1032,Lakshmi Rao,39,F,A1,27f358f7b4
+1033,Vinay Rao,51,M,A1,209444926d
+1034,Raju Shetty,24,M,A1,37f37c6c5f
+1035,Nagaraj Reddy,44,M,A1,3ac637d9ed
+1036,Ramesh Gowda,22,M,A1,9b062d299b
+1037,Savitri Kumar,53,F,A1,d156fe5f4c
+1038,Shivakumar Poojary,21,M,A1,fc1c269a17
+1039,Bhavani Naik,49,F,A1,d2188b7d56
+1040,Kavya Gowda,51,F,A1,97836a1c49
+1041,Santosh Achar,42,M,A1,da89b61398
+1042,Praveen Poojary,45,M,A1,a908ff68e4
+1043,Santosh Poojary,44,M,A1,3847e7bd89
+1044,Anil Reddy,20,M,A1,08d9cc0bda
+1044,Prasad Hegde,37,M,A2,c411d5e8b8
+1044,Santosh Gowda,31,M,A3,597df54d48
+1045,Kiran Shetty,21,M,A1,0b86b43452
+1046,Ganesh Hegde,22,M,A1,f3a5f23bd9
+1047,Manjunath Shetty,19,M,A1,c2d4b724e8
+1048,Vinay Achar,53,M,A1,24c5574eec
+1049,Ramesh Naik,45,M,A1,73f346972b
+1050,Raju Poojary,49,M,A1,f883e9f984
+1051,Sowmya Achar,38,F,A1,fd2ebcaf88
+1052,Anil Reddy,46,M,A1,3c45cf2a17
+1053,Santosh Shetty,50,M,A1,1066c61500
+1054,Praveen Patil,42,M,A1,73aff75ca0
+1055,Raju Reddy,23,M,A1,eddf081b3b
+1056,Nagaraj Rao,51,M,A1,4c84a5d8d7
+1057,Basavaraj Kumar,30,M,A1,fc65f293cd
+1057,Deepa Naik,38,F,A2,27f3947d36
+1058,Basavaraj Achar,26,M,A1,ffca25e3a3
+1058,Naveen Poojary,39,M,A2,367fdd7a97
+1058,Bhavani,43,F,A3,a4e79af1b4
+1059,Vinay,36,M,A1,737c9da0e1
+1060,Naveen Naik,28,M,A1,86a1d4abdb
+1061,Santosh Hegde,55,M,A1,97510e4817
+1062,Prasad Kumar,29,M,A1,8e40c14665
+1063,Ramesh Kumar,44,M,A1,4e1a050cbe
+1064,Praveen Poojary,19,M,A1,e8934ddf80
+1065,Sowmya Naik,55,F,A1,43196bcad3
+1066,Suresh Shetty,35,M,A1,568709a663
+1067,Praveen,42,M,A1,26bfa0fc22
+1068,Suresh Rao,44,M,A1,49f5b7102e
+1069,Raju Rao,50,M,A1,29970a2acb
+1070,Santosh Gowda,41,M,A1,9b186a6363
+1071,Ramesh Rao,34,M,A1,73efe00391
+1072,Geetha Shetty,37,F,A1,21a1ca2e1d
+1072,Ramesh Achar,51,M,A2,9f53bad4cc
+1073,Chaitra Patil,20,F,A1,699ed3e36f
+1074,Manjula Gowda,44,F,A1,df48a55b27
+1074,Prasad Achar,51,M,A2,2b05921e5b
+1074,Manjula,32,F,A3,2d15193ecc
+1075,Kiran Naik,46,M,A1,03414cfae9
+1075,Vinay Kumar,22,M,A2,211ea77001
+1076,Manjunath Shetty,25,M,A1,2a2d89178b
+1077,Anil Achar,30,M,A1,f92da3d435
+1078,Mahesh Naik,51,M,A1,412e263b11
+1079,Suresh Kumar,23,M,A1,8948646262
+1080,Basavaraj Gowda,30,M,A1,dabc39e5ac
+1081,Naveen,19,M,A1,b413757e3c
+1082,Ramesh Patil,46,M,A1,c99409b779
+1082,Ramesh Rao,55,M,A2,96d0cc074d
+1082,Manjula Poojary,21,F,A3,66f38a298e
+1083,Manjula Patil,52,F,A1,5e63f25d7b
+1084,Ramesh Shetty,32,M,A1,7d64933121
+1085,Raju Shetty,50,M,A1,383a400746
+1086,Ravi Reddy,45,M,A1,67765188cb
+1087,Sushma Poojary,28,F,A1,48c99f3fd9
+1088,Naveen Rao,34,M,A1,4ec988f374
+1089,Suresh Naik,49,M,A1,70bee3cba5
+1089,Kiran Gowda,31,M,A2,f561467d91
+1090,Chaitra Patil,28,F,A1,e38f4c639e
+1091,Chaitra,36,F,A1,5745393c3f
+1091,Ravi Naik,41,M,A2,8ed1e793d7
+1091,Kavya Shetty,23,F,A3,ba53a9497c
+1092,Manjunath Rao,45,M,A1,e3ececd0d2
+1093,Anil Gowda,24,M,A1,3dff6f737b
+1093,Pooja Hegde,55,F,A2,7e2ceeb3b1
+1093,Manjunath Hegde,43,M,A3,68e147b2d7
+1094,Raju Reddy,36,M,A1,757562ec1c
+1095,Shivakumar Rao,26,M,A1,6a62dff7d5
+1095,Mahesh Gowda,44,M,A2,96ac2fe154
+1095,Praveen Kumar,55,M,A3,c0578bf3eb
+1096,Srinivas,38,M,A1,a35345a839
+1097,Srinivas Achar,18,M,A1,aeb68d4249
+1098,Nagaraj Poojary,55,M,A1,328ff9acc4
+1099,Nagaraj Rao,25,M,A1,87acb28cd0
+1100,Shobha Rao,42,F,A1,0f30068f09
+1100,Naveen Poojary,50,M,A2,4a2f15178c
+1100,Manjunath Poojary,47,M,A3,418dfeeba3
+1101,Mahesh Patil,42,M,A1,7285db1281
+1102,Anil Kumar,24,M,A1,5e8b91dede
+1102,Kavya Reddy,39,F,A2,2966ee668e
+1103,Ravi Rao,50,M,A1,ecb83bb0e9
+1104,Suresh Rao,19,M,A1,17fad7e73e
+1105,Ganesh Hegde,23,M,A1,f3a5f23bd9
+1106,Ganesh Shetty,53,M,A1,c80de2feee
+1107,Anitha Patil,21,F,A1,3ffa066313
+1108,Savitri Hegde,38,F,A1,e9274d3c14
+1108,Basavaraj Shetty,39,M,A2,f9c910ecfa
+1108,Raju Shetty,45,M,A3,2b7ab8f712
+1109,Kiran Shetty,30,M,A1,7dc85b6ab2
+1110,Suresh Naik,27,M,A1,61d937a735
+1111,Mahesh Patil,49,M,A1,cb6b6309df
+1111,Prasad Naik,19,M,A2,e270955c1e
+1111,Srinivas Kumar,44,M,A3,cec864b426
+1112,Nandini Hegde,40,F,A1,eee49dabd1
+1112,Naveen,37,M,A2,bfd3af2629
+1113,Mahesh Rao,52,M,A1,6a2a372bec
+1113,Suresh Hegde,40,M,A2,749132647f
+1113,Shivakumar Rao,47,M,A3,4785de9dcf
+1114,Kiran Hegde,49,M,A1,f8b7d63298
+1115,Ravi Poojary,38,M,A1,7839ac7799
+1116,Praveen Kumar,54,M,A1,c0578bf3eb
+1116,Deepa Achar,29,F,A2,144e2d21bc
+1116,Nandini Naik,19,F,A3,9bbf0c2e70
+1117,Ganesh Poojary,40,M,A1,a19b68d7f1
+1117,Naveen Naik,23,M,A2,6779368f19
+1118,Lakshmi Achar,33,F,A1,770d6cb978
+1119,Anitha Poojary,19,F,A1,df03b3448e
+1119,Raju,54,M,A2,ef30674f85
+1119,Mahesh Rao,26,M,A3,cede274dc4
+1120,Bhavani Kumar,22,F,A1,61ef45b2d3
+1120,Raju Poojary,28,M,A2,61989b9dbb
+1121,Prasad Patil,54,M,A1,ac2cae484e
+1121,Shivakumar Kumar,19,M,A2,1594141508
+1121,Ganesh Gowda,23,M,A3,b1957d741d
+1122,Nandini Naik,24,F,A1,039d865df3
+1123,Deepa Rao,51,F,A1,64a2318d18
+1124,Kiran Rao,21,M,A1,a0c565699a
+1124,Shivakumar Kumar,53,M,A2,b9994f69b2
+1124,Naveen Reddy,23,M,A3,03314c75d6
+1125,Naveen Achar,19,M,A1,b4a678b78c
+1126,Prasad Gowda,48,M,A1,2002a2d9b7
+1127,Sushma Kumar,33,F,A1,a508a48715
+1128,Vinay,23,M,A1,6e92d50bcb
+1129,Kiran Kumar,55,M,A1,dd41a841a7
+1129,Vinay Shetty,20,M,A2,26a42caf42
+1129,Sowmya Patil,33,F,A3,92dffe13e1
+1130,Kavya Kumar,20,F,A1,d6acdc3863
+1131,Suresh Rao,31,M,A1,44f19b4083
+1132,Praveen Kumar,48,M,A1,3d0fa7de50
+1133,Manjula Reddy,35,F,A1,c0616a6685
+1134,Manjunath Gowda,39,M,A1,75979d3baa
+1134,Prasad Reddy,46,M,A2,e8b2e4cb92
+1134,Savitri Gowda,25,F,A3,fde3377fdd
+1135,Santosh Patil,36,M,A1,16200c7fb5
+1136,Suresh Poojary,23,M,A1,cf3e886e5d
+1136,Srinivas Reddy,50,M,A2,bc0d0f3d04
+1136,Mahesh Poojary,30,M,A3,32ee054ae6
+1137,Praveen Poojary,51,M,A1,503eaed138
+1138,Mahesh Shetty,23,M,A1,829e0431b4
+1139,Manjunath Shetty,46,M,A1,94afa507d7
+1139,Naveen Reddy,46,M,A2,f88ec7f894
+1140,Raju,46,M,A1,382bf07898
+1141,Nandini Poojary,46,F,A1,3ede561e27
+1141,Ramesh Hegde,38,M,A2,8d9c570ed3
+1141,Ramesh,19,M,A3,c6c6f7a3bc
+1142,Suresh Rao,40,M,A1,ecc3c84659
+1143,Bhavani Reddy,44,F,A1,ac8346105b
+1143,Anitha Kumar,43,F,A2,d65f453569
+1143,Nagaraj Patil,33,M,A3,01e4d45343
+1144,Nagaraj Rao,42,M,A1,f2c1c5b8c2
+1145,Ganesh Gowda,45,M,A1,fea0cceded
+1146,Prasad Achar,41,M,A1,86d991afef
+1147,Ramesh,50,M,A1,f5c22a9b6d
+1148,Nagaraj,39,M,A1,0abdf2ea55
+1148,Ganesh,37,M,A2,4d0ccf937d
+1149,Chaitra Patil,42,F,A1,240beee39c
+1150,Basavaraj Patil,24,M,A1,5c9a1025d8
+1150,Ravi Hegde,41,M,A2,b8117a8a10
+1150,Ramesh Gowda,19,M,A3,456692de7c
+1151,Deepa Rao,42,F,A1,2817e2f5af
+1152,Lakshmi Rao,24,F,A1,1e811f3f4e
+1153,Bhavani Naik,42,F,A1,409c37042f
+1153,Srinivas Achar,25,M,A2,21f100512a
+1153,Savitri Hegde,52,F,A3,b6c07ef1b5
+1154,Raju Achar,54,M,A1,744ead4cc1
+1155,Ramesh Kumar,30,M,A1,3e2dec1ba6
+1155,Naveen,45,M,A2,d17377fee7
+1155,Shivakumar Kumar,47,M,A3,00e2f513ce
+1156,Srinivas Patil,38,M,A1,c4cc170ce1
+1157,Raju,41,M,A1,06f4ce2d27
+1158,Lakshmi Patil,38,F,A1,4780b35ed2
+1159,Ravi Kumar,28,M,A1,f0376f5344
+1159,Praveen Poojary,35,M,A2,3487af9ba2
+1159,Shobha Hegde,50,F,A3,cb7a519e20
+1160,Vinay Hegde,28,M,A1,878365c78b
+1161,Vinay,18,M,A1,53bc733c5b
+1162,Prasad Shetty,30,M,A1,bb97d3bd7e
+1162,Sowmya Kumar,54,F,A2,df0e593d4e
+1162,Prasad Reddy,44,M,A3,4b0b185b92
+1163,Ravi Achar,48,M,A1,9f7801f731
+1164,Ganesh Hegde,25,M,A1,1d77ba9d47
+1164,Srinivas Rao,26,M,A2,1fa4032bcb
+1165,Geetha Achar,22,F,A1,abac28621d
+1165,Vinay Achar,52,M,A2,24c5574eec
+1165,Mahesh Naik,47,M,A3,11308b45ed
+1166,Manjunath Achar,53,M,A1,2410f19576
+1167,Ganesh Poojary,21,M,A1,7a05448e14
+1167,Ganesh Rao,45,M,A2,2737140e0a
+1167,Deepa Reddy,22,F,A3,ebbf5919c8
+1168,Ramesh Patil,30,M,A1,aa972bef7b
+1169,Raju Patil,44,M,A1,fc93d762f9
+1170,Anitha Naik,26,F,A1,a412749fa5
+1170,Sushma Kumar,52,F,A2,c48423ee82
+1170,Raju Hegde,22,M,A3,624e397456
+1171,Ganesh,47,M,A1,8aa0b2efbb
+1172,Geetha Kumar,25,F,A1,e002539355
+1173,Shivakumar Naik,25,M,A1,21977d45e4
+1174,Ganesh Hegde,25,M,A1,1d77ba9d47
+1175,Manjunath Shetty,47,M,A1,94afa507d7
+1176,Sowmya,33,F,A1,082f3ceb1b
+1177,Anitha Shetty,37,F,A1,8998e8c266
+1178,Raju Naik,20,M,A1,be1d43aef6
+1179,Santosh Gowda,31,M,A1,597df54d48
+1180,Shobha Gowda,22,F,A1,4eb0bc50c9
+1181,Suresh Hegde,42,M,A1,fd5806d677
+1182,Ravi,19,M,A1,05daf1410c
+1183,Ravi Gowda,49,M,A1,73dc6bf1a4
+1184,Nagaraj Poojary,29,M,A1,aa97d66fd4
+1185,Manjunath,44,M,A1,969ffbb217
+1185,Ganesh Shetty,22,M,A2,10cc2f9aaa
+1186,Savitri Kumar,41,F,A1,b9ea7b4cd4
+1186,Nagaraj Kumar,32,M,A2,f403bf2632
+1187,Naveen Hegde,38,M,A1,1660f9400e
+1188,Sowmya Rao,37,F,A1,8c9dc77a4e
+1189,Srinivas Patil,41,M,A1,0717fced15
+1190,Basavaraj Hegde,33,M,A1,eca86631ff
+1191,Ravi Naik,49,M,A1,237e92012f
+1192,Prasad,19,M,A1,50ba4baad4
+1193,Srinivas Rao,39,M,A1,4d69f0417b
+1194,Santosh Gowda,29,M,A1,a17ec63071
+1195,Santosh Naik,42,M,A1,786cd8f8df
+1196,Santosh Rao,28,M,A1,631e3022f4
+1197,Chaitra Rao,50,F,A1,78eb0e1fb3
+1198,Chaitra Hegde,34,F,A1,c99e4af130
+1199,Pooja Shetty,54,F,A1,eab8b919c2
+1199,Prasad,44,M,A2,6e221d758b
+1200,Anil,42,M,A1,d664464ed4
+1201,Santosh,22,M,A1,bdb661b3da
+1201,Nagaraj Patil,39,M,A2,1a943b46bd
+1202,Nandini Poojary,54,F,A1,f4ab78b31a
+1202,Ganesh Kumar,36,M,A2,80f8be216e
+1202,Kavya Reddy,39,F,A3,2966ee668e
+1203,Shivakumar Gowda,39,M,A1,e7a9cb1032
+1204,Praveen Poojary,35,M,A1,3487af9ba2
+1205,Anil Reddy,21,M,A1,337c8b8017
+1206,Shivakumar Naik,24,M,A1,21977d45e4
+1206,Kavya Rao,19,F,A2,43f6ec744a
+1207,Basavaraj Rao,24,M,A1,cec8aa5def
+1208,Nagaraj Hegde,27,M,A1,ffcdc0e8ca
+1209,Ramesh,20,M,A1,c6c6f7a3bc
+1209,Nandini Shetty,44,F,A2,d0e91e53bf
+1209,Anil Reddy,48,M,A3,64a3bafff2
+1210,Pooja Rao,48,F,A1,cbf9999645
+1211,Shivakumar Naik,33,M,A1,1861fe48b2
+1211,Manjunath Hegde,34,M,A2,34028ce9a6
+1211,Suresh Hegde,25,M,A3,ca65641a58
+1212,Manjunath Naik,49,M,A1,453d0af85a
+1213,Manjula,21,F,A1,464f8b2344
+1213,Santosh Reddy,51,M,A2,84cba6d8eb
+1213,Lakshmi Kumar,22,F,A3,3b0d0a774e
+1214,Basavaraj Kumar,22,M,A1,48129e32e0
+1215,Sowmya Kumar,44,F,A1,086420a080
+1215,Ravi Hegde,55,M,A2,94e1999725
+1216,Ramesh Shetty,33,M,A1,8d0ededea5
+1217,Nagaraj,40,M,A1,0abdf2ea55
+1217,Deepa Kumar,47,F,A2,bc9b672450
+1217,Pooja Hegde,19,F,A3,a46f56b17c
+1218,Raju Kumar,41,M,A1,f27d2b80c2
+1219,Ravi Shetty,28,M,A1,ef1abe7f25
+1220,Kiran,24,M,A1,1b662b439f
+1221,Kiran Poojary,36,M,A1,3e9c5fcf0b
+1222,Savitri,52,F,A1,b7b3434a3d
+1222,Santosh Hegde,52,M,A2,f261256faa
+1222,Suresh Hegde,37,M,A3,86c4a149e3
+1223,Basavaraj Kumar,28,M,A1,5afff14b7b
+1223,Santosh Reddy,25,M,A2,d68948fad7
+1223,Manjula Hegde,21,F,A3,933435f4ed
+1224,Kiran Shetty,18,M,A1,727c7ce297
+1225,Basavaraj Gowda,51,M,A1,12443efc0b
+1225,Kiran Reddy,53,M,A2,016ca5b913
+1225,Sowmya Shetty,36,F,A3,2e0315ec79
+1226,Manjunath Shetty,20,M,A1,c2d4b724e8
+1227,Praveen,24,M,A1,463de2e7e2
+1228,Santosh,24,M,A1,92c5910990
+1229,Vinay Patil,54,M,A1,8a6f540ea7
+1230,Bhavani Hegde,24,F,A1,b4123ee8ae
+1230,Pooja Kumar,38,F,A2,43a8d19ed6
+1231,Anil Gowda,22,M,A1,ef3782b6f6
+1232,Shivakumar Rao,43,M,A1,e7f62f6578
+1233,Mahesh,54,M,A1,f04078eb67
+1234,Kavya Patil,52,F,A1,a2c793864a
+1235,Ravi,38,M,A1,9a63fbfdf9
+1236,Ravi Reddy,24,M,A1,6b5c783e03
+1237,Raju Poojary,52,M,A1,39ee5da726
+1237,Basavaraj Gowda,26,M,A2,268e0a76d4
+1238,Deepa,31,F,A1,46616e288e
+1239,Kiran Poojary,41,M,A1,c8a8c41290
+1240,Vinay Naik,33,M,A1,9062ddbd58
+1240,Nagaraj Reddy,21,M,A2,9ce3d4f35b
+1240,Ganesh Naik,38,M,A3,abb9430961
+1241,Radha Naik,41,F,A1,ee7dd91c8b
+1242,Shivakumar Hegde,22,M,A1,65aaf638b9
+1243,Chaitra Rao,27,F,A1,6c39b5e607
+1243,Srinivas Patil,43,M,A2,9611d5148e
+1244,Suresh,18,M,A1,0cfd5bc925
+1244,Anil Shetty,50,M,A2,c0788d40a9
+1244,Anil Hegde,35,M,A3,d3881508fe
+1245,Lakshmi Hegde,35,F,A1,b2c31a316b
+1245,Naveen Patil,33,M,A2,52bf905cb8
+1245,Ganesh,43,M,A3,8b8ec622c6
+1246,Ravi Hegde,21,M,A1,e40a059def
+1247,Praveen Patil,33,M,A1,67afbca2a8
+1247,Anil Naik,28,M,A2,7a4ee74c9f
+1247,Srinivas Gowda,53,M,A3,d755add28b
+1248,Srinivas Reddy,45,M,A1,de022e6d6b
+1248,Ganesh Rao,20,M,A2,238b508c63
+1248,Srinivas Hegde,26,M,A3,e68b62f445
+1249,Raju Achar,47,M,A1,3748ac6c06
+1249,Vinay Shetty,36,M,A2,bae971684f
+1250,Pooja Kumar,34,F,A1,53b4803e0b
+1251,Kiran Poojary,25,M,A1,9cd41a384c
+1252,Santosh Reddy,33,M,A1,f43a2fb634
+1253,Radha,30,F,A1,0ba63fb36d
+1254,Kiran Achar,44,M,A1,35d5324810
+1255,Chaitra Patil,54,F,A1,3baadaa31b
+1256,Kiran Poojary,44,M,A1,9398bb51f5
+1257,Nagaraj Reddy,41,M,A1,cd56944595
+1258,Kavya Hegde,29,F,A1,32be19af24
+1259,Kiran Reddy,48,M,A1,73b083d9ed
+1260,Suresh Kumar,53,M,A1,e25f3acee4
+1260,Ganesh,22,M,A2,e2ecd46350
+1260,Manjula Shetty,42,F,A3,d2008e6249
+1261,Pooja Poojary,33,F,A1,2e6c7053d2
+1261,Suresh Gowda,42,M,A2,29df63dda1
+1262,Srinivas Reddy,23,M,A1,bde22e7a5f
+1262,Savitri Poojary,46,F,A2,6ddc0bbc13
+1262,Raju Poojary,40,M,A3,18a034b9b0
+1263,Suresh Gowda,29,M,A1,fcee82d178
+1263,Deepa Poojary,48,F,A2,4a1ca9213b
+1264,Manjunath Shetty,20,M,A1,c2d4b724e8
+1265,Naveen Naik,37,M,A1,a698451f7d
+1266,Manjula Poojary,18,F,A1,88840b44a6
+1266,Basavaraj Poojary,45,M,A2,c224932195
+1266,Suresh Achar,42,M,A3,7676e3a084
+1267,Manjunath Hegde,19,M,A1,98ae03ffd7
+1268,Naveen Achar,34,M,A1,a289683fa0
+1269,Ravi,37,M,A1,9a63fbfdf9
+1270,Santosh,47,M,A1,34dcc2097a
+1271,Vinay Shetty,35,M,A1,da2d524ef6
+1272,Deepa Naik,47,F,A1,f71d050aca
+1272,Mahesh Poojary,19,M,A2,d73cd5788e
+1272,Ravi Shetty,18,M,A3,7311eeaf95
+1273,Sushma Hegde,36,F,A1,4ac44eaa97
+1273,Anil Naik,53,M,A2,294e15e23b
+1274,Ganesh Kumar,32,M,A1,e586f72418
+1275,Nandini Hegde,24,F,A1,b722720ad5
+1275,Basavaraj Poojary,33,M,A2,7b67daa42f
+1276,Srinivas Achar,46,M,A1,b90c1ec8ce
+1277,Ramesh Reddy,24,M,A1,79a487287d
+1277,Bhavani Hegde,22,F,A2,7dd47edacd
+1278,Kiran Poojary,41,M,A1,c8a8c41290
+1279,Nagaraj Poojary,51,M,A1,b793677e5a
+1280,Naveen Hegde,20,M,A1,b67a6680ee
+1281,Shivakumar Naik,50,M,A1,5c9c009d90
+1282,Deepa Patil,38,F,A1,9a16e42e3b
+1282,Bhavani Achar,44,F,A2,fb35ea6a1f
+1283,Anil Naik,43,M,A1,132d700d1a
+1284,Basavaraj Hegde,22,M,A1,055a57edc9
+1284,Praveen Naik,30,M,A2,07e9a76d50
+1285,Ravi Naik,44,M,A1,9a7de9e290
+1285,Srinivas Hegde,24,M,A2,e68b62f445
+1285,Manjunath Kumar,19,M,A3,20b7e9015a
+1286,Santosh,31,M,A1,315087e1ff
+1287,Praveen Hegde,40,M,A1,8b32ce6a6b
+1287,Sowmya Rao,38,F,A2,8c9dc77a4e
+1287,Prasad,55,M,A3,7617a688ed
+1288,Srinivas Shetty,37,M,A1,097e5ea514
+1288,Ramesh Kumar,44,M,A2,4e1a050cbe
+1289,Deepa Naik,27,F,A1,d9c0243039
+1289,Bhavani Poojary,34,F,A2,3ca016c86b
+1289,Srinivas Kumar,54,M,A3,695354d184
+1290,Chaitra Shetty,55,F,A1,32d9699c39
+1291,Prasad Gowda,20,M,A1,4f9a83f2e8
+1291,Praveen Hegde,52,M,A2,f70ad3d661
+1292,Vinay Naik,45,M,A1,49b843700c
+1292,Raju Patil,32,M,A2,b1b0c8e082
+1293,Ravi Hegde,21,M,A1,e40a059def
+1294,Nagaraj Achar,38,M,A1,2f9a10f196
+1295,Raju Achar,54,M,A1,744ead4cc1
+1296,Manjula Achar,18,F,A1,c83913d356
+1296,Prasad Reddy,43,M,A2,4b0b185b92
+1297,Naveen Gowda,48,M,A1,948bd710c9
+1298,Suresh,30,M,A1,8513bb1735
+1299,Lakshmi Hegde,46,F,A1,185691444a
+1299,Suresh Rao,30,M,A2,44f19b4083
+1300,Srinivas Patil,32,M,A1,58e8886cd1
+1300,Lakshmi Achar,49,F,A2,b25fc06826
+1300,Mahesh Reddy,18,M,A3,2b40f951b5
+1301,Manjunath Poojary,44,M,A1,3f5139272d
+1302,Anil Poojary,49,M,A1,2b00d3bcd6
+1303,Nagaraj Poojary,30,M,A1,14cb03651a
+1304,Shobha Shetty,39,F,A1,e12ab3b46b
+1304,Praveen Shetty,53,M,A2,7d3353f0bb
+1304,Manjunath Shetty,49,M,A3,a7b8458c9f
+1305,Lakshmi Patil,21,F,A1,26442edb32
+1305,Naveen Achar,35,M,A2,a289683fa0
+1306,Ramesh Reddy,23,M,A1,64ab519ab8
+1307,Prasad Naik,29,M,A1,94d230fd3e
+1308,Anil Poojary,22,M,A1,2979e6372d
+1309,Srinivas Patil,31,M,A1,58e8886cd1
+1310,Anil,22,M,A1,690e750e63
+1311,Srinivas Shetty,28,M,A1,8bdc3417e0
+1312,Shobha Gowda,41,F,A1,b8c2140825
+1312,Mahesh Hegde,33,M,A2,005614eb39
+1312,Naveen,41,M,A3,959198b4a1
+1313,Ganesh Patil,44,M,A1,7534f97d99
+1314,Nagaraj Rao,40,M,A1,a70e45f255
+1314,Radha Poojary,46,F,A2,223edb8903
+1315,Mahesh,44,M,A1,b43f25f982
+1315,Anil Patil,55,M,A2,a19e3f7b2f
+1315,Ganesh Gowda,50,M,A3,a2aff4d475
+1316,Mahesh Shetty,35,M,A1,792d699eba
+1317,Kiran,51,M,A1,48eee5a90c
+1317,Deepa,54,F,A2,114a93090d
+1318,Geetha Reddy,53,F,A1,4265347d37
+1319,Anil Reddy,22,M,A1,337c8b8017
+1320,Mahesh Kumar,45,M,A1,f88a5a91be
+1321,Ramesh,29,M,A1,1fa2df2658
+1321,Nagaraj Hegde,50,M,A2,f676edad75
+1321,Vinay Rao,52,M,A3,209444926d
+1322,Ravi Achar,30,M,A1,43795d8190
+1323,Prasad Kumar,45,M,A1,c0291d45b0
+1324,Srinivas,22,M,A1,a5d0de3a4f
+1324,Ramesh Poojary,37,M,A2,aae65e61fe
+1324,Praveen Reddy,35,M,A3,492784724b
+1325,Radha Gowda,45,F,A1,64fb693055
+1326,Suresh Poojary,38,M,A1,d4e3e197ea
+1326,Pooja Shetty,55,F,A2,eab8b919c2
+1326,Srinivas Hegde,54,M,A3,cd52e08885
+1327,Naveen Kumar,51,M,A1,072f37bb73
+1327,Ganesh Naik,31,M,A2,d1d9c9c2e4
+1328,Santosh Shetty,47,M,A1,5d7c6b5fe5
+1329,Ramesh Gowda,41,M,A1,2e337a49b5
+1330,Anitha,47,F,A1,6ec4b7cd1e
+1331,Ravi Naik,25,M,A1,cefb39cd63
+1332,Shivakumar Reddy,21,M,A1,f6a8f2ad23
+1333,Radha Kumar,25,F,A1,9aa7f52c3e
+1333,Ramesh Reddy,31,M,A2,ade72e49df
+1334,Santosh Rao,30,M,A1,5ac6ced51d
+1335,Bhavani Poojary,35,F,A1,3ca016c86b
+1336,Basavaraj Hegde,53,M,A1,26894386b9
+1337,Naveen Poojary,26,M,A1,b2d1224785
+1337,Basavaraj Hegde,22,M,A2,055a57edc9
+1337,Naveen Hegde,41,M,A3,1b5b8c71fd
+1338,Lakshmi Achar,20,F,A1,51dfee7304
+1339,Raju Gowda,35,M,A1,f8c8097866
+1339,Mahesh Patil,44,M,A2,7285db1281
+1339,Praveen Shetty,25,M,A3,c8d252e327
+1340,Manjunath Gowda,40,M,A1,75979d3baa
+1341,Kavya Achar,48,F,A1,a242ef002a
+1342,Kiran Reddy,55,M,A1,ed71738fe6
+1343,Mahesh Reddy,25,M,A1,b515ff5786
+1344,Nandini Reddy,29,F,A1,747afa461b
+1344,Kiran Reddy,19,M,A2,6294fff0d3
+1345,Basavaraj Achar,32,M,A1,0b93d5607e
+1345,Prasad Achar,45,M,A2,4c8a6e7c1f
+1346,Radha Patil,33,F,A1,8db11dd542
+1346,Sushma Reddy,47,F,A2,95d3c511db
+1346,Naveen Patil,43,M,A3,35cbc4b3e8
+1347,Santosh Hegde,23,M,A1,a7e81f600c
+1347,Naveen Rao,54,M,A2,c712992367
+1347,Radha Poojary,23,F,A3,8dd49d7d07
+1348,Kiran Kumar,35,M,A1,765e662902
+1348,Prasad Shetty,28,M,A2,abcc552c87
+1348,Manjula Naik,34,F,A3,1d24eac03a
+1349,Praveen,24,M,A1,463de2e7e2
+1350,Naveen Shetty,42,M,A1,d4cdc07a33
+1351,Anil Reddy,18,M,A1,08d9cc0bda
+1352,Prasad Patil,38,M,A1,5522f7624d
+1353,Prasad Shetty,50,M,A1,ad33351743
+1354,Praveen Rao,55,M,A1,9052df8f8f
+1355,Kiran Naik,55,M,A1,b3bfa33f98
+1355,Santosh,28,M,A2,ae32ead86d
+1355,Shivakumar Naik,32,M,A3,60c10a301f
+1356,Prasad Achar,54,M,A1,d977e93a48
+1357,Sushma Reddy,21,F,A1,2d5a21a955
+1357,Ganesh,47,M,A2,8aa0b2efbb
+1358,Raju Kumar,44,M,A1,3a4d1d2b54
+1359,Bhavani Patil,37,F,A1,18c6b01c8b
+1360,Shivakumar Kumar,32,M,A1,7fc5bf8fd6
+1361,Sowmya Reddy,27,F,A1,2a95f19a81
+1362,Kavya Kumar,31,F,A1,1dc997414d
+1363,Nagaraj Hegde,26,M,A1,ca9d4a6f30
+1363,Kiran Naik,41,M,A2,332e12ff15
+1363,Naveen Poojary,44,M,A3,b205b758f8
+1364,Vinay Rao,54,M,A1,805268966f
+1365,Shivakumar Kumar,45,M,A1,00e2f513ce
+1366,Bhavani Naik,44,F,A1,409c37042f
+1366,Manjula Achar,36,F,A2,6e3dd9c60d
+1366,Shivakumar Kumar,24,M,A3,7d685d2cb4
+1367,Naveen Poojary,44,M,A1,b205b758f8
+1368,Naveen Rao,28,M,A1,8e792baae5
+1368,Kiran,24,M,A2,1b662b439f
+1368,Sowmya Rao,52,F,A3,6407bfcbe6
+1369,Santosh Hegde,46,M,A1,943916ebf6
+1370,Praveen Poojary,18,M,A1,e8934ddf80
+1370,Santosh Achar,51,M,A2,e523a7cd58
+1371,Prasad Patil,26,M,A1,78d320a96c
+1372,Manjula Hegde,52,F,A1,15e91e782e
+1373,Basavaraj Hegde,33,M,A1,eca86631ff
+1373,Nagaraj Patil,29,M,A2,b5d938a1e2
+1374,Ravi,25,M,A1,3fa9139afe
+1375,Nandini Rao,32,F,A1,099b88b34d
+1376,Shivakumar,22,M,A1,2496264b0c
+1376,Shobha Kumar,20,F,A2,495215e6fa
+1377,Prasad Kumar,33,M,A1,b3aa51bdb6
+1378,Manjula Kumar,55,F,A1,3e35b5edfb
+1379,Prasad Poojary,46,M,A1,26a9fdfa29
+1379,Ganesh Poojary,35,M,A2,8dba8db6e9
+1380,Deepa Gowda,32,F,A1,55d8889bb7
+1380,Anitha Naik,34,F,A2,763037f2cf
+1381,Suresh Reddy,54,M,A1,419fe25d99
+1382,Pooja Poojary,33,F,A1,2e6c7053d2
+1382,Savitri Hegde,47,F,A2,397282744e
+1382,Praveen Poojary,36,M,A3,78edddbeb6
+1383,Mahesh Patil,29,M,A1,c692f76491
+1383,Ganesh Hegde,29,M,A2,24e270d89b
+1384,Kiran Kumar,54,M,A1,dd41a841a7
+1385,Pooja Hegde,23,F,A1,66691c0311
+1386,Radha Poojary,35,F,A1,a8a751e439
+1386,Ramesh Achar,45,M,A2,e93f5e269c
+1387,Vinay Achar,37,M,A1,986552b3cb
+1388,Shivakumar Kumar,53,M,A1,b9994f69b2
+1389,Santosh Kumar,50,M,A1,b2e3d6c2bc
+1389,Prasad Kumar,48,M,A2,f330582a9b
+1389,Raju Shetty,45,M,A3,2b7ab8f712
+1390,Anil Gowda,54,M,A1,01227d4b41
+1391,Shivakumar Reddy,47,M,A1,5d222b209b
+1392,Nandini Hegde,45,F,A1,d640a11e3c
+1393,Prasad Patil,31,M,A1,0313c41022
+1394,Vinay Shetty,36,M,A1,bae971684f
+1394,Ramesh Patil,52,M,A2,02b897bd0c
+1395,Shivakumar Patil,43,M,A1,1c295f49e2
+1396,Santosh,18,M,A1,479e4f213d
+1397,Santosh Achar,47,M,A1,17c29caa85
+1398,Sowmya Hegde,25,F,A1,4b63e1bbed
+1398,Ganesh Reddy,37,M,A2,4068aa08ad
+1398,Srinivas Kumar,23,M,A3,515a7784dd
+1399,Deepa Poojary,42,F,A1,1c2230afab
+1399,Mahesh Patil,45,M,A2,ae1fc23fef
+1400,Manjula Patil,19,F,A1,f521935008
+1401,Basavaraj Kumar,39,M,A1,38584b69d3
+1402,Praveen Reddy,36,M,A1,02203bf989
+1403,Prasad Reddy,55,M,A1,b5fd4d735c
+1404,Praveen Kumar,38,M,A1,e23ccc3eb4
+1405,Sushma Poojary,26,F,A1,45ea460b10
+1406,Ganesh Patil,54,M,A1,543b931020
+1407,Geetha Shetty,28,F,A1,aa4ae9c551
+1408,Shobha Naik,29,F,A1,c00d3c868d
+1409,Anil Naik,19,M,A1,f7cdac632a
+1410,Nagaraj Patil,36,M,A1,ecc0550e51
+1411,Ganesh Achar,36,M,A1,0896a01559
+1411,Bhavani,40,F,A2,3bfa5d7a9d
+1411,Manjunath Gowda,37,M,A3,cd6266a69e
+1412,Pooja,53,F,A1,bad7149b6f
+1413,Ramesh Achar,30,M,A1,83501c38fb
+1414,Manjunath Kumar,20,M,A1,20b7e9015a
+1415,Naveen Patil,40,M,A1,8604f3f27a
+1415,Manjula Poojary,52,F,A2,e5f0df9faf
+1416,Kiran Reddy,38,M,A1,b5e1496173
+1417,Shivakumar Naik,36,M,A1,8d84e23568
+1418,Naveen Reddy,39,M,A1,36e40bcdde
+1419,Raju Rao,48,M,A1,29970a2acb
+1419,Nandini Achar,24,F,A2,368d46883f
+1419,Geetha Poojary,40,F,A3,a10f775473
+1420,Chaitra Rao,43,F,A1,9b4c3f73e1
+1421,Ganesh Poojary,50,M,A1,b6fdd5f43d
+1421,Naveen Shetty,50,M,A2,cfc09911ad
+1422,Naveen Reddy,36,M,A1,7a98cf4da5
+1423,Raju Kumar,37,M,A1,3803c2a6eb
+1423,Manjunath Hegde,44,M,A2,68e147b2d7
+1424,Deepa Shetty,43,F,A1,a97d52400e
+1425,Anil Achar,32,M,A1,f92da3d435
+1426,Raju Achar,41,M,A1,a63b1380a1
+1427,Bhavani Kumar,26,F,A1,a82287a7ea
+1428,Srinivas Hegde,29,M,A1,80a08134ce
+1429,Naveen Reddy,33,M,A1,80ab294170
+1430,Ganesh Gowda,18,M,A1,d902ad9d73
+1431,Raju Naik,50,M,A1,5003465ce9
+1431,Chaitra,20,F,A2,29fa4ed9d0
+1432,Pooja Poojary,28,F,A1,3a9862b55d
+1432,Kavya Kumar,39,F,A2,6f40160ec8
+1433,Suresh Hegde,41,M,A1,749132647f
+1434,Suresh Poojary,51,M,A1,33f9a69db3
+1435,Kiran Rao,18,M,A1,b0c5a10989
+1435,Naveen Gowda,35,M,A2,2edad570eb
+1435,Praveen Gowda,31,M,A3,b80046df4b
+1436,Suresh Naik,19,M,A1,24f9bb3c85
+1436,Basavaraj Poojary,31,M,A2,61ec2ab0ef
+1437,Srinivas,25,M,A1,cebb2a5eef
+1438,Santosh Kumar,19,M,A1,631ada324f
+1439,Raju Patil,29,M,A1,a58188c7b4
+1439,Praveen Poojary,54,M,A2,eea2513660
+1440,Manjunath Kumar,42,M,A1,4f6ba0270d
+1441,Nagaraj Patil,52,M,A1,f2bfcfa0d4
+1442,Ramesh Kumar,21,M,A1,12bad21c83
+1442,Srinivas Shetty,49,M,A2,9915b5c733
+1442,Shobha Gowda,26,F,A3,52664ea846
+1443,Anil Naik,43,M,A1,132d700d1a
+1444,Pooja Poojary,33,F,A1,2e6c7053d2
+1444,Naveen Hegde,46,M,A2,762270b934
+1445,Ramesh Reddy,29,M,A1,f76fdec1ba
+1446,Prasad,21,M,A1,00a7d74183
+1447,Ganesh,55,M,A1,aa9949ab1b
+1448,Mahesh Achar,55,M,A1,8e10cdae1e
+1449,Raju Gowda,19,M,A1,79eea274a5
+1450,Shobha Kumar,53,F,A1,60dec2ea61
+1451,Kiran Naik,23,M,A1,df380a97c2
+1452,Naveen Gowda,34,M,A1,2edad570eb
+1453,Nagaraj Hegde,44,M,A1,3277889318
+1453,Ravi Gowda,26,M,A2,1c5e78791a
+1453,Prasad Naik,31,M,A3,4fc16b6c9d
+1454,Mahesh,42,M,A1,b43f25f982
+1455,Prasad Reddy,46,M,A1,e8b2e4cb92
+1456,Kiran Reddy,31,M,A1,78b4a92ca8
+1457,Sushma Hegde,50,F,A1,48324b5e98
+1457,Santosh Poojary,44,M,A2,3847e7bd89
+1457,Srinivas Rao,40,M,A3,4d69f0417b
+1458,Basavaraj Reddy,20,M,A1,3830b97440
+1458,Nagaraj Naik,49,M,A2,59533df5af
+1459,Naveen Hegde,21,M,A1,3467981250
+1460,Mahesh Naik,27,M,A1,fc0932427f
+1461,Mahesh Achar,24,M,A1,ca4b94e75f
+1461,Suresh Hegde,24,M,A2,ca65641a58
+1462,Praveen Naik,41,M,A1,fd063009f2
+1463,Kiran Kumar,41,M,A1,2396419386
+1464,Srinivas Rao,39,M,A1,4d69f0417b
+1465,Ravi Naik,23,M,A1,3e8d6392c1
+1466,Suresh Kumar,20,M,A1,03468925f4
+1467,Prasad Hegde,44,M,A1,4a6c5668eb
+1467,Praveen,31,M,A2,a7e5a4a0a2
+1467,Radha Poojary,33,F,A3,a8a751e439
+1468,Raju Shetty,49,M,A1,383a400746
+1468,Mahesh,21,M,A2,0f14e3eb05
+1469,Ganesh Hegde,37,M,A1,21aa513b58
+1470,Sushma Achar,36,F,A1,e0b71e508b
+1471,Prasad Poojary,28,M,A1,178962f89a
+1471,Bhavani Reddy,36,F,A2,3a9dac5614
+1471,Manjunath Gowda,27,M,A3,bc8e1906fc
+1472,Ravi Rao,52,M,A1,2a0d51dddd
+1473,Nagaraj Poojary,50,M,A1,c6e9d34e30
+1473,Praveen Hegde,23,M,A2,400b68dade
+1474,Shivakumar Naik,33,M,A1,1861fe48b2
+1474,Srinivas Patil,18,M,A2,e4cfa1c781
+1475,Ravi Rao,44,M,A1,2fe49412f2
+1476,Shivakumar Shetty,34,M,A1,916794633d
+1477,Mahesh Achar,25,M,A1,ca4b94e75f
+1478,Mahesh Hegde,24,M,A1,942067a174
+1479,Ravi Poojary,28,M,A1,6057cf4fe3
+1480,Prasad Kumar,43,M,A1,b5b9f52516
+1481,Vinay Poojary,30,M,A1,b8a71e7593
+1481,Pooja Patil,31,F,A2,9226c6a5dd
+1482,Ganesh Rao,19,M,A1,238b508c63
+1483,Shivakumar Rao,35,M,A1,7781a082e4
+1484,Ravi Achar,38,M,A1,9bd627981e
+1484,Prasad,43,M,A2,6e221d758b
+1484,Srinivas Rao,36,M,A3,a8ec08a628
+1485,Praveen Achar,25,M,A1,161320c9e8
+1485,Shivakumar Patil,54,M,A2,2223e18b53
+1485,Raju,26,M,A3,af27d9d0a3
+1486,Naveen Shetty,43,M,A1,d4cdc07a33
+1487,Ganesh Poojary,24,M,A1,daa977b074
+1488,Kiran Naik,48,M,A1,cdb01c2a95
+1489,Naveen Kumar,42,M,A1,52bb6a1e62
+1490,Srinivas Gowda,18,M,A1,6432df68e2
+1491,Pooja Poojary,33,F,A1,2e6c7053d2
+1491,Srinivas Gowda,28,M,A2,739c7e72f7
+1491,Shivakumar Reddy,52,M,A3,7e8de7f0ac
+1492,Savitri,32,F,A1,32e6e25115
+1493,Ganesh Naik,23,M,A1,fe1c5c203f
+1493,Nagaraj Hegde,43,M,A2,3277889318
+1494,Shobha Shetty,43,F,A1,c745044b63
+1495,Shobha Gowda,32,F,A1,f1570c5daa
+1496,Vinay Hegde,44,M,A1,9dad8ba0f0
+1496,Suresh Naik,50,M,A2,70bee3cba5
+1496,Bhavani Naik,39,F,A3,43a1b99799
+1497,Mahesh Rao,20,M,A1,0beb027829
+1497,Suresh Shetty,33,M,A2,568709a663
+1497,Sowmya Poojary,32,F,A3,cc1c51099c
+1498,Praveen Gowda,36,M,A1,e41cbc4845
+1499,Srinivas Patil,53,M,A1,1d5b9ebad8
+1499,Prasad Reddy,36,M,A2,5bf1b64ebd
+1500,Kiran Reddy,23,M,A1,b6f91f393c
+1501,Naveen Rao,37,M,A1,a09bc7983c
+1502,Basavaraj Reddy,31,M,A1,b6a3543709
+1502,Naveen Poojary,18,M,A2,c085eb4586
+1503,Kavya Hegde,19,F,A1,883f6a9c69
+1503,Srinivas,36,M,A2,a35345a839
+1503,Nandini Patil,36,F,A3,54eeafdbe8
+1504,Kiran Naik,19,M,A1,aed2280370
+1504,Raju Shetty,48,M,A2,383a400746
+1505,Suresh Kumar,55,M,A1,b8e780b423
+1506,Kiran Achar,47,M,A1,67bb1f35b9
+1507,Santosh Reddy,38,M,A1,086354ed14
+1508,Vinay Hegde,45,M,A1,04191e665e
+1509,Anil Rao,23,M,A1,c3adc66e5d
+1510,Prasad Rao,47,M,A1,8469de65e5
+1511,Radha Reddy,47,F,A1,ef2f1860c3
+1512,Mahesh Kumar,49,M,A1,52fb67432a
+1513,Kavya Patil,33,F,A1,58a210e217
+1514,Ganesh Achar,36,M,A1,0896a01559
+1514,Kavya Reddy,37,F,A2,267e0fb6f0
+1514,Anil Achar,24,M,A3,bdc597da09
+1515,Suresh Poojary,25,M,A1,edad38434e
+1516,Nandini Patil,41,F,A1,fe8a6d8c76
+1516,Vinay Hegde,25,M,A2,57fadd7d72
+1516,Lakshmi,55,F,A3,e835e62d75
+1517,Anil Naik,31,M,A1,454e0430e0
+1518,Praveen Reddy,35,M,A1,492784724b

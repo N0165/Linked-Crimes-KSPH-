@@ -367,3 +367,20 @@ input[type=range] { accent-color: var(--blue); }
 .auth-note { color: var(--muted); font-size: 12.5px; line-height: 1.5; margin: 0 0 22px; }
 .auth-back { display: inline-block; margin-top: 18px; color: var(--muted); font-size: 12.5px; text-decoration: none; }
 .auth-back:hover { color: var(--gold-dim); }
+
+/* ---------- Case Timeline ---------- */
+.case-timeline { position: relative; padding-left: 4px; }
+.timeline-step { position: relative; display: flex; gap: 14px; padding-bottom: 18px; }
+.timeline-step:last-child { padding-bottom: 0; }
+.timeline-dot {
+  width: 12px; height: 12px; border-radius: 50%; background: var(--blue);
+  border: 2px solid var(--surface); box-shadow: 0 0 0 2px var(--blue);
+  flex-shrink: 0; margin-top: 3px; position: relative; z-index: 1;
+}
+.timeline-step:not(:last-child) .timeline-dot::after {
+  content: ""; position: absolute; top: 14px; left: 5px; width: 2px; height: calc(100% + 4px);
+  background: var(--border);
+}
+.timeline-content { flex: 1; }
+.timeline-date { font-family: var(--font-mono); font-size: 11.5px; color: var(--muted); }
+.timeline-type { font-size: 13.5px; font-weight: 600; color: var(--text); margin-top: 2px; }

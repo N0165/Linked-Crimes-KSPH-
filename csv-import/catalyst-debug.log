@@ -1,0 +1,230 @@
+[debug] [2026-08-23T11:51:00.672Z] : 
+[debug] [2026-08-23T11:51:00.673Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:51:00.673Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js ds:import csv-import/districts.csv --table Districts
+[debug] [2026-08-23T11:51:00.673Z] : CLI Version:  1.27.0
+[debug] [2026-08-23T11:51:00.673Z] : Platform:     win32
+[debug] [2026-08-23T11:51:00.673Z] : Node Version: v24.15.0
+[debug] [2026-08-23T11:51:00.674Z] : Time:         Sun Aug 23 2026 17:21:00 GMT+0530 (India Standard Time)
+[debug] [2026-08-23T11:51:00.674Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:51:00.674Z] : 
+[debug] [2026-08-23T11:51:01.542Z] : > authorizing via signed-in user option
+[debug] [2026-08-23T11:51:01.543Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL"]
+[debug] [2026-08-23T11:51:01.660Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049 
+
+[debug] [2026-08-23T11:51:01.995Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:51:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:51:02.002Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/environment 
+
+[debug] [2026-08-23T11:51:02.098Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:51:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:51:02.106Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/bucket 
+
+[debug] [2026-08-23T11:51:02.191Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:51:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:51:14.004Z] : >>>> HTTP REQUEST : PUT https://csv-imported-development.zohostratus.in/districts.csv 
+Request Body: {"fd":null,"path":"D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":1}
+
+[error] [2026-08-23T11:51:14.015Z] : uncaughtException: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+[error] [2026-08-23T11:51:14.023Z] : × An unexpected error has occurred.
+[debug] [2026-08-23T11:51:14.023Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:20:17)
+    at process.<anonymous> (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:125:28)
+    at process.emit (node:events:521:24)
+    at process.processEmit [as emit] (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
+    at process._fatalException (node:internal/process/execution:159:25)
+[debug] [2026-08-23T11:51:14.024Z] : Original Error: [Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv'
+}
+[debug] [2026-08-23T11:51:14.024Z] : Error Status: 500
+[info] [2026-08-23T11:51:14.024Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2026-08-23T11:53:05.315Z] : 
+[debug] [2026-08-23T11:53:05.317Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:53:05.317Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js ds:import csv-import/districts.csv --table Districts
+[debug] [2026-08-23T11:53:05.317Z] : CLI Version:  1.27.0
+[debug] [2026-08-23T11:53:05.317Z] : Platform:     win32
+[debug] [2026-08-23T11:53:05.317Z] : Node Version: v24.15.0
+[debug] [2026-08-23T11:53:05.318Z] : Time:         Sun Aug 23 2026 17:23:05 GMT+0530 (India Standard Time)
+[debug] [2026-08-23T11:53:05.318Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:53:05.318Z] : 
+[debug] [2026-08-23T11:53:06.192Z] : > authorizing via signed-in user option
+[debug] [2026-08-23T11:53:06.193Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL"]
+[debug] [2026-08-23T11:53:06.308Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049 
+
+[debug] [2026-08-23T11:53:06.653Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:53:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:53:06.660Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/environment 
+
+[debug] [2026-08-23T11:53:06.745Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:53:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:53:06.752Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/bucket 
+
+[debug] [2026-08-23T11:53:06.852Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:53:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:53:12.892Z] : >>>> HTTP REQUEST : PUT https://csv-imported-development.zohostratus.in/districts.csv 
+Request Body: {"fd":null,"path":"D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":1}
+
+[error] [2026-08-23T11:53:12.898Z] : uncaughtException: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+[error] [2026-08-23T11:53:12.902Z] : × An unexpected error has occurred.
+[debug] [2026-08-23T11:53:12.903Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:20:17)
+    at process.<anonymous> (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:125:28)
+    at process.emit (node:events:521:24)
+    at process.processEmit [as emit] (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
+    at process._fatalException (node:internal/process/execution:159:25)
+[debug] [2026-08-23T11:53:12.903Z] : Original Error: [Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv'
+}
+[debug] [2026-08-23T11:53:12.903Z] : Error Status: 500
+[info] [2026-08-23T11:53:12.904Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2026-08-23T11:53:18.040Z] : 
+[debug] [2026-08-23T11:53:18.041Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:53:18.042Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js ds:import csv-import/districts.csv --table Districts
+[debug] [2026-08-23T11:53:18.042Z] : CLI Version:  1.27.0
+[debug] [2026-08-23T11:53:18.042Z] : Platform:     win32
+[debug] [2026-08-23T11:53:18.042Z] : Node Version: v24.15.0
+[debug] [2026-08-23T11:53:18.042Z] : Time:         Sun Aug 23 2026 17:23:18 GMT+0530 (India Standard Time)
+[debug] [2026-08-23T11:53:18.042Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:53:18.042Z] : 
+[debug] [2026-08-23T11:53:18.920Z] : > authorizing via signed-in user option
+[debug] [2026-08-23T11:53:18.921Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL"]
+[debug] [2026-08-23T11:53:19.038Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049 
+
+[debug] [2026-08-23T11:53:19.553Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:53:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:53:19.564Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/environment 
+
+[debug] [2026-08-23T11:53:19.668Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:53:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:53:19.673Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/bucket 
+
+[debug] [2026-08-23T11:53:19.759Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:53:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:53:22.295Z] : >>>> HTTP REQUEST : PUT https://csv-imported-development.zohostratus.in/districts.csv 
+Request Body: {"fd":null,"path":"D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":1}
+
+[error] [2026-08-23T11:53:22.304Z] : uncaughtException: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+[error] [2026-08-23T11:53:22.309Z] : × An unexpected error has occurred.
+[debug] [2026-08-23T11:53:22.309Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:20:17)
+    at process.<anonymous> (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:125:28)
+    at process.emit (node:events:521:24)
+    at process.processEmit [as emit] (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
+    at process._fatalException (node:internal/process/execution:159:25)
+[debug] [2026-08-23T11:53:22.310Z] : Original Error: [Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv'
+}
+[debug] [2026-08-23T11:53:22.311Z] : Error Status: 500
+[info] [2026-08-23T11:53:22.312Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2026-08-23T11:56:25.923Z] : 
+[debug] [2026-08-23T11:56:25.924Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:56:25.924Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js ds:import csv-import/districts.csv --table Districts
+[debug] [2026-08-23T11:56:25.924Z] : CLI Version:  1.27.0
+[debug] [2026-08-23T11:56:25.925Z] : Platform:     win32
+[debug] [2026-08-23T11:56:25.925Z] : Node Version: v24.15.0
+[debug] [2026-08-23T11:56:25.925Z] : Time:         Sun Aug 23 2026 17:26:25 GMT+0530 (India Standard Time)
+[debug] [2026-08-23T11:56:25.925Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:56:25.925Z] : 
+[debug] [2026-08-23T11:56:26.809Z] : > authorizing via signed-in user option
+[debug] [2026-08-23T11:56:26.810Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL"]
+[debug] [2026-08-23T11:56:26.926Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049 
+
+[debug] [2026-08-23T11:56:27.362Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:56:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:56:27.368Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/environment 
+
+[debug] [2026-08-23T11:56:27.462Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:56:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:56:27.472Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/bucket 
+
+[debug] [2026-08-23T11:56:27.558Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:56:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:56:32.681Z] : >>>> HTTP REQUEST : PUT https://csv-imported-development.zohostratus.in/districts.csv 
+Request Body: {"fd":null,"path":"D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":1}
+
+[error] [2026-08-23T11:56:32.687Z] : uncaughtException: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+[error] [2026-08-23T11:56:32.691Z] : × An unexpected error has occurred.
+[debug] [2026-08-23T11:56:32.692Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:20:17)
+    at process.<anonymous> (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:125:28)
+    at process.emit (node:events:521:24)
+    at process.processEmit [as emit] (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
+    at process._fatalException (node:internal/process/execution:159:25)
+[debug] [2026-08-23T11:56:32.693Z] : Original Error: [Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv'
+}
+[debug] [2026-08-23T11:56:32.693Z] : Error Status: 500
+[info] [2026-08-23T11:56:32.693Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2026-08-23T11:56:38.124Z] : 
+[debug] [2026-08-23T11:56:38.126Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:56:38.126Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js ds:import csv-import/districts.csv --table Districts
+[debug] [2026-08-23T11:56:38.126Z] : CLI Version:  1.27.0
+[debug] [2026-08-23T11:56:38.126Z] : Platform:     win32
+[debug] [2026-08-23T11:56:38.126Z] : Node Version: v24.15.0
+[debug] [2026-08-23T11:56:38.126Z] : Time:         Sun Aug 23 2026 17:26:38 GMT+0530 (India Standard Time)
+[debug] [2026-08-23T11:56:38.126Z] : ----------------------------------------------------------------------
+[debug] [2026-08-23T11:56:38.126Z] : 
+[debug] [2026-08-23T11:56:39.027Z] : > authorizing via signed-in user option
+[debug] [2026-08-23T11:56:39.028Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL"]
+[debug] [2026-08-23T11:56:39.139Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049 
+
+[debug] [2026-08-23T11:56:39.741Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:56:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:56:39.748Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/environment 
+
+[debug] [2026-08-23T11:56:39.829Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:56:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:56:39.836Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/54133000000013049/bucket 
+
+[debug] [2026-08-23T11:56:39.908Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 23 Aug 2026 11:56:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-08-23T11:56:41.572Z] : >>>> HTTP REQUEST : PUT https://csv-imported-development.zohostratus.in/districts.csv 
+Request Body: {"fd":null,"path":"D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":1}
+
+[error] [2026-08-23T11:56:41.574Z] : uncaughtException: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'
+[error] [2026-08-23T11:56:41.575Z] : × An unexpected error has occurred.
+[debug] [2026-08-23T11:56:41.575Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:20:17)
+    at process.<anonymous> (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:125:28)
+    at process.emit (node:events:521:24)
+    at process.processEmit [as emit] (C:\Users\nishu\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
+    at process._fatalException (node:internal/process/execution:159:25)
+[debug] [2026-08-23T11:56:41.576Z] : Original Error: [Error: ENOENT: no such file or directory, open 'D:\KARNATAKA Hackathon\vigil-ksp-prototype\csv-import\csv-import\districts.csv'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\KARNATAKA Hackathon\\vigil-ksp-prototype\\csv-import\\csv-import\\districts.csv'
+}
+[debug] [2026-08-23T11:56:41.576Z] : Error Status: 500
+[info] [2026-08-23T11:56:41.576Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance

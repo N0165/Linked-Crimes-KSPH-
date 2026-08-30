@@ -1,5 +1,15 @@
 {
   "client": {
     "source": "client"
+  },
+  "functions": {
+    "targets": [
+      "datamigration",
+      "getdata",
+      "casetimeline",
+      "buildcache"
+    ],
+    "ignore": [],
+    "source": "functions"
   }
 }

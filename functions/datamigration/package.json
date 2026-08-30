@@ -1,0 +1,9 @@
+{
+	"name": "datamigration",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "nishuadhana82@gmail.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

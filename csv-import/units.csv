@@ -1,0 +1,31 @@
+unit_id,name,district_id,lat,lng
+1,Bengaluru Town PS 1,1,12.87832,77.65257
+2,Bengaluru City Market PS 2,1,12.91037,77.50809
+3,Bengaluru Industrial Area PS 3,1,12.8762,77.65236
+4,Bengaluru Rural PS 4,1,12.98249,77.61632
+5,Bengaluru Traffic PS 5,1,12.85923,77.49709
+6,Bengaluru Women PS 6,1,12.90744,77.61908
+7,Mysuru Town PS 1,2,12.22352,76.67537
+8,Mysuru City Market PS 2,2,12.30659,76.57231
+9,Mysuru Industrial Area PS 3,2,12.31722,76.71366
+10,Mysuru Rural PS 4,2,12.17736,76.7128
+11,Mysuru Traffic PS 5,2,12.34335,76.60106
+12,Mysuru Women PS 6,2,12.21312,76.74913
+13,Belagavi Town PS 1,3,15.75423,74.46888
+14,Belagavi City Market PS 2,3,15.81586,74.46025
+15,Belagavi Industrial Area PS 3,3,15.79319,74.38813
+16,Belagavi Rural PS 4,3,15.83996,74.40766
+17,Belagavi Traffic PS 5,3,15.95105,74.39661
+18,Kalaburagi Town PS 1,4,17.40876,76.86274
+19,Kalaburagi City Market PS 2,4,17.41651,76.85286
+20,Kalaburagi Industrial Area PS 3,4,17.3788,76.7253
+21,Kalaburagi Rural PS 4,4,17.2644,76.78375
+22,Kalaburagi Traffic PS 5,4,17.22885,76.77017
+23,Dakshina Town PS 1,5,12.88533,74.84482
+24,Dakshina City Market PS 2,5,12.99429,74.77504
+25,Dakshina Industrial Area PS 3,5,12.87936,74.89684
+26,Dakshina Rural PS 4,5,12.96254,74.90005
+27,Tumakuru Town PS 1,6,13.36409,77.03837
+28,Tumakuru City Market PS 2,6,13.39289,77.03652
+29,Tumakuru Industrial Area PS 3,6,13.30897,77.23479
+30,Tumakuru Rural PS 4,6,13.3715,77.13097

@@ -1,0 +1,17 @@
+subhead_id,head_id,name
+1,1,Theft
+2,1,Burglary / House-breaking
+3,1,Chain Snatching
+4,1,Vehicle Theft
+5,1,Robbery
+6,2,Grievous Hurt
+7,2,Murder
+8,2,Assault
+9,3,Molestation
+10,3,Domestic Violence Complaint
+11,4,Online Financial Fraud
+12,4,Social Media Harassment
+13,5,Possession
+14,5,Peddling
+15,6,Rioting
+16,6,Public Nuisance

@@ -1,0 +1,1519 @@
+case_id,name,occupation
+1,Ravi Shetty,Business
+2,Raju Patil,Farmer
+3,Shobha Naik,Private Employee
+4,Kiran Shetty,Business
+5,Deepa Gowda,Business
+6,Shobha,Private Employee
+7,Srinivas Gowda,Unemployed
+8,Srinivas Shetty,Unemployed
+9,Santosh Gowda,Farmer
+10,Anitha Patil,Unemployed
+11,Savitri Kumar,Unemployed
+12,Sushma,Unemployed
+13,Anitha Patil,Farmer
+14,Praveen Reddy,Farmer
+15,Nandini Kumar,Student
+16,Prasad Hegde,Homemaker
+17,Vinay Patil,Private Employee
+18,Naveen Reddy,Private Employee
+19,Basavaraj Patil,Student
+20,Shobha Achar,Student
+21,Shobha Reddy,Private Employee
+22,Ganesh Kumar,Farmer
+23,Naveen Gowda,Student
+24,Vinay Rao,Business
+25,Geetha Poojary,Government Employee
+26,Manjunath Patil,Student
+27,Raju Achar,Private Employee
+28,Chaitra Kumar,Student
+29,Ganesh Naik,Government Employee
+30,Praveen Shetty,Private Employee
+31,Naveen Kumar,Farmer
+32,Sowmya Rao,Private Employee
+33,Ganesh Gowda,Unemployed
+34,Kiran Gowda,Homemaker
+35,Anitha Gowda,Business
+36,Anil Hegde,Farmer
+37,Kiran Achar,Unemployed
+38,Ravi Gowda,Private Employee
+39,Deepa Patil,Unemployed
+40,Pooja Gowda,Private Employee
+41,Basavaraj Kumar,Business
+42,Naveen,Unemployed
+43,Radha Patil,Student
+44,Kavya Hegde,Farmer
+45,Ganesh Achar,Government Employee
+46,Mahesh Rao,Homemaker
+47,Anitha Poojary,Student
+48,Geetha Shetty,Farmer
+49,Manjunath Patil,Student
+50,Praveen Hegde,Homemaker
+51,Srinivas Reddy,Student
+52,Ganesh Shetty,Homemaker
+53,Sowmya Shetty,Farmer
+54,Anitha Kumar,Farmer
+55,Srinivas Poojary,Student
+56,Anil Hegde,Government Employee
+57,Lakshmi Achar,Government Employee
+58,Praveen,Farmer
+59,Deepa Shetty,Private Employee
+60,Sowmya,Student
+61,Praveen Gowda,Student
+62,Basavaraj Achar,Farmer
+63,Nagaraj Reddy,Homemaker
+64,Kiran Hegde,Government Employee
+65,Anitha Poojary,Unemployed
+66,Geetha Kumar,Farmer
+67,Shobha Patil,Government Employee
+68,Shobha Naik,Homemaker
+69,Geetha Patil,Student
+70,Shivakumar Naik,Unemployed
+71,Kavya Hegde,Unemployed
+72,Savitri Achar,Unemployed
+73,Sowmya Shetty,Farmer
+74,Shivakumar Reddy,Unemployed
+75,Vinay Gowda,Homemaker
+76,Kiran Poojary,Unemployed
+77,Nandini Naik,Private Employee
+78,Anil Kumar,Homemaker
+79,Santosh Rao,Unemployed
+80,Nagaraj Hegde,Business
+81,Pooja Poojary,Private Employee
+82,Basavaraj Shetty,Farmer
+83,Kiran Hegde,Unemployed
+84,Ganesh Rao,Farmer
+85,Prasad Hegde,Government Employee
+86,Anitha Achar,Business
+87,Nagaraj Patil,Student
+88,Bhavani Reddy,Student
+89,Suresh Rao,Farmer
+90,Manjunath Achar,Farmer
+91,Naveen Gowda,Unemployed
+92,Radha Gowda,Business
+93,Naveen Kumar,Business
+94,Kavya Hegde,Government Employee
+95,Manjunath Shetty,Farmer
+96,Deepa Poojary,Student
+97,Ramesh Reddy,Government Employee
+98,Nandini,Farmer
+99,Deepa Shetty,Homemaker
+100,Raju Gowda,Unemployed
+101,Naveen Shetty,Government Employee
+102,Santosh Kumar,Business
+103,Bhavani Naik,Student
+104,Savitri Hegde,Farmer
+105,Vinay Shetty,Student
+106,Sowmya Reddy,Unemployed
+107,Suresh Gowda,Private Employee
+108,Santosh Achar,Business
+109,Praveen Rao,Farmer
+110,Vinay Naik,Homemaker
+111,Manjula Shetty,Unemployed
+112,Vinay,Government Employee
+113,Nagaraj Patil,Farmer
+114,Savitri Shetty,Government Employee
+115,Chaitra Poojary,Unemployed
+116,Prasad Achar,Business
+117,Suresh Achar,Private Employee
+118,Geetha Hegde,Government Employee
+119,Manjunath Shetty,Private Employee
+120,Nandini,Homemaker
+121,Naveen Naik,Government Employee
+122,Basavaraj Reddy,Business
+123,Geetha Naik,Private Employee
+124,Ravi Gowda,Student
+125,Naveen Kumar,Private Employee
+126,Deepa Patil,Private Employee
+127,Ravi Shetty,Homemaker
+128,Anitha Reddy,Farmer
+129,Sushma Rao,Unemployed
+130,Santosh Achar,Private Employee
+131,Kiran,Business
+132,Prasad Hegde,Farmer
+133,Savitri,Business
+134,Anitha Reddy,Private Employee
+135,Bhavani,Private Employee
+136,Mahesh Kumar,Private Employee
+137,Chaitra Hegde,Homemaker
+138,Geetha Rao,Unemployed
+139,Ganesh Shetty,Business
+140,Lakshmi Gowda,Government Employee
+141,Radha Shetty,Farmer
+142,Nagaraj Patil,Farmer
+143,Bhavani Reddy,Government Employee
+144,Ravi Achar,Homemaker
+145,Vinay Reddy,Government Employee
+146,Bhavani,Business
+147,Kavya Achar,Unemployed
+148,Basavaraj Kumar,Private Employee
+149,Raju Rao,Student
+150,Anil Gowda,Business
+151,Radha Reddy,Unemployed
+152,Ganesh Gowda,Private Employee
+153,Naveen Shetty,Student
+154,Chaitra Poojary,Private Employee
+155,Chaitra Hegde,Business
+156,Ravi Kumar,Homemaker
+157,Pooja Patil,Private Employee
+158,Pooja Gowda,Unemployed
+159,Shivakumar Poojary,Homemaker
+160,Anil Gowda,Private Employee
+161,Chaitra Patil,Homemaker
+162,Srinivas Poojary,Homemaker
+163,Savitri Gowda,Farmer
+164,Ganesh Patil,Homemaker
+165,Vinay Shetty,Business
+166,Anitha Naik,Student
+167,Ramesh Naik,Unemployed
+168,Prasad Hegde,Student
+169,Mahesh Reddy,Business
+170,Geetha Shetty,Student
+171,Kavya Rao,Student
+172,Bhavani Naik,Business
+173,Nagaraj Shetty,Homemaker
+174,Shobha Poojary,Homemaker
+175,Vinay Rao,Private Employee
+176,Kavya Gowda,Farmer
+177,Ramesh,Farmer
+178,Naveen Gowda,Business
+179,Raju Patil,Government Employee
+180,Nagaraj Patil,Private Employee
+181,Anitha Poojary,Homemaker
+182,Anil Patil,Student
+183,Mahesh Kumar,Unemployed
+184,Shobha Poojary,Government Employee
+185,Prasad Gowda,Student
+186,Kiran Poojary,Student
+187,Basavaraj Poojary,Farmer
+188,Basavaraj Kumar,Business
+189,Nandini Patil,Business
+190,Pooja Shetty,Unemployed
+191,Anitha Rao,Private Employee
+192,Basavaraj Naik,Unemployed
+193,Sowmya,Private Employee
+194,Sowmya,Farmer
+195,Santosh Reddy,Private Employee
+196,Pooja Achar,Farmer
+197,Basavaraj Rao,Government Employee
+198,Ramesh Shetty,Private Employee
+199,Lakshmi Reddy,Unemployed
+200,Sowmya Poojary,Homemaker
+201,Sushma Achar,Government Employee
+202,Lakshmi Poojary,Unemployed
+203,Anil Reddy,Unemployed
+204,Radha Shetty,Government Employee
+205,Anitha Gowda,Business
+206,Manjula Hegde,Homemaker
+207,Nandini Patil,Private Employee
+208,Ramesh,Homemaker
+209,Anil,Private Employee
+210,Prasad Hegde,Unemployed
+211,Santosh Naik,Private Employee
+212,Anitha Rao,Government Employee
+213,Nandini,Business
+214,Ramesh Reddy,Homemaker
+215,Santosh Shetty,Government Employee
+216,Suresh Poojary,Unemployed
+217,Nandini Reddy,Private Employee
+218,Sushma Patil,Student
+219,Raju Reddy,Government Employee
+220,Srinivas,Business
+221,Shivakumar Rao,Student
+222,Savitri Gowda,Farmer
+223,Naveen Naik,Unemployed
+224,Shobha Poojary,Unemployed
+225,Anil Patil,Student
+226,Kavya Shetty,Student
+227,Kiran,Homemaker
+228,Naveen Shetty,Farmer
+229,Vinay,Private Employee
+230,Suresh Gowda,Unemployed
+231,Kiran Kumar,Homemaker
+232,Kavya Hegde,Homemaker
+233,Lakshmi,Student
+234,Chaitra Shetty,Private Employee
+235,Kavya Hegde,Homemaker
+236,Sowmya Gowda,Unemployed
+237,Savitri Gowda,Farmer
+238,Anitha,Government Employee
+239,Anitha Reddy,Business
+240,Manjula Patil,Student
+241,Ganesh Naik,Homemaker
+242,Shobha Hegde,Government Employee
+243,Vinay Shetty,Homemaker
+244,Ramesh,Unemployed
+245,Shobha Rao,Private Employee
+246,Praveen Shetty,Business
+247,Ravi Reddy,Business
+248,Manjula Achar,Farmer
+249,Anitha,Farmer
+250,Lakshmi Hegde,Student
+251,Shivakumar Hegde,Business
+252,Bhavani Achar,Farmer
+253,Srinivas Hegde,Private Employee
+254,Ramesh,Private Employee
+255,Sushma Poojary,Homemaker
+256,Nandini Poojary,Unemployed
+257,Raju Reddy,Private Employee
+258,Manjula,Farmer
+259,Bhavani Hegde,Unemployed
+260,Naveen Patil,Business
+261,Geetha Rao,Farmer
+262,Shobha Achar,Farmer
+263,Manjunath Rao,Business
+264,Anil Patil,Farmer
+265,Raju Naik,Unemployed
+266,Praveen Achar,Unemployed
+267,Srinivas Rao,Homemaker
+268,Ramesh Kumar,Homemaker
+269,Bhavani Reddy,Private Employee
+270,Sushma Gowda,Farmer
+271,Vinay Poojary,Business
+272,Savitri Rao,Farmer
+273,Basavaraj Rao,Private Employee
+274,Sowmya Naik,Private Employee
+275,Chaitra Gowda,Government Employee
+276,Manjula Poojary,Unemployed
+277,Sushma Achar,Unemployed
+278,Shobha Rao,Private Employee
+279,Nandini Poojary,Private Employee
+280,Manjula Achar,Homemaker
+281,Pooja Reddy,Government Employee
+282,Nandini Gowda,Homemaker
+283,Shobha Kumar,Farmer
+284,Lakshmi Patil,Unemployed
+285,Anil Hegde,Business
+286,Savitri Shetty,Homemaker
+287,Kavya Rao,Student
+288,Nagaraj Shetty,Student
+289,Kiran Poojary,Business
+290,Lakshmi Naik,Unemployed
+291,Vinay Rao,Unemployed
+292,Savitri Rao,Farmer
+293,Anitha Rao,Homemaker
+294,Radha Reddy,Private Employee
+295,Suresh Gowda,Homemaker
+296,Chaitra Gowda,Student
+297,Anitha Patil,Unemployed
+298,Vinay Patil,Farmer
+299,Shivakumar Reddy,Unemployed
+300,Anitha Poojary,Business
+301,Kavya Shetty,Business
+302,Ramesh Kumar,Student
+303,Savitri Naik,Business
+304,Raju Reddy,Unemployed
+305,Sowmya Shetty,Homemaker
+306,Vinay Kumar,Unemployed
+307,Kiran Achar,Business
+308,Bhavani Gowda,Homemaker
+309,Srinivas Kumar,Private Employee
+310,Santosh Naik,Student
+311,Deepa,Homemaker
+312,Sowmya Reddy,Unemployed
+313,Shobha Shetty,Business
+314,Manjunath Rao,Private Employee
+315,Sowmya Kumar,Private Employee
+316,Manjunath Hegde,Homemaker
+317,Shivakumar,Private Employee
+318,Manjula Poojary,Unemployed
+319,Praveen Gowda,Business
+320,Geetha Kumar,Student
+321,Shivakumar Shetty,Homemaker
+322,Deepa Rao,Farmer
+323,Srinivas Hegde,Business
+324,Shobha Poojary,Unemployed
+325,Praveen Hegde,Private Employee
+326,Sowmya Hegde,Government Employee
+327,Srinivas Gowda,Business
+328,Vinay Poojary,Unemployed
+329,Suresh Shetty,Government Employee
+330,Manjunath Kumar,Unemployed
+331,Radha Reddy,Unemployed
+332,Radha Hegde,Farmer
+333,Chaitra Kumar,Student
+334,Ganesh Hegde,Unemployed
+335,Nandini Poojary,Business
+336,Shobha Naik,Farmer
+337,Prasad Hegde,Business
+338,Ramesh Naik,Homemaker
+339,Basavaraj Naik,Government Employee
+340,Ramesh Rao,Private Employee
+341,Kiran Naik,Private Employee
+342,Geetha Gowda,Government Employee
+343,Kiran Achar,Business
+344,Pooja Poojary,Farmer
+345,Deepa Gowda,Private Employee
+346,Manjula Patil,Homemaker
+347,Suresh Naik,Business
+348,Chaitra Achar,Student
+349,Praveen Shetty,Student
+350,Ravi Shetty,Business
+351,Sushma Reddy,Student
+352,Ganesh Gowda,Farmer
+353,Raju Kumar,Homemaker
+354,Vinay Kumar,Farmer
+355,Suresh Patil,Unemployed
+356,Prasad Shetty,Business
+357,Vinay,Unemployed
+358,Kiran Reddy,Private Employee
+359,Sushma Shetty,Homemaker
+360,Geetha Achar,Unemployed
+361,Kiran Rao,Private Employee
+362,Anitha Gowda,Private Employee
+363,Pooja Poojary,Student
+364,Nandini,Business
+365,Anil Naik,Private Employee
+366,Savitri Reddy,Unemployed
+367,Bhavani Gowda,Student
+368,Sowmya Kumar,Private Employee
+369,Suresh Patil,Student
+370,Pooja Shetty,Unemployed
+371,Anil Rao,Homemaker
+372,Pooja Reddy,Private Employee
+373,Shobha Hegde,Government Employee
+374,Nandini Achar,Government Employee
+375,Deepa Patil,Business
+376,Nagaraj Shetty,Farmer
+377,Chaitra Reddy,Private Employee
+378,Lakshmi Reddy,Homemaker
+379,Shobha,Homemaker
+380,Ganesh,Unemployed
+381,Anil Patil,Homemaker
+382,Geetha Hegde,Business
+383,Nandini Shetty,Unemployed
+384,Sushma Rao,Homemaker
+385,Kavya Poojary,Private Employee
+386,Nagaraj Gowda,Private Employee
+387,Manjula Naik,Private Employee
+388,Anitha Hegde,Farmer
+389,Manjunath Shetty,Government Employee
+390,Manjula Naik,Farmer
+391,Manjunath Patil,Farmer
+392,Geetha Poojary,Farmer
+393,Pooja Poojary,Government Employee
+394,Naveen Achar,Government Employee
+395,Basavaraj Patil,Homemaker
+396,Prasad Hegde,Unemployed
+397,Mahesh Gowda,Student
+398,Mahesh Poojary,Homemaker
+399,Geetha Achar,Business
+400,Naveen Hegde,Student
+401,Bhavani Reddy,Homemaker
+402,Raju Hegde,Farmer
+403,Nandini,Farmer
+404,Basavaraj Rao,Government Employee
+405,Manjula Hegde,Farmer
+406,Manjunath Reddy,Homemaker
+407,Deepa Shetty,Homemaker
+408,Manjunath Poojary,Private Employee
+409,Ganesh Reddy,Private Employee
+410,Santosh Rao,Government Employee
+411,Basavaraj Kumar,Homemaker
+412,Srinivas Gowda,Farmer
+413,Ramesh Achar,Homemaker
+414,Deepa Rao,Farmer
+415,Radha Shetty,Homemaker
+416,Kiran Patil,Unemployed
+417,Savitri Rao,Private Employee
+418,Santosh Poojary,Unemployed
+419,Pooja Gowda,Student
+420,Pooja Gowda,Farmer
+421,Deepa Patil,Government Employee
+422,Kiran Poojary,Farmer
+423,Geetha Patil,Farmer
+424,Suresh Patil,Unemployed
+425,Manjunath,Farmer
+426,Shivakumar Hegde,Homemaker
+427,Anitha Patil,Business
+428,Prasad,Unemployed
+429,Deepa,Farmer
+430,Pooja Kumar,Private Employee
+431,Anitha Poojary,Homemaker
+432,Naveen Patil,Business
+433,Ganesh Poojary,Private Employee
+434,Savitri Rao,Unemployed
+435,Lakshmi Naik,Homemaker
+436,Naveen Poojary,Homemaker
+437,Bhavani Kumar,Farmer
+438,Lakshmi Rao,Farmer
+439,Praveen Patil,Student
+440,Basavaraj Gowda,Student
+441,Radha Kumar,Business
+442,Manjula Rao,Private Employee
+443,Nagaraj Achar,Private Employee
+444,Prasad Kumar,Private Employee
+445,Anitha Achar,Private Employee
+446,Anitha Hegde,Private Employee
+447,Sowmya Poojary,Homemaker
+448,Raju Patil,Private Employee
+449,Radha Naik,Government Employee
+450,Pooja Poojary,Farmer
+451,Geetha Reddy,Homemaker
+452,Sushma Kumar,Unemployed
+453,Nandini Shetty,Homemaker
+454,Deepa Kumar,Farmer
+455,Vinay Shetty,Government Employee
+456,Lakshmi Reddy,Private Employee
+457,Deepa Hegde,Business
+458,Nandini Shetty,Unemployed
+459,Geetha Rao,Student
+460,Savitri Hegde,Unemployed
+461,Sowmya,Unemployed
+462,Nandini Kumar,Farmer
+463,Nandini,Farmer
+464,Santosh,Business
+465,Ravi Shetty,Unemployed
+466,Bhavani Poojary,Farmer
+467,Naveen Poojary,Homemaker
+468,Sowmya Gowda,Government Employee
+469,Sushma Hegde,Homemaker
+470,Lakshmi Rao,Student
+471,Manjunath Poojary,Private Employee
+472,Shivakumar,Unemployed
+473,Kavya Hegde,Homemaker
+474,Sushma Shetty,Private Employee
+475,Lakshmi Achar,Business
+476,Nandini Poojary,Student
+477,Lakshmi Shetty,Business
+478,Pooja Hegde,Homemaker
+479,Pooja Kumar,Private Employee
+480,Srinivas Rao,Student
+481,Shobha Naik,Unemployed
+482,Pooja Kumar,Homemaker
+483,Deepa Patil,Private Employee
+484,Sowmya Reddy,Private Employee
+485,Ganesh Poojary,Unemployed
+486,Chaitra Kumar,Student
+487,Santosh Gowda,Government Employee
+488,Basavaraj Rao,Private Employee
+489,Raju Poojary,Unemployed
+490,Sowmya Shetty,Private Employee
+491,Anitha Reddy,Unemployed
+492,Santosh Patil,Unemployed
+493,Manjula Naik,Business
+494,Mahesh Kumar,Government Employee
+495,Lakshmi Hegde,Business
+496,Geetha Kumar,Unemployed
+497,Lakshmi Shetty,Student
+498,Radha Achar,Government Employee
+499,Deepa Patil,Homemaker
+500,Chaitra Reddy,Farmer
+501,Ravi Kumar,Business
+502,Geetha Achar,Student
+503,Santosh Rao,Homemaker
+504,Kavya Naik,Business
+505,Nagaraj Kumar,Business
+506,Vinay Achar,Homemaker
+507,Santosh Hegde,Business
+508,Anitha Hegde,Government Employee
+509,Kavya Hegde,Government Employee
+510,Santosh Achar,Private Employee
+511,Shivakumar,Business
+512,Sowmya Rao,Student
+513,Sushma Reddy,Homemaker
+514,Deepa Rao,Student
+515,Prasad Shetty,Government Employee
+516,Sowmya Gowda,Unemployed
+517,Sushma Achar,Homemaker
+518,Sushma Patil,Government Employee
+519,Vinay Reddy,Homemaker
+520,Chaitra Shetty,Government Employee
+521,Srinivas Patil,Homemaker
+522,Praveen Hegde,Private Employee
+523,Bhavani Achar,Business
+524,Sushma,Private Employee
+525,Pooja Gowda,Private Employee
+526,Vinay Naik,Homemaker
+527,Savitri Poojary,Private Employee
+528,Bhavani Poojary,Business
+529,Geetha,Government Employee
+530,Nandini Achar,Private Employee
+531,Lakshmi Gowda,Unemployed
+532,Sushma Poojary,Farmer
+533,Shobha Rao,Homemaker
+534,Basavaraj Kumar,Homemaker
+535,Nandini Rao,Government Employee
+536,Sowmya Patil,Private Employee
+537,Anil Hegde,Farmer
+538,Geetha Rao,Business
+539,Ganesh Reddy,Unemployed
+540,Prasad Reddy,Unemployed
+541,Nagaraj Rao,Business
+542,Geetha Poojary,Government Employee
+543,Kiran Achar,Unemployed
+544,Anil Patil,Homemaker
+545,Nandini Hegde,Business
+546,Lakshmi,Farmer
+547,Naveen Hegde,Student
+548,Ramesh Hegde,Private Employee
+549,Anil Hegde,Private Employee
+550,Sowmya Patil,Government Employee
+551,Shivakumar,Farmer
+552,Sushma Kumar,Student
+553,Santosh Patil,Homemaker
+554,Chaitra Reddy,Unemployed
+555,Chaitra Shetty,Government Employee
+556,Deepa Shetty,Private Employee
+557,Geetha Gowda,Government Employee
+558,Manjunath Kumar,Unemployed
+559,Santosh Hegde,Government Employee
+560,Deepa Gowda,Student
+561,Manjunath Hegde,Farmer
+562,Sushma Reddy,Unemployed
+563,Bhavani Hegde,Government Employee
+564,Basavaraj,Homemaker
+565,Pooja Patil,Farmer
+566,Ravi Achar,Homemaker
+567,Lakshmi Hegde,Farmer
+568,Ramesh Achar,Private Employee
+569,Manjunath Naik,Business
+570,Geetha Rao,Business
+571,Lakshmi Gowda,Student
+572,Manjula Kumar,Farmer
+573,Radha Achar,Government Employee
+574,Mahesh Poojary,Unemployed
+575,Srinivas Patil,Business
+576,Nandini,Private Employee
+577,Sowmya Patil,Homemaker
+578,Nandini Patil,Homemaker
+579,Manjula Rao,Business
+580,Anitha Naik,Government Employee
+581,Lakshmi Shetty,Unemployed
+582,Mahesh Gowda,Business
+583,Prasad Kumar,Business
+584,Chaitra Kumar,Unemployed
+585,Manjula,Student
+586,Praveen Poojary,Student
+587,Manjunath Patil,Student
+588,Ravi Patil,Government Employee
+589,Pooja Kumar,Student
+590,Praveen Kumar,Homemaker
+591,Anil Patil,Private Employee
+592,Suresh Achar,Private Employee
+593,Deepa Kumar,Unemployed
+594,Shobha Hegde,Homemaker
+595,Lakshmi Poojary,Homemaker
+596,Nagaraj Reddy,Unemployed
+597,Pooja Kumar,Government Employee
+598,Shivakumar Hegde,Student
+599,Bhavani Achar,Government Employee
+600,Sowmya Achar,Private Employee
+601,Anil Kumar,Unemployed
+602,Shivakumar Hegde,Homemaker
+603,Lakshmi Poojary,Private Employee
+604,Anitha Hegde,Farmer
+605,Ganesh Rao,Farmer
+606,Shivakumar Shetty,Business
+607,Lakshmi,Government Employee
+608,Suresh Reddy,Business
+609,Ganesh Rao,Government Employee
+610,Prasad Patil,Unemployed
+611,Mahesh Gowda,Government Employee
+612,Chaitra Hegde,Homemaker
+613,Chaitra Shetty,Student
+614,Kavya Reddy,Business
+615,Srinivas,Business
+616,Sowmya Kumar,Government Employee
+617,Manjunath Reddy,Business
+618,Chaitra Patil,Unemployed
+619,Praveen Hegde,Farmer
+620,Naveen Naik,Business
+621,Srinivas Achar,Private Employee
+622,Ramesh Gowda,Homemaker
+623,Sowmya Naik,Unemployed
+624,Manjula Patil,Private Employee
+625,Pooja Poojary,Business
+626,Anil Achar,Homemaker
+627,Chaitra Reddy,Student
+628,Ravi Naik,Business
+629,Santosh Poojary,Government Employee
+630,Nandini Rao,Government Employee
+631,Chaitra Shetty,Government Employee
+632,Anil Naik,Business
+633,Nandini Poojary,Homemaker
+634,Nandini Patil,Student
+635,Naveen Achar,Private Employee
+636,Raju Naik,Private Employee
+637,Nandini Gowda,Farmer
+638,Nagaraj Naik,Farmer
+639,Chaitra Kumar,Private Employee
+640,Ravi Gowda,Business
+641,Savitri Hegde,Farmer
+642,Basavaraj Gowda,Homemaker
+643,Deepa Reddy,Private Employee
+644,Basavaraj Patil,Government Employee
+645,Santosh Rao,Private Employee
+646,Pooja Rao,Student
+647,Naveen Kumar,Business
+648,Lakshmi Patil,Private Employee
+649,Savitri Achar,Private Employee
+650,Geetha Gowda,Homemaker
+651,Pooja Poojary,Government Employee
+652,Mahesh Gowda,Unemployed
+653,Radha Shetty,Business
+654,Nandini Patil,Business
+655,Manjula Shetty,Unemployed
+656,Praveen Shetty,Student
+657,Chaitra Patil,Farmer
+658,Basavaraj Gowda,Business
+659,Manjula Kumar,Government Employee
+660,Mahesh Hegde,Unemployed
+661,Lakshmi,Farmer
+662,Geetha Kumar,Unemployed
+663,Raju Achar,Farmer
+664,Santosh Naik,Business
+665,Kavya Reddy,Business
+666,Shobha Reddy,Homemaker
+667,Nagaraj Poojary,Unemployed
+668,Raju Reddy,Private Employee
+669,Savitri Poojary,Student
+670,Radha Achar,Private Employee
+671,Manjula Patil,Government Employee
+672,Kavya Kumar,Student
+673,Santosh Rao,Government Employee
+674,Sushma Kumar,Private Employee
+675,Manjunath Poojary,Student
+676,Vinay Patil,Farmer
+677,Basavaraj Hegde,Business
+678,Manjula Hegde,Homemaker
+679,Lakshmi Achar,Business
+680,Pooja Gowda,Student
+681,Deepa Shetty,Business
+682,Santosh Rao,Government Employee
+683,Ramesh Naik,Private Employee
+684,Pooja Naik,Homemaker
+685,Kiran Hegde,Private Employee
+686,Praveen Patil,Homemaker
+687,Radha Gowda,Student
+688,Sowmya Hegde,Private Employee
+689,Srinivas Reddy,Private Employee
+690,Bhavani Achar,Private Employee
+691,Raju Hegde,Private Employee
+692,Mahesh Rao,Government Employee
+693,Lakshmi Achar,Unemployed
+694,Kavya Shetty,Homemaker
+695,Srinivas Rao,Homemaker
+696,Geetha Rao,Unemployed
+697,Srinivas Shetty,Government Employee
+698,Pooja Achar,Farmer
+699,Deepa,Government Employee
+700,Naveen Hegde,Unemployed
+701,Deepa Patil,Government Employee
+702,Manjula Kumar,Farmer
+703,Radha Naik,Farmer
+704,Suresh Hegde,Business
+705,Kavya Poojary,Business
+706,Suresh Achar,Farmer
+707,Suresh Patil,Business
+708,Lakshmi Achar,Business
+709,Manjunath Achar,Private Employee
+710,Nagaraj Naik,Business
+711,Kiran Reddy,Private Employee
+712,Basavaraj Kumar,Farmer
+713,Nandini,Farmer
+714,Naveen Patil,Business
+715,Nagaraj Rao,Unemployed
+716,Praveen Poojary,Student
+717,Manjunath Gowda,Farmer
+718,Ravi Kumar,Student
+719,Srinivas Achar,Government Employee
+720,Suresh Reddy,Private Employee
+721,Radha Naik,Homemaker
+722,Prasad Hegde,Private Employee
+723,Ramesh Shetty,Private Employee
+724,Naveen Patil,Student
+725,Vinay Naik,Student
+726,Bhavani Naik,Government Employee
+727,Prasad Poojary,Homemaker
+728,Geetha Patil,Business
+729,Shivakumar Naik,Homemaker
+730,Geetha Gowda,Unemployed
+731,Mahesh Shetty,Student
+732,Praveen Rao,Unemployed
+733,Srinivas Hegde,Government Employee
+734,Ramesh Patil,Farmer
+735,Deepa Achar,Private Employee
+736,Nagaraj Naik,Homemaker
+737,Raju Patil,Student
+738,Manjula,Student
+739,Radha Kumar,Business
+740,Deepa Poojary,Homemaker
+741,Vinay Achar,Student
+742,Lakshmi Poojary,Government Employee
+743,Ganesh Poojary,Private Employee
+744,Sowmya Shetty,Private Employee
+745,Anil Gowda,Student
+746,Manjunath Kumar,Business
+747,Naveen Kumar,Private Employee
+748,Lakshmi Naik,Homemaker
+749,Radha Shetty,Student
+750,Manjunath Reddy,Homemaker
+751,Ganesh Gowda,Government Employee
+752,Manjula Shetty,Private Employee
+753,Sushma Hegde,Homemaker
+754,Vinay Achar,Farmer
+755,Mahesh Hegde,Student
+756,Pooja Rao,Business
+757,Ganesh Gowda,Private Employee
+758,Kavya Achar,Government Employee
+759,Chaitra Hegde,Unemployed
+760,Vinay Reddy,Private Employee
+761,Praveen Kumar,Homemaker
+762,Vinay Achar,Unemployed
+763,Savitri Reddy,Student
+764,Bhavani,Farmer
+765,Anitha Poojary,Farmer
+766,Sowmya Rao,Business
+767,Kavya Poojary,Private Employee
+768,Bhavani Achar,Private Employee
+769,Manjunath Poojary,Student
+770,Lakshmi Rao,Government Employee
+771,Anil Poojary,Business
+772,Basavaraj,Farmer
+773,Santosh,Student
+774,Manjula Kumar,Student
+775,Pooja Gowda,Farmer
+776,Praveen Reddy,Student
+777,Anil Gowda,Homemaker
+778,Sowmya Achar,Student
+779,Manjula Rao,Homemaker
+780,Bhavani,Private Employee
+781,Anil,Student
+782,Manjula Achar,Unemployed
+783,Nagaraj Shetty,Private Employee
+784,Srinivas Gowda,Government Employee
+785,Nagaraj Kumar,Unemployed
+786,Ganesh Achar,Unemployed
+787,Radha Kumar,Student
+788,Naveen Naik,Private Employee
+789,Vinay Shetty,Business
+790,Suresh Rao,Private Employee
+791,Pooja Naik,Private Employee
+792,Manjunath Patil,Homemaker
+793,Kavya Naik,Private Employee
+794,Sowmya Naik,Student
+795,Savitri Reddy,Student
+796,Shivakumar Hegde,Private Employee
+797,Pooja Hegde,Business
+798,Shobha Reddy,Homemaker
+799,Anitha Naik,Government Employee
+800,Ganesh Patil,Student
+801,Ramesh Shetty,Unemployed
+802,Deepa Gowda,Unemployed
+803,Kavya Kumar,Homemaker
+804,Radha Poojary,Unemployed
+805,Ramesh Gowda,Business
+806,Kiran Reddy,Private Employee
+807,Bhavani Reddy,Student
+808,Santosh,Homemaker
+809,Anitha Kumar,Private Employee
+810,Srinivas Poojary,Homemaker
+811,Chaitra Achar,Student
+812,Basavaraj,Homemaker
+813,Ravi Naik,Unemployed
+814,Prasad Achar,Student
+815,Lakshmi Achar,Unemployed
+816,Bhavani Gowda,Unemployed
+817,Pooja Shetty,Government Employee
+818,Santosh Shetty,Unemployed
+819,Shivakumar Gowda,Unemployed
+820,Radha,Student
+821,Pooja Poojary,Student
+822,Naveen Rao,Homemaker
+823,Anil Shetty,Homemaker
+824,Shobha Hegde,Homemaker
+825,Vinay Patil,Business
+826,Pooja Achar,Government Employee
+827,Raju Reddy,Homemaker
+828,Sushma Naik,Private Employee
+829,Manjunath Patil,Private Employee
+830,Sushma Patil,Student
+831,Ganesh Rao,Farmer
+832,Shobha,Government Employee
+833,Ganesh Gowda,Homemaker
+834,Chaitra Reddy,Private Employee
+835,Nandini Poojary,Business
+836,Raju Hegde,Homemaker
+837,Mahesh Gowda,Government Employee
+838,Prasad Reddy,Homemaker
+839,Bhavani Gowda,Farmer
+840,Ganesh Naik,Student
+841,Deepa Naik,Farmer
+842,Ganesh Achar,Farmer
+843,Savitri Reddy,Student
+844,Anitha Kumar,Unemployed
+845,Mahesh Patil,Student
+846,Geetha Hegde,Farmer
+847,Santosh Patil,Student
+848,Lakshmi Rao,Business
+849,Mahesh Reddy,Government Employee
+850,Santosh Kumar,Private Employee
+851,Deepa Poojary,Unemployed
+852,Vinay Kumar,Business
+853,Geetha Reddy,Government Employee
+854,Geetha Poojary,Farmer
+855,Sowmya Kumar,Unemployed
+856,Sowmya,Farmer
+857,Raju Achar,Private Employee
+858,Mahesh Patil,Homemaker
+859,Shivakumar Kumar,Farmer
+860,Naveen Rao,Business
+861,Deepa Reddy,Private Employee
+862,Pooja Naik,Unemployed
+863,Basavaraj Kumar,Unemployed
+864,Anitha Reddy,Business
+865,Sushma Gowda,Farmer
+866,Lakshmi Hegde,Government Employee
+867,Praveen Reddy,Unemployed
+868,Geetha Gowda,Unemployed
+869,Anil Patil,Unemployed
+870,Manjunath Shetty,Business
+871,Nandini Naik,Student
+872,Shobha Hegde,Unemployed
+873,Radha Gowda,Private Employee
+874,Naveen,Unemployed
+875,Shivakumar Naik,Private Employee
+876,Shobha Poojary,Student
+877,Deepa Kumar,Farmer
+878,Praveen Achar,Homemaker
+879,Savitri Patil,Student
+880,Pooja Achar,Homemaker
+881,Kiran Kumar,Farmer
+882,Suresh,Business
+883,Prasad Reddy,Farmer
+884,Radha Shetty,Student
+885,Sowmya Gowda,Farmer
+886,Manjula Rao,Business
+887,Srinivas Shetty,Government Employee
+888,Bhavani Reddy,Private Employee
+889,Sowmya Poojary,Unemployed
+890,Radha Shetty,Business
+891,Radha,Business
+892,Anil Rao,Unemployed
+893,Geetha Poojary,Farmer
+894,Praveen Achar,Homemaker
+895,Shivakumar Rao,Farmer
+896,Lakshmi Kumar,Government Employee
+897,Anitha Shetty,Private Employee
+898,Savitri Achar,Farmer
+899,Savitri Naik,Homemaker
+900,Prasad Reddy,Unemployed
+901,Prasad Naik,Business
+902,Ganesh Poojary,Business
+903,Manjula Poojary,Business
+904,Anitha Gowda,Unemployed
+905,Chaitra Rao,Unemployed
+906,Bhavani Hegde,Private Employee
+907,Radha Achar,Government Employee
+908,Praveen Kumar,Student
+909,Sushma Kumar,Government Employee
+910,Raju Patil,Government Employee
+911,Srinivas Poojary,Farmer
+912,Santosh Kumar,Business
+913,Radha Shetty,Farmer
+914,Kiran,Private Employee
+915,Suresh Rao,Homemaker
+916,Ganesh Shetty,Government Employee
+917,Radha Achar,Business
+918,Manjula Achar,Farmer
+919,Bhavani Achar,Unemployed
+920,Shobha Shetty,Unemployed
+921,Manjunath Naik,Business
+922,Pooja Achar,Farmer
+923,Basavaraj Patil,Unemployed
+924,Vinay Reddy,Farmer
+925,Vinay,Government Employee
+926,Bhavani Gowda,Government Employee
+927,Suresh Kumar,Homemaker
+928,Raju Poojary,Private Employee
+929,Anitha Patil,Business
+930,Ramesh Poojary,Private Employee
+931,Kavya Achar,Student
+932,Praveen,Government Employee
+933,Suresh Patil,Government Employee
+934,Geetha Rao,Unemployed
+935,Suresh Naik,Government Employee
+936,Deepa Shetty,Government Employee
+937,Pooja Poojary,Private Employee
+938,Sushma,Unemployed
+939,Anitha Achar,Government Employee
+940,Lakshmi Patil,Homemaker
+941,Basavaraj Shetty,Government Employee
+942,Pooja Hegde,Unemployed
+943,Vinay Poojary,Farmer
+944,Kavya Reddy,Private Employee
+945,Shobha Rao,Unemployed
+946,Manjunath Naik,Unemployed
+947,Manjula Hegde,Unemployed
+948,Kavya Gowda,Homemaker
+949,Ganesh Hegde,Private Employee
+950,Nandini Rao,Private Employee
+951,Sushma Gowda,Government Employee
+952,Sowmya Reddy,Private Employee
+953,Sushma Gowda,Farmer
+954,Anil Reddy,Private Employee
+955,Savitri Shetty,Government Employee
+956,Ganesh Gowda,Unemployed
+957,Praveen,Unemployed
+958,Pooja Reddy,Business
+959,Santosh Reddy,Homemaker
+960,Basavaraj Achar,Private Employee
+961,Manjunath Kumar,Business
+962,Raju Hegde,Farmer
+963,Anil Reddy,Farmer
+964,Manjunath Naik,Unemployed
+965,Anitha,Student
+966,Shivakumar Rao,Homemaker
+967,Basavaraj Reddy,Unemployed
+968,Anil Naik,Private Employee
+969,Kavya Reddy,Business
+970,Basavaraj Patil,Unemployed
+971,Prasad,Business
+972,Prasad Shetty,Business
+973,Santosh Reddy,Private Employee
+974,Praveen Patil,Unemployed
+975,Lakshmi,Homemaker
+976,Nagaraj Hegde,Unemployed
+977,Chaitra Kumar,Farmer
+978,Raju Achar,Student
+979,Shivakumar Patil,Unemployed
+980,Kavya Naik,Unemployed
+981,Ravi Achar,Private Employee
+982,Sushma Rao,Business
+983,Manjula Shetty,Business
+984,Sowmya,Unemployed
+985,Praveen Kumar,Unemployed
+986,Manjula Rao,Student
+987,Ravi Poojary,Private Employee
+988,Anitha,Student
+989,Santosh Hegde,Government Employee
+990,Deepa,Private Employee
+991,Shivakumar Achar,Business
+992,Shivakumar Patil,Business
+993,Praveen Kumar,Business
+994,Mahesh Kumar,Student
+995,Nandini Achar,Business
+996,Manjunath Kumar,Business
+997,Srinivas Shetty,Farmer
+998,Geetha Reddy,Farmer
+999,Suresh Gowda,Private Employee
+1000,Sushma Gowda,Private Employee
+1001,Anitha Poojary,Private Employee
+1002,Nandini Naik,Business
+1003,Lakshmi Rao,Farmer
+1004,Shobha Kumar,Government Employee
+1005,Bhavani Poojary,Student
+1006,Ramesh Gowda,Business
+1007,Shobha Kumar,Government Employee
+1008,Mahesh Naik,Government Employee
+1009,Naveen Gowda,Homemaker
+1010,Anitha,Farmer
+1011,Kavya Gowda,Private Employee
+1012,Chaitra Gowda,Homemaker
+1013,Ganesh Rao,Government Employee
+1014,Praveen Rao,Unemployed
+1015,Bhavani,Student
+1016,Srinivas Patil,Student
+1017,Savitri,Business
+1018,Vinay Hegde,Student
+1019,Suresh Rao,Unemployed
+1020,Savitri Achar,Unemployed
+1021,Manjunath Reddy,Business
+1022,Prasad Naik,Government Employee
+1023,Sushma Rao,Business
+1024,Suresh Gowda,Private Employee
+1025,Anil Patil,Government Employee
+1026,Shivakumar Reddy,Government Employee
+1027,Lakshmi,Homemaker
+1028,Anil Gowda,Student
+1029,Kavya Patil,Student
+1030,Vinay Kumar,Government Employee
+1031,Lakshmi Gowda,Unemployed
+1032,Manjula,Student
+1033,Shivakumar Poojary,Private Employee
+1034,Nandini Kumar,Homemaker
+1035,Sushma Reddy,Homemaker
+1036,Basavaraj Gowda,Unemployed
+1037,Deepa Shetty,Homemaker
+1038,Nagaraj Rao,Student
+1039,Radha Achar,Student
+1040,Anil Patil,Unemployed
+1041,Praveen Patil,Farmer
+1042,Sushma Reddy,Farmer
+1043,Savitri,Government Employee
+1044,Shivakumar Patil,Private Employee
+1045,Praveen Kumar,Farmer
+1046,Shobha Achar,Government Employee
+1047,Naveen Hegde,Private Employee
+1048,Deepa Rao,Government Employee
+1049,Santosh Achar,Student
+1050,Kiran Rao,Unemployed
+1051,Manjunath,Business
+1052,Radha,Homemaker
+1053,Praveen Patil,Unemployed
+1054,Kiran Naik,Student
+1055,Naveen,Unemployed
+1056,Lakshmi,Private Employee
+1057,Anil Poojary,Homemaker
+1058,Lakshmi Hegde,Business
+1059,Mahesh Shetty,Student
+1060,Kavya Hegde,Homemaker
+1061,Bhavani Shetty,Student
+1062,Mahesh Naik,Government Employee
+1063,Kiran Kumar,Unemployed
+1064,Anil Achar,Unemployed
+1065,Basavaraj Patil,Homemaker
+1066,Praveen Poojary,Government Employee
+1067,Pooja Gowda,Farmer
+1068,Radha Patil,Government Employee
+1069,Pooja,Business
+1070,Praveen Kumar,Unemployed
+1071,Sushma Reddy,Unemployed
+1072,Anil Naik,Unemployed
+1073,Manjunath Patil,Student
+1074,Nandini Gowda,Homemaker
+1075,Geetha Poojary,Private Employee
+1076,Manjunath Kumar,Government Employee
+1077,Basavaraj Achar,Farmer
+1078,Geetha Gowda,Business
+1079,Naveen Patil,Student
+1080,Mahesh Reddy,Unemployed
+1081,Srinivas Achar,Unemployed
+1082,Praveen Naik,Farmer
+1083,Deepa Achar,Unemployed
+1084,Sowmya Patil,Private Employee
+1085,Anil Naik,Homemaker
+1086,Praveen Poojary,Private Employee
+1087,Santosh Rao,Farmer
+1088,Radha Reddy,Business
+1089,Anitha Hegde,Government Employee
+1090,Basavaraj Reddy,Farmer
+1091,Chaitra Kumar,Private Employee
+1092,Deepa Patil,Student
+1093,Sowmya Hegde,Student
+1094,Bhavani Rao,Unemployed
+1095,Raju Kumar,Private Employee
+1096,Geetha Reddy,Homemaker
+1097,Bhavani Naik,Business
+1098,Raju Hegde,Student
+1099,Kavya Shetty,Private Employee
+1100,Kavya Rao,Business
+1101,Pooja Shetty,Farmer
+1102,Geetha Hegde,Unemployed
+1103,Pooja Poojary,Unemployed
+1104,Sushma Shetty,Farmer
+1105,Srinivas,Business
+1106,Bhavani Rao,Government Employee
+1107,Lakshmi Reddy,Unemployed
+1108,Raju Hegde,Unemployed
+1109,Praveen Naik,Student
+1110,Radha,Farmer
+1111,Lakshmi Rao,Homemaker
+1112,Lakshmi Poojary,Homemaker
+1113,Basavaraj Hegde,Private Employee
+1114,Chaitra Reddy,Farmer
+1115,Prasad Reddy,Student
+1116,Prasad Shetty,Homemaker
+1117,Srinivas Gowda,Farmer
+1118,Nagaraj Naik,Homemaker
+1119,Srinivas Achar,Farmer
+1120,Radha Achar,Private Employee
+1121,Bhavani Reddy,Homemaker
+1122,Shivakumar Achar,Government Employee
+1123,Kiran Reddy,Government Employee
+1124,Bhavani Rao,Government Employee
+1125,Deepa Poojary,Government Employee
+1126,Nagaraj Naik,Business
+1127,Pooja Poojary,Student
+1128,Suresh Rao,Student
+1129,Pooja Naik,Unemployed
+1130,Sowmya Rao,Farmer
+1131,Sushma Naik,Student
+1132,Sushma Rao,Farmer
+1133,Sowmya Gowda,Student
+1134,Srinivas Gowda,Student
+1135,Anil Naik,Government Employee
+1136,Chaitra Rao,Government Employee
+1137,Nandini Naik,Unemployed
+1138,Prasad Rao,Business
+1139,Santosh Patil,Business
+1140,Suresh Hegde,Student
+1141,Pooja Gowda,Homemaker
+1142,Nandini Gowda,Business
+1143,Anitha Reddy,Student
+1144,Lakshmi Kumar,Student
+1145,Nagaraj Gowda,Unemployed
+1146,Kiran Poojary,Private Employee
+1147,Nandini Shetty,Business
+1148,Praveen Gowda,Unemployed
+1149,Santosh,Homemaker
+1150,Anitha Hegde,Farmer
+1151,Vinay Achar,Homemaker
+1152,Raju Poojary,Business
+1153,Nandini Achar,Unemployed
+1154,Lakshmi Hegde,Homemaker
+1155,Manjunath Kumar,Business
+1156,Pooja Patil,Private Employee
+1157,Bhavani Hegde,Unemployed
+1158,Manjula Reddy,Farmer
+1159,Ravi Achar,Homemaker
+1160,Manjula Gowda,Business
+1161,Manjula Reddy,Business
+1162,Nagaraj Rao,Homemaker
+1163,Vinay Shetty,Government Employee
+1164,Radha Kumar,Unemployed
+1165,Nandini Poojary,Farmer
+1166,Raju Shetty,Business
+1167,Pooja Rao,Private Employee
+1168,Nagaraj Reddy,Farmer
+1169,Shivakumar Patil,Homemaker
+1170,Lakshmi Poojary,Unemployed
+1171,Raju Achar,Government Employee
+1172,Vinay Shetty,Private Employee
+1173,Basavaraj Achar,Private Employee
+1174,Shivakumar Gowda,Government Employee
+1175,Kiran Naik,Student
+1176,Sushma Shetty,Student
+1177,Sowmya Gowda,Homemaker
+1178,Basavaraj Rao,Private Employee
+1179,Savitri Hegde,Farmer
+1180,Ravi Patil,Unemployed
+1181,Geetha Reddy,Government Employee
+1182,Ganesh Hegde,Private Employee
+1183,Sushma Naik,Student
+1184,Chaitra Achar,Business
+1185,Basavaraj Hegde,Homemaker
+1186,Deepa Poojary,Farmer
+1187,Nagaraj Gowda,Government Employee
+1188,Vinay Shetty,Farmer
+1189,Kiran Kumar,Government Employee
+1190,Srinivas Rao,Homemaker
+1191,Sowmya Poojary,Student
+1192,Shobha Achar,Government Employee
+1193,Vinay Gowda,Private Employee
+1194,Radha Reddy,Unemployed
+1195,Raju Rao,Farmer
+1196,Srinivas Reddy,Farmer
+1197,Nandini Shetty,Unemployed
+1198,Chaitra Shetty,Government Employee
+1199,Nagaraj Reddy,Government Employee
+1200,Naveen Kumar,Farmer
+1201,Shivakumar Gowda,Student
+1202,Savitri Kumar,Business
+1203,Geetha Gowda,Student
+1204,Vinay Shetty,Private Employee
+1205,Pooja Naik,Private Employee
+1206,Ganesh Achar,Homemaker
+1207,Shivakumar Hegde,Government Employee
+1208,Basavaraj Achar,Unemployed
+1209,Geetha Achar,Farmer
+1210,Bhavani,Private Employee
+1211,Kiran Shetty,Homemaker
+1212,Anitha Poojary,Private Employee
+1213,Deepa Hegde,Private Employee
+1214,Sushma Achar,Business
+1215,Nagaraj Poojary,Government Employee
+1216,Anitha Rao,Farmer
+1217,Sushma Reddy,Homemaker
+1218,Anil Naik,Farmer
+1219,Ravi Rao,Private Employee
+1220,Ramesh Kumar,Business
+1221,Ravi Achar,Farmer
+1222,Shobha Reddy,Government Employee
+1223,Vinay Hegde,Business
+1224,Sushma Patil,Farmer
+1225,Suresh Rao,Student
+1226,Ravi Poojary,Homemaker
+1227,Sowmya Reddy,Government Employee
+1228,Anitha Kumar,Homemaker
+1229,Nagaraj Reddy,Business
+1230,Prasad Naik,Homemaker
+1231,Mahesh Naik,Homemaker
+1232,Mahesh Gowda,Student
+1233,Shobha Poojary,Private Employee
+1234,Geetha Shetty,Homemaker
+1235,Pooja Kumar,Private Employee
+1236,Savitri Kumar,Business
+1237,Kavya Shetty,Unemployed
+1238,Kavya Shetty,Student
+1239,Nagaraj,Homemaker
+1240,Suresh Rao,Private Employee
+1241,Ramesh Hegde,Student
+1242,Raju Hegde,Unemployed
+1243,Mahesh Gowda,Homemaker
+1244,Basavaraj Rao,Private Employee
+1245,Shivakumar Poojary,Homemaker
+1246,Praveen Reddy,Government Employee
+1247,Basavaraj Hegde,Student
+1248,Praveen Poojary,Business
+1249,Ravi Shetty,Unemployed
+1250,Anitha Poojary,Homemaker
+1251,Praveen Rao,Private Employee
+1252,Kavya Reddy,Homemaker
+1253,Radha Gowda,Government Employee
+1254,Anil,Business
+1255,Basavaraj Achar,Private Employee
+1256,Sowmya,Student
+1257,Ravi,Business
+1258,Mahesh Kumar,Student
+1259,Ravi Achar,Farmer
+1260,Lakshmi Achar,Unemployed
+1261,Shivakumar,Unemployed
+1262,Radha Poojary,Homemaker
+1263,Bhavani,Unemployed
+1264,Mahesh,Unemployed
+1265,Radha Patil,Government Employee
+1266,Shobha Gowda,Government Employee
+1267,Nagaraj Reddy,Unemployed
+1268,Deepa Patil,Government Employee
+1269,Nagaraj Naik,Farmer
+1270,Ravi Reddy,Homemaker
+1271,Sowmya Gowda,Homemaker
+1272,Chaitra Gowda,Farmer
+1273,Santosh Shetty,Government Employee
+1274,Manjula Reddy,Private Employee
+1275,Manjula Poojary,Farmer
+1276,Srinivas Achar,Student
+1277,Basavaraj Patil,Private Employee
+1278,Sowmya Gowda,Farmer
+1279,Mahesh Reddy,Business
+1280,Vinay Gowda,Farmer
+1281,Raju Rao,Government Employee
+1282,Prasad Hegde,Farmer
+1283,Nandini Kumar,Student
+1284,Shobha Reddy,Business
+1285,Praveen Achar,Business
+1286,Nagaraj Poojary,Business
+1287,Anil Rao,Business
+1288,Pooja,Unemployed
+1289,Shobha Rao,Farmer
+1290,Shobha Gowda,Business
+1291,Ramesh,Government Employee
+1292,Nandini Achar,Government Employee
+1293,Manjula Shetty,Homemaker
+1294,Raju Rao,Unemployed
+1295,Savitri Kumar,Business
+1296,Chaitra Naik,Student
+1297,Shobha Hegde,Business
+1298,Vinay Hegde,Private Employee
+1299,Sowmya Poojary,Business
+1300,Ganesh,Private Employee
+1301,Lakshmi Reddy,Farmer
+1302,Pooja Achar,Student
+1303,Ravi Hegde,Farmer
+1304,Santosh Naik,Private Employee
+1305,Sowmya Reddy,Business
+1306,Ravi Kumar,Unemployed
+1307,Santosh,Homemaker
+1308,Sushma Poojary,Private Employee
+1309,Kavya Naik,Business
+1310,Ramesh Rao,Private Employee
+1311,Praveen,Homemaker
+1312,Anitha Reddy,Business
+1313,Prasad Shetty,Business
+1314,Savitri,Farmer
+1315,Pooja Naik,Unemployed
+1316,Ramesh Poojary,Private Employee
+1317,Prasad Patil,Private Employee
+1318,Naveen Reddy,Government Employee
+1319,Prasad Shetty,Homemaker
+1320,Lakshmi,Government Employee
+1321,Shobha,Unemployed
+1322,Manjunath Shetty,Government Employee
+1323,Lakshmi Poojary,Private Employee
+1324,Sushma Hegde,Unemployed
+1325,Chaitra Poojary,Business
+1326,Nagaraj Hegde,Business
+1327,Deepa Hegde,Unemployed
+1328,Deepa Poojary,Student
+1329,Shivakumar Poojary,Student
+1330,Santosh Shetty,Farmer
+1331,Anil Patil,Unemployed
+1332,Anitha Shetty,Business
+1333,Pooja,Business
+1334,Shobha Rao,Farmer
+1335,Savitri Achar,Homemaker
+1336,Prasad Naik,Unemployed
+1337,Kavya Kumar,Government Employee
+1338,Manjunath Naik,Government Employee
+1339,Savitri Reddy,Government Employee
+1340,Praveen Hegde,Unemployed
+1341,Basavaraj Hegde,Farmer
+1342,Anitha Shetty,Farmer
+1343,Prasad Reddy,Private Employee
+1344,Manjunath Rao,Unemployed
+1345,Sowmya Gowda,Unemployed
+1346,Chaitra Hegde,Farmer
+1347,Anitha Achar,Business
+1348,Raju,Student
+1349,Sushma,Unemployed
+1350,Srinivas,Private Employee
+1351,Anil Shetty,Farmer
+1352,Santosh Naik,Business
+1353,Vinay Hegde,Farmer
+1354,Kavya Achar,Business
+1355,Manjunath Rao,Homemaker
+1356,Ramesh Achar,Private Employee
+1357,Praveen Patil,Government Employee
+1358,Mahesh Poojary,Unemployed
+1359,Srinivas,Student
+1360,Manjunath Hegde,Government Employee
+1361,Kavya Kumar,Unemployed
+1362,Deepa Kumar,Student
+1363,Shobha Patil,Student
+1364,Mahesh Rao,Government Employee
+1365,Santosh Poojary,Unemployed
+1366,Ramesh Rao,Farmer
+1367,Geetha Achar,Government Employee
+1368,Pooja Patil,Unemployed
+1369,Lakshmi Rao,Homemaker
+1370,Bhavani Reddy,Student
+1371,Nandini Rao,Business
+1372,Manjunath Patil,Business
+1373,Shobha Shetty,Private Employee
+1374,Kavya Rao,Government Employee
+1375,Sowmya Rao,Homemaker
+1376,Naveen Gowda,Unemployed
+1377,Sushma Achar,Business
+1378,Basavaraj Poojary,Government Employee
+1379,Lakshmi Achar,Homemaker
+1380,Sushma Achar,Unemployed
+1381,Vinay Hegde,Homemaker
+1382,Suresh Shetty,Government Employee
+1383,Sushma Reddy,Unemployed
+1384,Nandini Reddy,Private Employee
+1385,Radha,Homemaker
+1386,Deepa,Private Employee
+1387,Sowmya Rao,Unemployed
+1388,Nandini Gowda,Business
+1389,Savitri,Unemployed
+1390,Nandini Poojary,Farmer
+1391,Prasad Kumar,Unemployed
+1392,Praveen Kumar,Farmer
+1393,Ganesh Achar,Business
+1394,Ramesh Poojary,Business
+1395,Shivakumar Poojary,Government Employee
+1396,Sowmya Rao,Homemaker
+1397,Raju,Unemployed
+1398,Mahesh Naik,Farmer
+1399,Deepa Poojary,Student
+1400,Suresh Gowda,Farmer
+1401,Raju,Farmer
+1402,Raju Poojary,Private Employee
+1403,Prasad Patil,Government Employee
+1404,Sushma Kumar,Unemployed
+1405,Suresh Achar,Unemployed
+1406,Naveen Naik,Private Employee
+1407,Prasad Patil,Homemaker
+1408,Anitha Hegde,Private Employee
+1409,Sowmya Naik,Homemaker
+1410,Kavya Gowda,Government Employee
+1411,Lakshmi,Farmer
+1412,Sowmya Patil,Unemployed
+1413,Anil,Homemaker
+1414,Nagaraj Hegde,Student
+1415,Srinivas Gowda,Homemaker
+1416,Ganesh Hegde,Homemaker
+1417,Deepa Poojary,Government Employee
+1418,Chaitra Achar,Government Employee
+1419,Mahesh Kumar,Business
+1420,Srinivas Gowda,Farmer
+1421,Manjunath Achar,Private Employee
+1422,Suresh Naik,Government Employee
+1423,Kavya,Student
+1424,Chaitra Achar,Private Employee
+1425,Santosh Reddy,Student
+1426,Manjula Gowda,Farmer
+1427,Deepa Shetty,Farmer
+1428,Suresh,Business
+1429,Nandini Patil,Farmer
+1430,Chaitra Achar,Government Employee
+1431,Ravi Shetty,Student
+1432,Nagaraj Patil,Government Employee
+1433,Manjula Poojary,Homemaker
+1434,Manjunath,Homemaker
+1435,Nagaraj Poojary,Farmer
+1436,Vinay Reddy,Homemaker
+1437,Srinivas Poojary,Business
+1438,Radha Reddy,Business
+1439,Sowmya Reddy,Government Employee
+1440,Bhavani Rao,Farmer
+1441,Manjunath Rao,Business
+1442,Shobha,Unemployed
+1443,Nandini Hegde,Student
+1444,Anitha Rao,Business
+1445,Prasad Poojary,Government Employee
+1446,Manjunath Patil,Homemaker
+1447,Shobha Rao,Homemaker
+1448,Chaitra Kumar,Student
+1449,Bhavani,Student
+1450,Anil Rao,Private Employee
+1451,Santosh Gowda,Student
+1452,Kavya Patil,Student
+1453,Sushma Naik,Unemployed
+1454,Shobha Naik,Business
+1455,Mahesh Gowda,Private Employee
+1456,Sowmya Shetty,Business
+1457,Raju Reddy,Unemployed
+1458,Santosh Hegde,Private Employee
+1459,Bhavani Rao,Private Employee
+1460,Radha Shetty,Private Employee
+1461,Deepa Poojary,Student
+1462,Mahesh Poojary,Unemployed
+1463,Deepa Naik,Business
+1464,Ganesh Reddy,Business
+1465,Savitri,Government Employee
+1466,Chaitra,Government Employee
+1467,Naveen Achar,Business
+1468,Chaitra Patil,Business
+1469,Geetha Poojary,Farmer
+1470,Vinay Gowda,Farmer
+1471,Bhavani Gowda,Unemployed
+1472,Kiran Hegde,Farmer
+1473,Naveen Kumar,Private Employee
+1474,Santosh Naik,Student
+1475,Sowmya Patil,Homemaker
+1476,Lakshmi Naik,Homemaker
+1477,Naveen Kumar,Unemployed
+1478,Savitri Achar,Private Employee
+1479,Vinay Hegde,Farmer
+1480,Kiran Patil,Homemaker
+1481,Mahesh,Business
+1482,Ravi,Business
+1483,Anitha Reddy,Private Employee
+1484,Naveen Kumar,Student
+1485,Ganesh Reddy,Government Employee
+1486,Deepa Reddy,Unemployed
+1487,Deepa Shetty,Government Employee
+1488,Sowmya Gowda,Unemployed
+1489,Lakshmi Hegde,Private Employee
+1490,Mahesh Shetty,Business
+1491,Ganesh Achar,Private Employee
+1492,Nandini Shetty,Private Employee
+1493,Geetha Rao,Government Employee
+1494,Chaitra Patil,Unemployed
+1495,Sushma Poojary,Homemaker
+1496,Lakshmi Poojary,Government Employee
+1497,Nandini Kumar,Unemployed
+1498,Santosh Hegde,Student
+1499,Suresh Rao,Business
+1500,Shivakumar Achar,Unemployed
+1501,Praveen Naik,Unemployed
+1502,Praveen,Unemployed
+1503,Radha Achar,Private Employee
+1504,Kavya Hegde,Private Employee
+1505,Anitha,Private Employee
+1506,Bhavani Rao,Homemaker
+1507,Mahesh Naik,Farmer
+1508,Shobha Reddy,Unemployed
+1509,Lakshmi Poojary,Student
+1510,Ganesh Shetty,Homemaker
+1511,Srinivas Poojary,Business
+1512,Kavya Shetty,Business
+1513,Sushma,Business
+1514,Pooja Shetty,Homemaker
+1515,Srinivas Reddy,Private Employee
+1516,Sowmya Shetty,Homemaker
+1517,Raju Gowda,Business
+1518,Ramesh Kumar,Student
