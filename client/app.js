@@ -34,9 +34,8 @@ const CRIME_HEAD_COLORS = {
   6: "#6C7A8F", // Public order - slate
 };
 
-fetch("/server/getdata/execute")
+fetch("data/data.json")
   .then(r => r.json())
-  .then(wrapper => JSON.parse(wrapper.output))
   .then(json => {
     DATA = json;
     init();
